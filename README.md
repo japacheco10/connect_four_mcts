@@ -3,28 +3,6 @@
 This project implements a Connect 4 game with various decision making algorithms for gameplay (README wording was revised using Gemini).
 
 ## Project Structure
-connect_four_mcts/
-├── _logs/
-│   └── *.log
-├── _resources/
-│   └── config/
-│       └── log.ini
-├── _test/
-│   └── test#.txt (Test cases)
-├── algorithms/
-│   ├── init.py
-│   ├── base.py
-│   ├── uniform_random.py
-│   ├── pmcgs.py
-│   └── uct.py
-├── common/
-│   ├── init.py
-│   ├── globals.py
-│   └── utils.py
-├── connect_4.py
-├── main.py
-└── README.md
-
 ###   Directory and File Descriptions
 
 * **`_logs/`:**
