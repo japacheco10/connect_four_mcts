@@ -44,17 +44,17 @@ def play_game(algorithm_name, initial_player, initial_board, verbosity, simulati
                 for row in game.get_board():
                     Utils.log_message(logger, row, verbosity, Globals.VerbosityLevels.VERBOSE)
                 
-            game_over_state = game.evaluate_board(verbosity)  # Evaluate the *current* state
+            game_state = game.evaluate_board(verbosity)  # Evaluate the *current* state
 
-            if game_over_state is not None or move is None:  # Game over or no move
-                if game_over_state == 0:
+            if game_state is not None or move is None:  # Game over or no move
+                if game_state == 0:
                     Utils.log_message(logger, "Draw!", verbosity, Globals.VerbosityLevels.NONE)
-                elif game_over_state == 1:
+                elif game_state == 1:
                     Utils.log_message(logger, f"{Globals.Players.Y} wins!", verbosity, Globals.VerbosityLevels.NONE)
-                elif game_over_state == -1:
+                elif game_state == -1:
                     Utils.log_message(logger, f"{Globals.Players.R} wins!", verbosity, Globals.VerbosityLevels.NONE)
                 elif move is None:
-                    Utils.log_message(logger, f"No valid moves for {current_player}. Game over.",verbosity, Globals.VerbosityLevels.NONE)
+                    Utils.log_message(logger, f"No valid moves for {current_player}.",verbosity, Globals.VerbosityLevels.NONE)
                 break
 
             current_player = game.get_opponent(current_player)
