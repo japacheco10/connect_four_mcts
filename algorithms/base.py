@@ -1,10 +1,11 @@
 from abc import ABC, abstractmethod
 from common.game_interface import GameInterface
+from common.globals import Globals
 
 class Base(ABC):
     """Abstract base class for all game-playing algorithms."""
     @abstractmethod
-    def choose_move(self, game: GameInterface, player,  verbosity="None", simulations=0):
+    def choose_move(self, game: GameInterface, player,  verbosity=Globals.VerbosityLevels.NONE, simulations=0):
         """
         Chooses a move for the given game state.
 

@@ -1,15 +1,15 @@
 import random, logging
 from algorithms import Base
 from common.utils import Utils
-from common.globals import Globals
 from common.game_interface import GameInterface
+from common.globals import Globals
 
 logger = logging.getLogger(__name__)
 
 class UniformRandom(Base):
     """Implements the Uniform Random algorithm, which chooses moves randomly."""
     
-    def choose_move(self, game: GameInterface, player, verbosity="None", simulations=0):
+    def choose_move(self, game: GameInterface, player, verbosity=Globals.VerbosityLevels.NONE, simulations=0):
         """
         Chooses a random legal move.
 
