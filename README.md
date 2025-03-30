@@ -125,3 +125,7 @@ This project implements a Connect 4 game with various decision making algorithms
 * The application uses the Python `logging` module to record events and errors.
 * The logging configuration is defined in the `_resources/config/log.ini` file.
 * Logs can be used for debugging, monitoring, and analyzing game behavior.
+
+## References
+* Connect4 winning logic is based on (but simplified) KeithGalli's connect4 logic available at https://github.com/KeithGalli/Connect4-Python/blob/master/connect4.py
+* Monte Carlo Tree Search logic is based on Gualor's connect4 implementation available at https://github.com/Gualor/connect4-montecarlo
