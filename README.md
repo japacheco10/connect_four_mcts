@@ -18,7 +18,7 @@ This project implements a Connect 4 game with various decision making algorithms
 
 * **`algorithms/`:**
     * Contains the implementations of the decision-making algorithms.
-    * `__init__.py`: Makes the `algorithms` directory a Python package.
+    * `__init__.py`: Makes the `algorithms` directory a Python package and includes `AlgorithmFactory` class.
     * `base.py`: Defines the abstract base class (`Base`) for the algorithms, ensuring a consistent interface.
     * `uniform_random.py`: Implements the Uniform Random algorithm, which makes moves randomly.
     * `pmcgs.py`: Implements the Pure Monte Carlo Game Search (PMCGS) algorithm, a Monte Carlo method.
@@ -27,12 +27,9 @@ This project implements a Connect 4 game with various decision making algorithms
 * **`common/`:**
     * Contains modules with global settings and utility functions.
     * `__init__.py`: Makes the `common` directory a Python package.
+    * `game_interface.py`: Defines the `GameInterface` abstract base class to serve as a contract between the game logic and the decision making algorithms.
     * `globals.py`: Defines global constants, including algorithm names (`UR`, `PMCGS`, `UCT`).
-    * `utils.py`: Provides utility functions, such as:
-        * `file_exists()`: Validates the existence of a file.
-        * `validate_arguments()`: Parses and validates command-line arguments.
-        * `load_game_settings()`: Reads game settings from an input file.
-        * `AlgorithmFactory`: A factory class responsible for creating instances of the selected algorithm.
+    * `utils.py`: Provides utility functions.
 
 * **`connect_4.py`:**
     * Implements the core Connect 4 game logic within the `Connect4` class. This includes board representation, move execution, win condition checking, and game state management.
@@ -72,7 +69,7 @@ This project implements a Connect 4 game with various decision making algorithms
 1.  **Create a game settings file (e.g., `test.txt`).** The file must adhere to the following format:
 
     ```
-    <Algorithm Name>   # "ur", "pmcgs", or "uct" (case-sensitive)
+    <Algorithm Name>   # "UR", "PMCGS", or "UCT" (case-sensitive)
     <Player>           # "R" or "Y" (case-sensitive)
     <Board State>      # 6 lines representing the Connect 4 board, 7 columns per line.
                        # Use "O" for an empty space, "R" for Red player's pieces, and "Y" for Yellow player's pieces.
@@ -81,7 +78,7 @@ This project implements a Connect 4 game with various decision making algorithms
     Example `test.txt` file:
 
     ```
-    ur
+    UR
     R
     O O O O O O O
     O O O O O O O
@@ -94,7 +91,7 @@ This project implements a Connect 4 game with various decision making algorithms
 2.  **Run the `main.py` script from the command line:**
 
     ```bash
-    python main.py <input_file> <verbosity> <iterations>
+    python main.py <input_file> <verbosity> <simulations>
     ```
 
     * `<input_file>`: The path to the game settings file (e.g., `test.txt`).
@@ -102,73 +99,13 @@ This project implements a Connect 4 game with various decision making algorithms
         * `"Verbose"`: Provides detailed output.
         * `"Brief"`: Provides a concise output.
         * `"None"`: Suppresses most output.
-    * `<iterations>`: An integer representing the number of iterations or simulations to run, which is algorithm-specific (e.g., for PMCGS or UCT).
+    * `<simulations>`: An integer representing the number of iterations or simulations to run, which is algorithm-specific (e.g., for PMCGS or UCT).
 
     Example command:
 
     ```bash
     python main.py test.txt Brief 1000
     ```
-
-##   Code Overview
-
-* **`main.py`:**
-    * Serves as the application's entry point.
-    * Initializes the logging system.
-    * Uses `common.utils.validate_arguments()` to parse and validate command-line arguments.
-    * Utilizes `common.utils.load_game_settings()` to read the game configuration from the specified input file.
-    * Creates an instance of the `Connect4` class (defined in `connect_4.py`).
-    * Executes the game logic by calling the `run()` method of the `Connect4` instance.
-    * Includes a top-level `try-except` block to catch and log any uncaught exceptions, ensuring robust error handling.
-
-* **`connect_4.py`:**
-    * Defines the `Connect4` class, which encapsulates the game's core functionality.
-    * The `Connect4` class is responsible for:
-        * Representing the Connect 4 game board.
-        * Managing the game state.
-        * Handling player moves.
-        * Determining win conditions.
-        * Checking for ties.
-        * Interacting with the selected algorithm to get the computer's move.
-    * Uses the `AlgorithmFactory` (from `common.utils.py`) to instantiate the chosen algorithm object.
-
-* **`common/utils.py`:**
-    * Provides utility functions used across the application.
-    * `file_exists(path)`:
-        * A static method that validates whether a given file path exists.
-        * It checks for the file's existence both as an absolute path and relative to the script's directory.
-        * Raises `argparse.ArgumentTypeError` if the file doesn't exist or isn't a file.
-    * `validate_arguments()`:
-        * A static method that parses and validates command-line arguments.
-        * Uses the `argparse` module to handle argument parsing.
-        * Raises `argparse.ArgumentTypeError` or `SystemExit` if arguments are invalid.
-    * `load_game_settings(path)`:
-        * A static method that loads the game settings from the specified input file.
-        * Reads the algorithm name, starting player, and initial board state from the file.
-        * Returns the extracted settings as a tuple.
-    * `AlgorithmFactory`:
-        * A static method that creates and returns an instance of the algorithm class specified by the input `name`.
-        * Uses conditional logic to instantiate the correct algorithm class (e.g., `UniformRandom`, `PureMonteCarloGameSearch`, or `UCT`).
-        * Raises a `ValueError` if an invalid algorithm name is provided.
-
-* **`algorithms/`:**
-    * Contains the implementations of the different decision-making algorithms.
-    * `base.py`:
-        * Defines the abstract base class `Base`, which serves as an interface for all algorithm implementations.
-        * The `Base` class uses the `abc` module to define the `make_move()` method as an abstract method, ensuring that all concrete algorithm classes implement it.
-    * `uniform_random.py`:
-        * Implements the Uniform Random algorithm.
-        * The `UniformRandom` class inherits from the `Base` class and provides a concrete implementation of the `make_move()` method.
-        * This algorithm selects a valid move by choosing a random available column.
-    * `pmcgs.py`:
-        * Implements the Pure Monte Carlo Game Search (PMCGS) algorithm.
-        * The `PureMonteCarloGameSearch` class inherits from the `Base` class and provides a concrete implementation of the `make_move()` method.
-        * This algorithm uses Monte Carlo simulations to evaluate possible moves and select the best one.
-    * `uct.py`:
-        * Implements the Upper Confidence Bound for Trees (UCT) algorithm.
-        * The `UCT` class inherits from the `Base` class and provides a concrete implementation of the `make_move()` method.
-        * This algorithm uses a tree search approach with UCB selection to explore the game tree and choose the move with the highest potential reward.
-
 ##   Algorithms
 
 * **Uniform Random (UR):**
@@ -188,12 +125,3 @@ This project implements a Connect 4 game with various decision making algorithms
 * The application uses the Python `logging` module to record events and errors.
 * The logging configuration is defined in the `_resources/config/log.ini` file.
 * Logs can be used for debugging, monitoring, and analyzing game behavior.
-
-##   Error Handling
-
-* The application includes error handling mechanisms to gracefully handle potential issues.
-* This includes:
-    * Validating file paths and command-line arguments.
-    * Catching and logging exceptions.
-    * Providing informative error messages to the user.
-* The `main.py` script uses a `try-except` block to catch and log any uncaught exceptions, preventing the application from crashing unexpectedly.
