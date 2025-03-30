@@ -1,36 +1,31 @@
+import random, logging
 from algorithms import Base
-import random
+from common.utils import Utils
+from common.globals import Globals
+from common.game_interface import GameInterface
+
+logger = logging.getLogger(__name__)
 
 class UniformRandom(Base):
-    # Select a valid move from the game (Check top row of every column, if '0' valid move)
-    def get_valid_move(self, board):
+    """Implements the Uniform Random algorithm, which chooses moves randomly."""
+    
+    def choose_move(self, game: GameInterface, player, verbosity="None", simulations=0):
+        """
+        Chooses a random legal move.
 
-        valid_moves = []
+        Args:
+            game (GameInterface): An object representing the game.
+            player (str): The current player ('R' or 'Y').
+            verbosity (str, optional): The verbosity level ("None", "Brief", or "Verbose"). Defaults to "None".
+            simulations (int, optional): The number of simulations to run. Defaults to 0.
 
-        for col in range(7):
-            if board[0][col] == 'O':
-                valid_moves.append(col)  # assuming 0-based columns
-        return valid_moves
-
-
-    # Select random move from a valid move in board, return column
-    def select_uniform_random(self, board):
-        valid_move = self.get_valid_move(board)
-
-        if not valid_move:
+        Returns:
+            int: The chosen move (column index), or None if no move is possible.
+        """
+        num_cols = game.get_num_cols()
+        legal_moves = [col for col in range(num_cols) if game.is_valid_move(col)]
+        if not legal_moves:
             return None
-
-        return random.choice(valid_move)
-
-    # Place player move in the board and return updated board
-    def make_move(self, board, column, player):
-        #Create new board to manipulate
-
-        new_board = [row[:] for row in board]
-
-        #Iterate thorugh row in reverse order
-        for row in range(5, -1, -1):
-            if new_board[row][column] == 'O':
-                new_board[row][column] = player #place piece in lowest available slot
-                break
-        return new_board
+        move = random.choice(legal_moves)
+        Utils.log_message(logger, f"FINAL Move selected: {move}", verbosity, Globals.VerbosityLevels.BRIEF)
+        return move

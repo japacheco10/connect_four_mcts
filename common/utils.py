@@ -2,10 +2,14 @@ import argparse
 import os
 import logging
 import logging.config
+from common.globals import Globals
 
 class Utils():
     @staticmethod
     def get_base_dir():
+        """
+        Gets base python application directory
+        """
         return os.path.dirname(os.path.dirname(__file__)) # Go one directory up from common.
 
     @staticmethod
@@ -80,6 +84,33 @@ class Utils():
         args = parser.parse_args()
 
         return args.input_file, args.verbosity, args.iterations
+    
+    @staticmethod
+    def log_message(logger: logging.Logger, message: str, current_verbosity: str, message_verbosity: str, message_log_level: str = Globals.LogLevels.INFO):
+        """
+        Logs a message based on the current and message verbosity levels.
+
+        Args:
+            logger (Logger): logging instance from the file/class calling the log_message method
+            message (str): The message to log.
+            current_verbosity (str): The current verbosity level ("None", "Brief", or "Verbose").
+            message_verbosity (str): The verbosity level required to log the message.
+            message_log_level (str): The log level required to log the message (Debug, Info, Warn, Error, Critical). Default Info
+        """
+        verbosity_levels = {"None": 0, "Brief": 1, "Verbose": 2}
+        if current_verbosity != Globals.VerbosityLevels.NONE and (verbosity_levels.get(current_verbosity, 0) >=
+            verbosity_levels.get(message_verbosity, 0)):
+            print(message)
+
+        log_levels = {
+            "Debug": logger.debug,
+            "Info": logger.info,
+            "Warning": logger.warning,
+            "Error": logger.error,
+            "Critical": logger.critical
+        }
+        log_func = log_levels.get(message_log_level, logger.info)  
+        log_func(message)
 
     @staticmethod
     def load_game_settings(path):
@@ -90,49 +121,13 @@ class Utils():
             path (str): The file path to validate.
 
         Returns:
-            tuple: Algorithm name, current player, board.
+            tuple: Algorithm name, player, board.
         """
         with open(path, 'r') as f:
             lines = f.readlines()
 
         algorithm_name = lines[0].strip()
-        current_player = lines[1].strip()
+        player = lines[1].strip()
         board = [list(line.strip()) for line in lines[2:]]
 
-        return algorithm_name, current_player, board
-
-from common.globals import Globals
-class AlgorithmFactory():
-    """
-    A factory class for creating algorithm instances.
-    """
-
-    @staticmethod
-    def create_algorithm(name: str):
-        """
-        Creates an algorithm instance based on the provided name.
-
-        Args:
-            name: The name of the algorithm to create.
-
-        Returns:
-            An instance of the specified algorithm class.
-
-        Raises:
-            ValueError: If the algorithm name is invalid.
-        """
-        try:
-            # Use lowercase names and import classes with correct names.
-            if name == Globals.Algorithms.UR:
-                from algorithms.uniform_random import UniformRandom
-                return UniformRandom()
-            elif name == Globals.Algorithms.PMCGS:
-                from algorithms.pmcgs import PureMonteCarloGameSearch
-                return PureMonteCarloGameSearch()
-            elif name == Globals.Algorithms.UCT:
-                from algorithms.uct import UCT
-                return UCT()
-            else:
-                raise ValueError(f"Invalid algorithm name: {name}")
-        except ImportError as e:
-            raise ValueError(f"Error importing algorithm: {e}")
+        return algorithm_name, player, board

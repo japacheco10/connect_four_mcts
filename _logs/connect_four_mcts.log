@@ -40,3 +40,1494 @@
 {"asctime": "2025-03-28 19:10:00,743", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
 {"asctime": "2025-03-28 19:10:01,768", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
 {"asctime": "2025-03-28 19:10:08,195", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
+{"asctime": "2025-03-30 18:42:32,816", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 18:42:38,506", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 18:42:39,100", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 18:43:42,594", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 18:43:50,150", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 18:43:50,151", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 18:44:59,562", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 18:44:59,567", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 18:44:59,567", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 18:48:18,618", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 18:50:22,814", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 18:50:22,819", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 18:50:22,819", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 18:50:42,958", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 2"}
+{"asctime": "2025-03-30 18:54:13,383", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 18:54:13,384", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 18:54:13,384", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 18:54:13,384", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 18:54:13,384", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 18:54:13,385", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 18:55:47,108", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 18:55:47,112", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 18:55:47,113", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 18:55:47,113", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 18:55:49,131", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 18:56:28,684", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 18:56:28,685", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 18:56:28,685", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 18:56:28,685", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 18:56:28,685", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 18:56:28,685", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 18:56:28,686", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 18:56:46,693", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:02:34,907", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:02:34,912", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:02:34,912", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:02:34,912", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:02:39,370", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 2"}
+{"asctime": "2025-03-30 19:02:41,467", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:02:41,467", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:02:41,467", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:02:41,468", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:02:41,468", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:02:41,468", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:02:53,700", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:03:00,795", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:03:04,258", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:03:04,259", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:03:04,259", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:03:04,259", "name": "__main__", "levelname": "INFO", "message": "OYROOOY"}
+{"asctime": "2025-03-30 19:03:04,259", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:03:04,259", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:03:06,682", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:03:08,113", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:03:14,368", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:03:14,369", "name": "__main__", "levelname": "INFO", "message": "OOROOOR"}
+{"asctime": "2025-03-30 19:03:14,369", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:03:14,370", "name": "__main__", "levelname": "INFO", "message": "OYROOOY"}
+{"asctime": "2025-03-30 19:03:14,370", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:03:14,370", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:03:20,172", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:03:22,341", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:03:22,341", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:03:22,341", "name": "__main__", "levelname": "INFO", "message": "OOROOOR"}
+{"asctime": "2025-03-30 19:03:22,342", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:03:22,342", "name": "__main__", "levelname": "INFO", "message": "OYRYOOY"}
+{"asctime": "2025-03-30 19:03:22,342", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:03:22,342", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:03:25,899", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:03:40,071", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:03:40,071", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:03:40,072", "name": "__main__", "levelname": "INFO", "message": "OOROOOR"}
+{"asctime": "2025-03-30 19:03:40,072", "name": "__main__", "levelname": "INFO", "message": "OOYROOY"}
+{"asctime": "2025-03-30 19:03:40,072", "name": "__main__", "levelname": "INFO", "message": "OYRYOOY"}
+{"asctime": "2025-03-30 19:03:40,072", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:03:40,072", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:03:43,410", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:03:48,544", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:03:48,544", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:03:48,544", "name": "__main__", "levelname": "INFO", "message": "OOROOOR"}
+{"asctime": "2025-03-30 19:03:48,545", "name": "__main__", "levelname": "INFO", "message": "OOYROOY"}
+{"asctime": "2025-03-30 19:03:48,545", "name": "__main__", "levelname": "INFO", "message": "OYRYOOY"}
+{"asctime": "2025-03-30 19:03:48,545", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:03:48,545", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:03:51,212", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:03:55,611", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:03:55,612", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:03:55,612", "name": "__main__", "levelname": "INFO", "message": "OOROOOR"}
+{"asctime": "2025-03-30 19:03:55,612", "name": "__main__", "levelname": "INFO", "message": "ORYROOY"}
+{"asctime": "2025-03-30 19:03:55,612", "name": "__main__", "levelname": "INFO", "message": "OYRYOOY"}
+{"asctime": "2025-03-30 19:03:55,613", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:03:55,613", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:04:00,247", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:04:09,586", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:04:09,587", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:04:09,587", "name": "__main__", "levelname": "INFO", "message": "OOROOOR"}
+{"asctime": "2025-03-30 19:04:09,587", "name": "__main__", "levelname": "INFO", "message": "ORYROOY"}
+{"asctime": "2025-03-30 19:04:09,588", "name": "__main__", "levelname": "INFO", "message": "OYRYOYY"}
+{"asctime": "2025-03-30 19:04:09,588", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:04:09,588", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:04:11,575", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:04:18,805", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:04:18,805", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:04:18,805", "name": "__main__", "levelname": "INFO", "message": "OOROOOR"}
+{"asctime": "2025-03-30 19:04:18,805", "name": "__main__", "levelname": "INFO", "message": "ORYROOY"}
+{"asctime": "2025-03-30 19:04:18,806", "name": "__main__", "levelname": "INFO", "message": "OYRYOYY"}
+{"asctime": "2025-03-30 19:04:18,806", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:04:18,806", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:04:19,807", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:04:24,942", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:04:24,942", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:04:24,943", "name": "__main__", "levelname": "INFO", "message": "OORYOOR"}
+{"asctime": "2025-03-30 19:04:24,943", "name": "__main__", "levelname": "INFO", "message": "ORYROOY"}
+{"asctime": "2025-03-30 19:04:24,943", "name": "__main__", "levelname": "INFO", "message": "OYRYOYY"}
+{"asctime": "2025-03-30 19:04:24,943", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:04:24,944", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:04:30,617", "name": "__main__", "levelname": "INFO", "message": "Y wins!"}
+{"asctime": "2025-03-30 19:04:30,618", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:04:30,618", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:04:30,618", "name": "__main__", "levelname": "INFO", "message": "OORYOOR"}
+{"asctime": "2025-03-30 19:04:30,619", "name": "__main__", "levelname": "INFO", "message": "ORYROOY"}
+{"asctime": "2025-03-30 19:04:30,619", "name": "__main__", "levelname": "INFO", "message": "OYRYOYY"}
+{"asctime": "2025-03-30 19:04:30,619", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:04:30,619", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:04:30,619", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
+{"asctime": "2025-03-30 19:14:54,354", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:14:54,358", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:14:54,359", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:14:54,359", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:14:57,067", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:14:57,068", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:14:57,068", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:14:57,068", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:14:57,069", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:14:57,069", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:14:57,069", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:14:57,069", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:14:58,292", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:14:58,293", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:14:58,293", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:14:58,293", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:14:58,293", "name": "__main__", "levelname": "INFO", "message": "OOROOYY"}
+{"asctime": "2025-03-30 19:14:58,294", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:14:58,294", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:14:58,294", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:15:01,023", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:15:01,023", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:15:01,023", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:15:01,024", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:15:01,024", "name": "__main__", "levelname": "INFO", "message": "ORROOYY"}
+{"asctime": "2025-03-30 19:15:01,024", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:15:01,024", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:15:01,024", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:15:02,353", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:15:02,354", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:15:02,354", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:15:02,354", "name": "__main__", "levelname": "INFO", "message": "OOYOOYY"}
+{"asctime": "2025-03-30 19:15:02,354", "name": "__main__", "levelname": "INFO", "message": "ORROOYY"}
+{"asctime": "2025-03-30 19:15:02,355", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:15:02,355", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:15:02,355", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:15:04,183", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:15:04,183", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:15:04,184", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:15:04,184", "name": "__main__", "levelname": "INFO", "message": "ORYOOYY"}
+{"asctime": "2025-03-30 19:15:04,184", "name": "__main__", "levelname": "INFO", "message": "ORROOYY"}
+{"asctime": "2025-03-30 19:15:04,184", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:15:04,184", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:15:04,185", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:15:05,755", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:15:05,755", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:15:05,756", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:15:05,756", "name": "__main__", "levelname": "INFO", "message": "ORYOOYY"}
+{"asctime": "2025-03-30 19:15:05,756", "name": "__main__", "levelname": "INFO", "message": "ORROOYY"}
+{"asctime": "2025-03-30 19:15:05,756", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:15:05,756", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:15:05,756", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:15:09,348", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:15:09,349", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:15:09,349", "name": "__main__", "levelname": "INFO", "message": "OOOOORY"}
+{"asctime": "2025-03-30 19:15:09,350", "name": "__main__", "levelname": "INFO", "message": "ORYOOYY"}
+{"asctime": "2025-03-30 19:15:09,350", "name": "__main__", "levelname": "INFO", "message": "ORROOYY"}
+{"asctime": "2025-03-30 19:15:09,350", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:15:09,350", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:15:09,351", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:15:11,143", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:15:11,143", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:15:11,143", "name": "__main__", "levelname": "INFO", "message": "OOOOORY"}
+{"asctime": "2025-03-30 19:15:11,143", "name": "__main__", "levelname": "INFO", "message": "ORYOOYY"}
+{"asctime": "2025-03-30 19:15:11,144", "name": "__main__", "levelname": "INFO", "message": "ORROOYY"}
+{"asctime": "2025-03-30 19:15:11,144", "name": "__main__", "levelname": "INFO", "message": "OYRYYYR"}
+{"asctime": "2025-03-30 19:15:11,144", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:15:17,029", "name": "__main__", "levelname": "INFO", "message": "Y wins!"}
+{"asctime": "2025-03-30 19:15:17,029", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:15:17,029", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:15:17,030", "name": "__main__", "levelname": "INFO", "message": "OOOOORY"}
+{"asctime": "2025-03-30 19:15:17,030", "name": "__main__", "levelname": "INFO", "message": "ORYOOYY"}
+{"asctime": "2025-03-30 19:15:17,030", "name": "__main__", "levelname": "INFO", "message": "ORROOYY"}
+{"asctime": "2025-03-30 19:15:17,030", "name": "__main__", "levelname": "INFO", "message": "OYRYYYR"}
+{"asctime": "2025-03-30 19:15:17,030", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:15:17,031", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
+{"asctime": "2025-03-30 19:15:20,277", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:15:20,282", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:15:20,282", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:15:20,282", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:17:04,749", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:17:04,754", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:17:04,754", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:17:04,754", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:17:06,600", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:17:06,601", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:17:06,601", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:17:06,601", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:17:06,601", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:17:06,601", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:17:06,601", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:33:57,572", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:33:57,576", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:33:57,577", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:33:57,577", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:33:59,225", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 2"}
+{"asctime": "2025-03-30 19:33:59,225", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:33:59,226", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:33:59,226", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:33:59,226", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:33:59,226", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:33:59,226", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:34:06,604", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:34:09,148", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:34:09,149", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:34:09,149", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:09,150", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:34:09,150", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:09,150", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:34:09,150", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:34:09,151", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:34:10,535", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:34:10,535", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:34:10,536", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:10,536", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:34:10,536", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:10,536", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:34:10,536", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:34:10,537", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:34:12,319", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:34:12,320", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:34:12,320", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:12,321", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:34:12,321", "name": "__main__", "levelname": "INFO", "message": "YOROOOY"}
+{"asctime": "2025-03-30 19:34:12,321", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:34:12,322", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:34:12,323", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:34:14,798", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:34:14,798", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:34:14,799", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:14,799", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:34:14,799", "name": "__main__", "levelname": "INFO", "message": "YORROOY"}
+{"asctime": "2025-03-30 19:34:14,799", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:34:14,800", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:34:14,800", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:34:16,240", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:34:16,241", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:34:16,241", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:16,241", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:34:16,241", "name": "__main__", "levelname": "INFO", "message": "YORROOY"}
+{"asctime": "2025-03-30 19:34:16,242", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:34:16,242", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:34:16,242", "name": "connect_4.Connect4", "levelname": "INFO", "message": "Vertical win [0,6] to [4,6]"}
+{"asctime": "2025-03-30 19:34:34,352", "name": "__main__", "levelname": "INFO", "message": "Y wins!"}
+{"asctime": "2025-03-30 19:34:34,353", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:34:34,353", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:34:34,353", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:34,353", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:34:34,354", "name": "__main__", "levelname": "INFO", "message": "YORROOY"}
+{"asctime": "2025-03-30 19:34:34,354", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:34:34,354", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:34:34,354", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
+{"asctime": "2025-03-30 19:34:40,195", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:34:40,199", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:34:40,200", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:34:40,200", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:34:41,131", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 2"}
+{"asctime": "2025-03-30 19:34:41,132", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:34:41,132", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:34:41,132", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:34:41,132", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:41,132", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:34:41,133", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:34:41,133", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:34:41,977", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:34:41,978", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:34:41,978", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:41,978", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:34:41,978", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:41,979", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:34:41,979", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:34:41,979", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:34:42,583", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:34:42,583", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:34:42,583", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:42,584", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:34:42,584", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:42,584", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:34:42,584", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:34:42,585", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:34:43,158", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:34:43,159", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:34:43,159", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:43,159", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:34:43,159", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:43,160", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:34:43,160", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:34:43,160", "name": "connect_4.Connect4", "levelname": "INFO", "message": "Vertical win [0,6] to [4,6]"}
+{"asctime": "2025-03-30 19:34:47,815", "name": "__main__", "levelname": "INFO", "message": "Y wins!"}
+{"asctime": "2025-03-30 19:34:47,815", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:34:47,816", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:34:47,816", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:47,816", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:34:47,816", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:34:47,816", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:34:47,817", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:34:47,817", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
+{"asctime": "2025-03-30 19:35:12,915", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:35:12,919", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:35:12,920", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:35:12,920", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:35:14,647", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:35:14,648", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:14,648", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:14,648", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:35:14,648", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:35:14,648", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:35:14,649", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:35:14,649", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:35:15,333", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:35:15,333", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:15,333", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:15,334", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:35:15,334", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:35:15,334", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:35:15,334", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:35:15,334", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:35:16,149", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:35:16,149", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:16,149", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:16,150", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:35:16,150", "name": "__main__", "levelname": "INFO", "message": "ORRROOY"}
+{"asctime": "2025-03-30 19:35:16,150", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:35:16,150", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:35:16,150", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:35:17,198", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:35:17,198", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:17,198", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:17,199", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:35:17,199", "name": "__main__", "levelname": "INFO", "message": "ORRROOY"}
+{"asctime": "2025-03-30 19:35:17,199", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:35:17,199", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:35:17,200", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:35:17,878", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 2"}
+{"asctime": "2025-03-30 19:35:17,879", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:17,879", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:35:17,879", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:35:17,879", "name": "__main__", "levelname": "INFO", "message": "ORRROOY"}
+{"asctime": "2025-03-30 19:35:17,880", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:35:17,880", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:35:17,880", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:35:18,619", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:35:18,619", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:18,619", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:35:18,620", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:35:18,620", "name": "__main__", "levelname": "INFO", "message": "YRRROOY"}
+{"asctime": "2025-03-30 19:35:18,620", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:35:18,620", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:35:18,621", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:35:19,309", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:35:19,310", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:19,310", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:35:19,310", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:35:19,310", "name": "__main__", "levelname": "INFO", "message": "YRRROOY"}
+{"asctime": "2025-03-30 19:35:19,311", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:35:19,311", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:35:19,311", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:35:19,914", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:35:19,914", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:19,915", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:35:19,915", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:35:19,915", "name": "__main__", "levelname": "INFO", "message": "YRRROOY"}
+{"asctime": "2025-03-30 19:35:19,915", "name": "__main__", "levelname": "INFO", "message": "YYRYYYR"}
+{"asctime": "2025-03-30 19:35:19,915", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:35:19,916", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:35:20,479", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:35:20,479", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:35:20,480", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:35:20,480", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:35:20,480", "name": "__main__", "levelname": "INFO", "message": "YRRRROY"}
+{"asctime": "2025-03-30 19:35:20,480", "name": "__main__", "levelname": "INFO", "message": "YYRYYYR"}
+{"asctime": "2025-03-30 19:35:20,480", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:35:20,481", "name": "connect_4.Connect4", "levelname": "INFO", "message": "Horizontal win [['Y', 'R', 'R', 'R', 'R', 'O', 'Y'],1] to [['Y', 'R', 'R', 'R', 'R', 'O', 'Y'],5]"}
+{"asctime": "2025-03-30 19:38:08,765", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:38:08,769", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:38:08,769", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:38:08,770", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:10,408", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:38:10,408", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:10,408", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:10,409", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:10,409", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:38:10,409", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:38:10,409", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:38:10,409", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:11,591", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:38:11,592", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:11,592", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:11,592", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:11,592", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:38:11,592", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:38:11,593", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:38:11,593", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:12,196", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:38:12,196", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:12,197", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:12,197", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:12,197", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:38:12,197", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:38:12,197", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:12,198", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:12,800", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:38:12,801", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:12,801", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:12,801", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:12,801", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:38:12,802", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:12,802", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:12,802", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:13,279", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:38:13,279", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:13,280", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:13,280", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:13,280", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:38:13,280", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:13,280", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:13,281", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:13,908", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:38:13,909", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:13,909", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:13,909", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:13,909", "name": "__main__", "levelname": "INFO", "message": "YRROOOY"}
+{"asctime": "2025-03-30 19:38:13,909", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:13,909", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:13,910", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:14,353", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:38:14,353", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:14,353", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:14,354", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:14,354", "name": "__main__", "levelname": "INFO", "message": "YRROORY"}
+{"asctime": "2025-03-30 19:38:14,354", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:14,354", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:14,354", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:14,867", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:38:14,867", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:14,867", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:14,867", "name": "__main__", "levelname": "INFO", "message": "OOYOOYY"}
+{"asctime": "2025-03-30 19:38:14,868", "name": "__main__", "levelname": "INFO", "message": "YRROORY"}
+{"asctime": "2025-03-30 19:38:14,868", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:14,868", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:14,868", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:15,396", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:38:15,396", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:15,396", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:15,397", "name": "__main__", "levelname": "INFO", "message": "ROYOOYY"}
+{"asctime": "2025-03-30 19:38:15,397", "name": "__main__", "levelname": "INFO", "message": "YRROORY"}
+{"asctime": "2025-03-30 19:38:15,397", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:15,397", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:15,397", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:15,927", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:38:15,927", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:15,928", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:15,928", "name": "__main__", "levelname": "INFO", "message": "ROYOOYY"}
+{"asctime": "2025-03-30 19:38:15,928", "name": "__main__", "levelname": "INFO", "message": "YRRYORY"}
+{"asctime": "2025-03-30 19:38:15,928", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:15,928", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:15,928", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:16,500", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:38:16,501", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:16,501", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:16,501", "name": "__main__", "levelname": "INFO", "message": "ROYOOYY"}
+{"asctime": "2025-03-30 19:38:16,501", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:38:16,502", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:16,502", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:16,502", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:17,044", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:38:17,044", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:17,044", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:17,045", "name": "__main__", "levelname": "INFO", "message": "RYYOOYY"}
+{"asctime": "2025-03-30 19:38:17,045", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:38:17,045", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:17,045", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:17,045", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:17,628", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:38:17,629", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:17,629", "name": "__main__", "levelname": "INFO", "message": "ROOOOOY"}
+{"asctime": "2025-03-30 19:38:17,629", "name": "__main__", "levelname": "INFO", "message": "RYYOOYY"}
+{"asctime": "2025-03-30 19:38:17,630", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:38:17,630", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:17,630", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:17,630", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:18,653", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:38:18,654", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:18,654", "name": "__main__", "levelname": "INFO", "message": "ROOOOOY"}
+{"asctime": "2025-03-30 19:38:18,655", "name": "__main__", "levelname": "INFO", "message": "RYYOYYY"}
+{"asctime": "2025-03-30 19:38:18,655", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:38:18,655", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:18,655", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:18,655", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:20,198", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:38:20,199", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:20,199", "name": "__main__", "levelname": "INFO", "message": "ROOOOOY"}
+{"asctime": "2025-03-30 19:38:20,199", "name": "__main__", "levelname": "INFO", "message": "RYYOYYY"}
+{"asctime": "2025-03-30 19:38:20,199", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:38:20,200", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:20,200", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:20,200", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:21,197", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:38:21,197", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:21,198", "name": "__main__", "levelname": "INFO", "message": "ROOOOOY"}
+{"asctime": "2025-03-30 19:38:21,198", "name": "__main__", "levelname": "INFO", "message": "RYYYYYY"}
+{"asctime": "2025-03-30 19:38:21,198", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:38:21,198", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:21,198", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:21,198", "name": "connect_4.Connect4", "levelname": "INFO", "message": "Horizontal win [2,1] to [2,5]"}
+{"asctime": "2025-03-30 19:38:53,588", "name": "__main__", "levelname": "INFO", "message": "Y wins!"}
+{"asctime": "2025-03-30 19:38:53,589", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:38:53,589", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:53,589", "name": "__main__", "levelname": "INFO", "message": "ROOOOOY"}
+{"asctime": "2025-03-30 19:38:53,589", "name": "__main__", "levelname": "INFO", "message": "RYYYYYY"}
+{"asctime": "2025-03-30 19:38:53,590", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:38:53,590", "name": "__main__", "levelname": "INFO", "message": "RYRYYYR"}
+{"asctime": "2025-03-30 19:38:53,590", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:53,590", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:54,562", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:38:54,562", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:38:54,563", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:54,563", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:54,563", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:38:54,563", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:38:54,563", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:38:54,564", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:55,640", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:38:55,641", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:55,641", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:55,641", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:55,641", "name": "__main__", "levelname": "INFO", "message": "OOROOOY"}
+{"asctime": "2025-03-30 19:38:55,641", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:38:55,642", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:38:55,642", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:56,643", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:38:56,643", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:56,644", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:56,644", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:56,644", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:38:56,644", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:38:56,644", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:38:56,645", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:57,185", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:38:57,186", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:57,186", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:57,186", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:57,186", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:38:57,186", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:38:57,187", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:38:57,187", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:57,617", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:38:57,618", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:57,618", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:57,618", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:38:57,619", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:38:57,619", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:38:57,619", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:57,619", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:58,039", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:38:58,039", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:58,040", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:58,040", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:38:58,040", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:38:58,040", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:38:58,040", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:58,040", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:58,488", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:38:58,489", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:58,489", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:58,489", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:38:58,489", "name": "__main__", "levelname": "INFO", "message": "ORROORY"}
+{"asctime": "2025-03-30 19:38:58,489", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:38:58,490", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:58,490", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:58,941", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:38:58,941", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:58,941", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:58,941", "name": "__main__", "levelname": "INFO", "message": "OYYOOYY"}
+{"asctime": "2025-03-30 19:38:58,942", "name": "__main__", "levelname": "INFO", "message": "ORROORY"}
+{"asctime": "2025-03-30 19:38:58,942", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:38:58,942", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:58,942", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:38:59,359", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:38:59,360", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:59,360", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:59,360", "name": "__main__", "levelname": "INFO", "message": "OYYOOYY"}
+{"asctime": "2025-03-30 19:38:59,360", "name": "__main__", "levelname": "INFO", "message": "ORROORY"}
+{"asctime": "2025-03-30 19:38:59,361", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:38:59,361", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:59,361", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:38:59,798", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:38:59,799", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:38:59,799", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:38:59,799", "name": "__main__", "levelname": "INFO", "message": "OYYOOYY"}
+{"asctime": "2025-03-30 19:38:59,799", "name": "__main__", "levelname": "INFO", "message": "YRROORY"}
+{"asctime": "2025-03-30 19:38:59,800", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:38:59,800", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:38:59,800", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:39:00,280", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:39:00,280", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:39:00,280", "name": "__main__", "levelname": "INFO", "message": "OOOOOOR"}
+{"asctime": "2025-03-30 19:39:00,280", "name": "__main__", "levelname": "INFO", "message": "RYYOOYY"}
+{"asctime": "2025-03-30 19:39:00,281", "name": "__main__", "levelname": "INFO", "message": "YRROORY"}
+{"asctime": "2025-03-30 19:39:00,281", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:00,281", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:00,281", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:39:00,722", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:39:00,722", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:39:00,722", "name": "__main__", "levelname": "INFO", "message": "OOOOOYR"}
+{"asctime": "2025-03-30 19:39:00,723", "name": "__main__", "levelname": "INFO", "message": "RYYOOYY"}
+{"asctime": "2025-03-30 19:39:00,723", "name": "__main__", "levelname": "INFO", "message": "YRROORY"}
+{"asctime": "2025-03-30 19:39:00,723", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:00,723", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:00,723", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:39:01,144", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:39:01,145", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:39:01,145", "name": "__main__", "levelname": "INFO", "message": "OOOOOYR"}
+{"asctime": "2025-03-30 19:39:01,145", "name": "__main__", "levelname": "INFO", "message": "RYYOOYY"}
+{"asctime": "2025-03-30 19:39:01,145", "name": "__main__", "levelname": "INFO", "message": "YRRORRY"}
+{"asctime": "2025-03-30 19:39:01,145", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:01,146", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:01,146", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:39:01,571", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:39:01,571", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:39:01,572", "name": "__main__", "levelname": "INFO", "message": "OOOOOYR"}
+{"asctime": "2025-03-30 19:39:01,572", "name": "__main__", "levelname": "INFO", "message": "RYYOOYY"}
+{"asctime": "2025-03-30 19:39:01,572", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:01,572", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:01,572", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:01,573", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:39:01,980", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:39:01,980", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:39:01,980", "name": "__main__", "levelname": "INFO", "message": "OOOOOYR"}
+{"asctime": "2025-03-30 19:39:01,981", "name": "__main__", "levelname": "INFO", "message": "RYYROYY"}
+{"asctime": "2025-03-30 19:39:01,981", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:01,981", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:01,981", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:01,981", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:39:02,420", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:39:02,420", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:39:02,420", "name": "__main__", "levelname": "INFO", "message": "OYOOOYR"}
+{"asctime": "2025-03-30 19:39:02,421", "name": "__main__", "levelname": "INFO", "message": "RYYROYY"}
+{"asctime": "2025-03-30 19:39:02,421", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:02,421", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:02,421", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:02,421", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:39:02,862", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:39:02,863", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:39:02,863", "name": "__main__", "levelname": "INFO", "message": "OYOROYR"}
+{"asctime": "2025-03-30 19:39:02,863", "name": "__main__", "levelname": "INFO", "message": "RYYROYY"}
+{"asctime": "2025-03-30 19:39:02,863", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:02,863", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:02,864", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:02,864", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:39:03,312", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:39:03,312", "name": "__main__", "levelname": "INFO", "message": "OYOOOOY"}
+{"asctime": "2025-03-30 19:39:03,312", "name": "__main__", "levelname": "INFO", "message": "OYOROYR"}
+{"asctime": "2025-03-30 19:39:03,313", "name": "__main__", "levelname": "INFO", "message": "RYYROYY"}
+{"asctime": "2025-03-30 19:39:03,313", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:03,313", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:03,313", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:03,314", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:39:03,680", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 2"}
+{"asctime": "2025-03-30 19:39:03,680", "name": "__main__", "levelname": "INFO", "message": "OYOOOOY"}
+{"asctime": "2025-03-30 19:39:03,680", "name": "__main__", "levelname": "INFO", "message": "OYRROYR"}
+{"asctime": "2025-03-30 19:39:03,681", "name": "__main__", "levelname": "INFO", "message": "RYYROYY"}
+{"asctime": "2025-03-30 19:39:03,681", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:03,681", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:03,681", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:03,681", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:39:04,078", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:39:04,079", "name": "__main__", "levelname": "INFO", "message": "OYOOOYY"}
+{"asctime": "2025-03-30 19:39:04,079", "name": "__main__", "levelname": "INFO", "message": "OYRROYR"}
+{"asctime": "2025-03-30 19:39:04,079", "name": "__main__", "levelname": "INFO", "message": "RYYROYY"}
+{"asctime": "2025-03-30 19:39:04,079", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:04,079", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:04,080", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:04,080", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:39:04,471", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 2"}
+{"asctime": "2025-03-30 19:39:04,472", "name": "__main__", "levelname": "INFO", "message": "OYROOYY"}
+{"asctime": "2025-03-30 19:39:04,472", "name": "__main__", "levelname": "INFO", "message": "OYRROYR"}
+{"asctime": "2025-03-30 19:39:04,472", "name": "__main__", "levelname": "INFO", "message": "RYYROYY"}
+{"asctime": "2025-03-30 19:39:04,472", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:04,473", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:04,473", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:04,473", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:39:04,898", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:39:04,899", "name": "__main__", "levelname": "INFO", "message": "OYROOYY"}
+{"asctime": "2025-03-30 19:39:04,899", "name": "__main__", "levelname": "INFO", "message": "YYRROYR"}
+{"asctime": "2025-03-30 19:39:04,899", "name": "__main__", "levelname": "INFO", "message": "RYYROYY"}
+{"asctime": "2025-03-30 19:39:04,899", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:04,900", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:04,900", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:04,900", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:39:05,924", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:39:05,924", "name": "__main__", "levelname": "INFO", "message": "OYRROYY"}
+{"asctime": "2025-03-30 19:39:05,924", "name": "__main__", "levelname": "INFO", "message": "YYRROYR"}
+{"asctime": "2025-03-30 19:39:05,925", "name": "__main__", "levelname": "INFO", "message": "RYYROYY"}
+{"asctime": "2025-03-30 19:39:05,925", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:05,925", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:05,925", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:05,925", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:39:06,615", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:39:06,616", "name": "__main__", "levelname": "INFO", "message": "OYRROYY"}
+{"asctime": "2025-03-30 19:39:06,616", "name": "__main__", "levelname": "INFO", "message": "YYRROYR"}
+{"asctime": "2025-03-30 19:39:06,616", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:39:06,617", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:06,617", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:06,617", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:06,617", "name": "connect_4.Connect4", "levelname": "INFO", "message": "Positively Sloped Diagonal win [3,3] to [0,6]"}
+{"asctime": "2025-03-30 19:39:15,931", "name": "__main__", "levelname": "INFO", "message": "Y wins!"}
+{"asctime": "2025-03-30 19:39:15,931", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:39:15,932", "name": "__main__", "levelname": "INFO", "message": "OYRROYY"}
+{"asctime": "2025-03-30 19:39:15,932", "name": "__main__", "levelname": "INFO", "message": "YYRROYR"}
+{"asctime": "2025-03-30 19:39:15,932", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:39:15,932", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:39:15,933", "name": "__main__", "levelname": "INFO", "message": "YYRYRYR"}
+{"asctime": "2025-03-30 19:39:15,933", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:39:15,933", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:41:41,954", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:41:41,954", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:41,954", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:41,955", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:41:41,955", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:41:41,955", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:41:41,955", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:41:41,956", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:41:47,806", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:41:47,806", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:47,807", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:47,807", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:41:47,807", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:41:47,807", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:41:47,808", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:41:47,808", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:41:48,427", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:41:48,428", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:48,428", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:48,428", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:41:48,429", "name": "__main__", "levelname": "INFO", "message": "ORROORY"}
+{"asctime": "2025-03-30 19:41:48,429", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:41:48,429", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:41:48,429", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:41:49,070", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:41:49,070", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:49,071", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:49,071", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:41:49,071", "name": "__main__", "levelname": "INFO", "message": "ORROORY"}
+{"asctime": "2025-03-30 19:41:49,072", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:41:49,072", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:41:49,072", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:41:49,533", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:41:49,534", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:49,534", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:49,535", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:41:49,535", "name": "__main__", "levelname": "INFO", "message": "ORROORY"}
+{"asctime": "2025-03-30 19:41:49,535", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:41:49,535", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:41:49,536", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:41:49,840", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:41:49,841", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:49,841", "name": "__main__", "levelname": "INFO", "message": "OYOOOOO"}
+{"asctime": "2025-03-30 19:41:49,841", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:41:49,841", "name": "__main__", "levelname": "INFO", "message": "ORROORY"}
+{"asctime": "2025-03-30 19:41:49,841", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:41:49,842", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:41:49,842", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:41:50,467", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:41:50,467", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:50,468", "name": "__main__", "levelname": "INFO", "message": "OYOOOOO"}
+{"asctime": "2025-03-30 19:41:50,468", "name": "__main__", "levelname": "INFO", "message": "OYYOOOY"}
+{"asctime": "2025-03-30 19:41:50,468", "name": "__main__", "levelname": "INFO", "message": "ORRRORY"}
+{"asctime": "2025-03-30 19:41:50,468", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:41:50,469", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:41:50,469", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:41:50,905", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:41:50,905", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:50,905", "name": "__main__", "levelname": "INFO", "message": "OYOOOOO"}
+{"asctime": "2025-03-30 19:41:50,906", "name": "__main__", "levelname": "INFO", "message": "OYYOOYY"}
+{"asctime": "2025-03-30 19:41:50,906", "name": "__main__", "levelname": "INFO", "message": "ORRRORY"}
+{"asctime": "2025-03-30 19:41:50,906", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:41:50,906", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:41:50,907", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:41:51,203", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:41:51,203", "name": "__main__", "levelname": "INFO", "message": "OROOOOO"}
+{"asctime": "2025-03-30 19:41:51,203", "name": "__main__", "levelname": "INFO", "message": "OYOOOOO"}
+{"asctime": "2025-03-30 19:41:51,204", "name": "__main__", "levelname": "INFO", "message": "OYYOOYY"}
+{"asctime": "2025-03-30 19:41:51,204", "name": "__main__", "levelname": "INFO", "message": "ORRRORY"}
+{"asctime": "2025-03-30 19:41:51,204", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:41:51,204", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:41:51,204", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:41:51,741", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 2"}
+{"asctime": "2025-03-30 19:41:51,742", "name": "__main__", "levelname": "INFO", "message": "OROOOOO"}
+{"asctime": "2025-03-30 19:41:51,742", "name": "__main__", "levelname": "INFO", "message": "OYYOOOO"}
+{"asctime": "2025-03-30 19:41:51,742", "name": "__main__", "levelname": "INFO", "message": "OYYOOYY"}
+{"asctime": "2025-03-30 19:41:51,742", "name": "__main__", "levelname": "INFO", "message": "ORRRORY"}
+{"asctime": "2025-03-30 19:41:51,742", "name": "__main__", "levelname": "INFO", "message": "RYRYOYR"}
+{"asctime": "2025-03-30 19:41:51,742", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:41:51,743", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:41:52,130", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:41:52,131", "name": "__main__", "levelname": "INFO", "message": "OROOOOO"}
+{"asctime": "2025-03-30 19:41:52,131", "name": "__main__", "levelname": "INFO", "message": "OYYOOOO"}
+{"asctime": "2025-03-30 19:41:52,131", "name": "__main__", "levelname": "INFO", "message": "OYYOOYY"}
+{"asctime": "2025-03-30 19:41:52,131", "name": "__main__", "levelname": "INFO", "message": "ORRRORY"}
+{"asctime": "2025-03-30 19:41:52,131", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:41:52,132", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:41:52,132", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:41:52,527", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:41:52,528", "name": "__main__", "levelname": "INFO", "message": "OROOOOO"}
+{"asctime": "2025-03-30 19:41:52,528", "name": "__main__", "levelname": "INFO", "message": "OYYOOOO"}
+{"asctime": "2025-03-30 19:41:52,528", "name": "__main__", "levelname": "INFO", "message": "OYYYOYY"}
+{"asctime": "2025-03-30 19:41:52,528", "name": "__main__", "levelname": "INFO", "message": "ORRRORY"}
+{"asctime": "2025-03-30 19:41:52,529", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:41:52,529", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:41:52,529", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:41:53,164", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:41:53,165", "name": "__main__", "levelname": "INFO", "message": "OROOOOO"}
+{"asctime": "2025-03-30 19:41:53,165", "name": "__main__", "levelname": "INFO", "message": "OYYOOOO"}
+{"asctime": "2025-03-30 19:41:53,165", "name": "__main__", "levelname": "INFO", "message": "OYYYOYY"}
+{"asctime": "2025-03-30 19:41:53,165", "name": "__main__", "levelname": "INFO", "message": "RRRRORY"}
+{"asctime": "2025-03-30 19:41:53,166", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:41:53,166", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:41:53,166", "name": "connect_4.Connect4", "levelname": "INFO", "message": "Horizontal win [3,0] to [3,4]"}
+{"asctime": "2025-03-30 19:41:56,120", "name": "__main__", "levelname": "INFO", "message": "R wins!"}
+{"asctime": "2025-03-30 19:41:56,120", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:41:56,120", "name": "__main__", "levelname": "INFO", "message": "OROOOOO"}
+{"asctime": "2025-03-30 19:41:56,121", "name": "__main__", "levelname": "INFO", "message": "OYYOOOO"}
+{"asctime": "2025-03-30 19:41:56,121", "name": "__main__", "levelname": "INFO", "message": "OYYYOYY"}
+{"asctime": "2025-03-30 19:41:56,121", "name": "__main__", "levelname": "INFO", "message": "RRRRORY"}
+{"asctime": "2025-03-30 19:41:56,121", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:41:56,121", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:41:56,122", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:41:57,286", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:41:57,287", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:57,287", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:57,287", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:41:57,287", "name": "__main__", "levelname": "INFO", "message": "OORROOY"}
+{"asctime": "2025-03-30 19:41:57,288", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:41:57,288", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:41:57,288", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:41:57,694", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:41:57,694", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:57,694", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:57,695", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:41:57,695", "name": "__main__", "levelname": "INFO", "message": "OORROOY"}
+{"asctime": "2025-03-30 19:41:57,695", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:41:57,695", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:41:57,695", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:41:58,070", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:41:58,070", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:58,070", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:58,070", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:41:58,071", "name": "__main__", "levelname": "INFO", "message": "RORROOY"}
+{"asctime": "2025-03-30 19:41:58,071", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:41:58,071", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:41:58,071", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:41:58,364", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:41:58,364", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:58,364", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:58,364", "name": "__main__", "levelname": "INFO", "message": "YOYOOOY"}
+{"asctime": "2025-03-30 19:41:58,365", "name": "__main__", "levelname": "INFO", "message": "RORROOY"}
+{"asctime": "2025-03-30 19:41:58,365", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:41:58,365", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:41:58,365", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:41:58,881", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:41:58,882", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:58,882", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:58,882", "name": "__main__", "levelname": "INFO", "message": "YOYOOOY"}
+{"asctime": "2025-03-30 19:41:58,882", "name": "__main__", "levelname": "INFO", "message": "RORRORY"}
+{"asctime": "2025-03-30 19:41:58,883", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:41:58,883", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:41:58,883", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:41:59,145", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:41:59,145", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:59,145", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:41:59,145", "name": "__main__", "levelname": "INFO", "message": "YOYOOOY"}
+{"asctime": "2025-03-30 19:41:59,145", "name": "__main__", "levelname": "INFO", "message": "RORRORY"}
+{"asctime": "2025-03-30 19:41:59,146", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:41:59,146", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:41:59,146", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:41:59,654", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:41:59,655", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:41:59,655", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:41:59,655", "name": "__main__", "levelname": "INFO", "message": "YOYROOY"}
+{"asctime": "2025-03-30 19:41:59,656", "name": "__main__", "levelname": "INFO", "message": "RORRORY"}
+{"asctime": "2025-03-30 19:41:59,656", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:41:59,656", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:41:59,656", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:42:00,039", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 5"}
+{"asctime": "2025-03-30 19:42:00,039", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:42:00,039", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:42:00,040", "name": "__main__", "levelname": "INFO", "message": "YOYROYY"}
+{"asctime": "2025-03-30 19:42:00,040", "name": "__main__", "levelname": "INFO", "message": "RORRORY"}
+{"asctime": "2025-03-30 19:42:00,040", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:42:00,040", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:42:00,041", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:42:00,531", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:42:00,532", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:42:00,532", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:42:00,532", "name": "__main__", "levelname": "INFO", "message": "YOYROYY"}
+{"asctime": "2025-03-30 19:42:00,532", "name": "__main__", "levelname": "INFO", "message": "RRRRORY"}
+{"asctime": "2025-03-30 19:42:00,532", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:42:00,533", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:42:00,533", "name": "connect_4.Connect4", "levelname": "INFO", "message": "Horizontal win [3,0] to [3,4]"}
+{"asctime": "2025-03-30 19:42:02,471", "name": "__main__", "levelname": "INFO", "message": "R wins!"}
+{"asctime": "2025-03-30 19:42:02,472", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:42:02,472", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:42:02,472", "name": "__main__", "levelname": "INFO", "message": "OOOOOOY"}
+{"asctime": "2025-03-30 19:42:02,472", "name": "__main__", "levelname": "INFO", "message": "YOYROYY"}
+{"asctime": "2025-03-30 19:42:02,472", "name": "__main__", "levelname": "INFO", "message": "RRRRORY"}
+{"asctime": "2025-03-30 19:42:02,473", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:42:02,473", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:42:02,473", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:42:02,920", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:42:02,921", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:42:02,921", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:42:02,921", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:42:02,921", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:42:02,921", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:42:02,922", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:42:02,922", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:42:03,373", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 4"}
+{"asctime": "2025-03-30 19:42:03,373", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:42:03,374", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:42:03,374", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:42:03,374", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:42:03,374", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:42:03,374", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:42:03,375", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:42:03,687", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 2"}
+{"asctime": "2025-03-30 19:42:03,687", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:42:03,688", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:42:03,688", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:42:03,688", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:42:03,688", "name": "__main__", "levelname": "INFO", "message": "OYRYOYR"}
+{"asctime": "2025-03-30 19:42:03,688", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:42:03,689", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:42:04,205", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:42:04,205", "name": "__main__", "levelname": "INFO", "message": "OOOOOOO"}
+{"asctime": "2025-03-30 19:42:04,206", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:42:04,206", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:42:04,206", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:42:04,206", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:42:04,206", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:42:04,206", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:42:04,674", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 2"}
+{"asctime": "2025-03-30 19:42:04,674", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:42:04,674", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:42:04,675", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:42:04,675", "name": "__main__", "levelname": "INFO", "message": "ORROOOY"}
+{"asctime": "2025-03-30 19:42:04,675", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:42:04,675", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:42:04,676", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:42:04,947", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:42:04,948", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:42:04,948", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:42:04,948", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:42:04,948", "name": "__main__", "levelname": "INFO", "message": "YRROOOY"}
+{"asctime": "2025-03-30 19:42:04,948", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:42:04,949", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:42:04,949", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:42:05,406", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 3"}
+{"asctime": "2025-03-30 19:42:05,406", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:42:05,406", "name": "__main__", "levelname": "INFO", "message": "OOROOOO"}
+{"asctime": "2025-03-30 19:42:05,407", "name": "__main__", "levelname": "INFO", "message": "OOYOOOY"}
+{"asctime": "2025-03-30 19:42:05,407", "name": "__main__", "levelname": "INFO", "message": "YRRROOY"}
+{"asctime": "2025-03-30 19:42:05,407", "name": "__main__", "levelname": "INFO", "message": "YYRYOYR"}
+{"asctime": "2025-03-30 19:42:05,407", "name": "__main__", "levelname": "INFO", "message": "YRRYYRR"}
+{"asctime": "2025-03-30 19:42:05,407", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:44:58,755", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:44:58,760", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:44:58,760", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:44:58,760", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:45:01,118", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:45:01,118", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:45:01,118", "name": "__main__", "levelname": "INFO", "message": "OOYRYYO"}
+{"asctime": "2025-03-30 19:45:01,118", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:45:01,119", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:45:01,119", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:45:01,119", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:45:01,119", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:45:05,402", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:45:05,403", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:45:05,403", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:45:05,403", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:45:05,403", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:45:05,404", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:45:05,404", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:45:05,404", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:45:08,131", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:45:08,131", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:45:08,131", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:45:08,132", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:45:08,132", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:45:08,132", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:45:08,132", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:45:08,132", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:45:10,722", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:45:10,722", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:45:10,722", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:45:10,723", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:45:10,723", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:45:10,723", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:45:10,723", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:45:10,723", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:45:13,084", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:45:13,085", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:45:13,085", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:45:13,085", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:45:13,085", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:45:13,086", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:45:13,086", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:45:13,086", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:45:14,964", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:45:14,964", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:45:14,965", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:45:14,965", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:45:14,965", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:45:14,965", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:45:14,965", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:45:14,966", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:45:16,219", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:45:16,220", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:45:16,220", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:45:16,220", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:45:16,220", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:45:16,221", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:45:16,221", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:45:16,221", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:45:17,463", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:45:17,464", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:45:17,464", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:45:17,464", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:45:17,464", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:45:17,465", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:45:17,465", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:45:17,465", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:45:18,528", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:45:18,528", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:45:18,529", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:45:18,529", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:45:18,529", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:45:18,529", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:45:18,529", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:45:18,530", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:45:19,444", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:45:19,445", "name": "__main__", "levelname": "INFO", "message": "OYRRYRR"}
+{"asctime": "2025-03-30 19:45:19,445", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:45:19,445", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:45:19,446", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:45:19,446", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:45:19,446", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:45:19,446", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:45:20,297", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:45:20,298", "name": "__main__", "levelname": "INFO", "message": "RYRRYRR"}
+{"asctime": "2025-03-30 19:45:20,298", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:45:20,298", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:45:20,298", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:45:20,299", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:45:20,299", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:45:20,299", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:45:59,108", "name": "__main__", "levelname": "INFO", "message": "No valid moves for Y. Game over."}
+{"asctime": "2025-03-30 19:46:02,903", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:46:04,547", "name": "__main__", "levelname": "INFO", "message": "RYRRYRR"}
+{"asctime": "2025-03-30 19:46:06,603", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:46:06,603", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:46:06,604", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:46:06,604", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:46:06,604", "name": "__main__", "levelname": "INFO", "message": "YRRYORR"}
+{"asctime": "2025-03-30 19:46:06,604", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
+{"asctime": "2025-03-30 19:46:59,096", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:46:59,101", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:46:59,101", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:46:59,101", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:03,596", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:03,596", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:03,596", "name": "__main__", "levelname": "INFO", "message": "OOYRYYO"}
+{"asctime": "2025-03-30 19:47:03,597", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:03,597", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:47:03,597", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:47:03,597", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:03,597", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:04,412", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:47:04,412", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:04,413", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:04,413", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:04,413", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:47:04,413", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:47:04,413", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:04,414", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:05,081", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:05,082", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:05,082", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:05,082", "name": "__main__", "levelname": "INFO", "message": "ORYRYYY"}
+{"asctime": "2025-03-30 19:47:05,083", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:47:05,083", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:47:05,083", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:05,083", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:05,772", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:05,773", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:05,773", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:47:05,773", "name": "__main__", "levelname": "INFO", "message": "ORYRYYY"}
+{"asctime": "2025-03-30 19:47:05,773", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:47:05,774", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:47:05,774", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:05,774", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:06,363", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:06,364", "name": "__main__", "levelname": "INFO", "message": "ORRRYRO"}
+{"asctime": "2025-03-30 19:47:06,364", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:47:06,364", "name": "__main__", "levelname": "INFO", "message": "ORYRYYY"}
+{"asctime": "2025-03-30 19:47:06,365", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:47:06,365", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:47:06,365", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:06,365", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:06,942", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:47:06,943", "name": "__main__", "levelname": "INFO", "message": "ORRRYRY"}
+{"asctime": "2025-03-30 19:47:06,943", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:47:06,943", "name": "__main__", "levelname": "INFO", "message": "ORYRYYY"}
+{"asctime": "2025-03-30 19:47:06,943", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:47:06,943", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:47:06,944", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:06,944", "name": "connect_4.Connect4", "levelname": "INFO", "message": "Vertical win [0,6] to [4,6]"}
+{"asctime": "2025-03-30 19:47:11,986", "name": "__main__", "levelname": "INFO", "message": "Y wins!"}
+{"asctime": "2025-03-30 19:47:11,986", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:47:11,987", "name": "__main__", "levelname": "INFO", "message": "ORRRYRY"}
+{"asctime": "2025-03-30 19:47:11,987", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:47:11,987", "name": "__main__", "levelname": "INFO", "message": "ORYRYYY"}
+{"asctime": "2025-03-30 19:47:11,987", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:47:11,987", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:47:11,987", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:11,988", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
+{"asctime": "2025-03-30 19:47:15,495", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:47:15,500", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:47:15,500", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:47:15,500", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:16,447", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:47:16,448", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:16,448", "name": "__main__", "levelname": "INFO", "message": "OOYRYYR"}
+{"asctime": "2025-03-30 19:47:16,448", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:16,448", "name": "__main__", "levelname": "INFO", "message": "OORYRRY"}
+{"asctime": "2025-03-30 19:47:16,448", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:47:16,448", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:16,449", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:17,125", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:17,126", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:17,126", "name": "__main__", "levelname": "INFO", "message": "OOYRYYR"}
+{"asctime": "2025-03-30 19:47:17,126", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:17,127", "name": "__main__", "levelname": "INFO", "message": "OYRYRRY"}
+{"asctime": "2025-03-30 19:47:17,127", "name": "__main__", "levelname": "INFO", "message": "OYRYRYR"}
+{"asctime": "2025-03-30 19:47:17,127", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:17,127", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:17,587", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:17,587", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:17,587", "name": "__main__", "levelname": "INFO", "message": "OOYRYYR"}
+{"asctime": "2025-03-30 19:47:17,588", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:17,588", "name": "__main__", "levelname": "INFO", "message": "OYRYRRY"}
+{"asctime": "2025-03-30 19:47:17,588", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:17,588", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:17,588", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:18,076", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:18,077", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:18,077", "name": "__main__", "levelname": "INFO", "message": "OOYRYYR"}
+{"asctime": "2025-03-30 19:47:18,077", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:18,077", "name": "__main__", "levelname": "INFO", "message": "YYRYRRY"}
+{"asctime": "2025-03-30 19:47:18,077", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:18,078", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:18,078", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:18,553", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:47:18,554", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:47:18,554", "name": "__main__", "levelname": "INFO", "message": "OOYRYYR"}
+{"asctime": "2025-03-30 19:47:18,554", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:18,554", "name": "__main__", "levelname": "INFO", "message": "YYRYRRY"}
+{"asctime": "2025-03-30 19:47:18,555", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:18,555", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:18,555", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:19,073", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:19,074", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:47:19,074", "name": "__main__", "levelname": "INFO", "message": "OOYRYYR"}
+{"asctime": "2025-03-30 19:47:19,074", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:47:19,075", "name": "__main__", "levelname": "INFO", "message": "YYRYRRY"}
+{"asctime": "2025-03-30 19:47:19,075", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:19,075", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:19,075", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:19,774", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:19,774", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:47:19,775", "name": "__main__", "levelname": "INFO", "message": "ORYRYYR"}
+{"asctime": "2025-03-30 19:47:19,775", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:47:19,775", "name": "__main__", "levelname": "INFO", "message": "YYRYRRY"}
+{"asctime": "2025-03-30 19:47:19,775", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:19,776", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:19,776", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:20,320", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:20,320", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:47:20,320", "name": "__main__", "levelname": "INFO", "message": "ORYRYYR"}
+{"asctime": "2025-03-30 19:47:20,321", "name": "__main__", "levelname": "INFO", "message": "YYYRYYY"}
+{"asctime": "2025-03-30 19:47:20,321", "name": "__main__", "levelname": "INFO", "message": "YYRYRRY"}
+{"asctime": "2025-03-30 19:47:20,321", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:20,321", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:20,321", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:20,872", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:20,872", "name": "__main__", "levelname": "INFO", "message": "ORRRYRR"}
+{"asctime": "2025-03-30 19:47:20,873", "name": "__main__", "levelname": "INFO", "message": "ORYRYYR"}
+{"asctime": "2025-03-30 19:47:20,873", "name": "__main__", "levelname": "INFO", "message": "YYYRYYY"}
+{"asctime": "2025-03-30 19:47:20,873", "name": "__main__", "levelname": "INFO", "message": "YYRYRRY"}
+{"asctime": "2025-03-30 19:47:20,873", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:20,873", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:20,874", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:21,400", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:21,401", "name": "__main__", "levelname": "INFO", "message": "ORRRYRR"}
+{"asctime": "2025-03-30 19:47:21,401", "name": "__main__", "levelname": "INFO", "message": "YRYRYYR"}
+{"asctime": "2025-03-30 19:47:21,401", "name": "__main__", "levelname": "INFO", "message": "YYYRYYY"}
+{"asctime": "2025-03-30 19:47:21,402", "name": "__main__", "levelname": "INFO", "message": "YYRYRRY"}
+{"asctime": "2025-03-30 19:47:21,402", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:21,402", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:21,402", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:22,082", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:22,083", "name": "__main__", "levelname": "INFO", "message": "RRRRYRR"}
+{"asctime": "2025-03-30 19:47:22,083", "name": "__main__", "levelname": "INFO", "message": "YRYRYYR"}
+{"asctime": "2025-03-30 19:47:22,083", "name": "__main__", "levelname": "INFO", "message": "YYYRYYY"}
+{"asctime": "2025-03-30 19:47:22,083", "name": "__main__", "levelname": "INFO", "message": "YYRYRRY"}
+{"asctime": "2025-03-30 19:47:22,084", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:22,084", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:22,085", "name": "connect_4.Connect4", "levelname": "INFO", "message": "Horizontal win [0,0] to [0,4]"}
+{"asctime": "2025-03-30 19:47:31,890", "name": "__main__", "levelname": "INFO", "message": "R wins!"}
+{"asctime": "2025-03-30 19:47:31,891", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:47:31,891", "name": "__main__", "levelname": "INFO", "message": "RRRRYRR"}
+{"asctime": "2025-03-30 19:47:31,891", "name": "__main__", "levelname": "INFO", "message": "YRYRYYR"}
+{"asctime": "2025-03-30 19:47:31,891", "name": "__main__", "levelname": "INFO", "message": "YYYRYYY"}
+{"asctime": "2025-03-30 19:47:31,892", "name": "__main__", "levelname": "INFO", "message": "YYRYRRY"}
+{"asctime": "2025-03-30 19:47:31,892", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:31,892", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:31,892", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
+{"asctime": "2025-03-30 19:47:34,924", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:47:34,928", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:47:34,928", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:47:34,929", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:35,549", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:35,549", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:35,550", "name": "__main__", "levelname": "INFO", "message": "OOYRYYO"}
+{"asctime": "2025-03-30 19:47:35,550", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:35,550", "name": "__main__", "levelname": "INFO", "message": "OORYRRY"}
+{"asctime": "2025-03-30 19:47:35,550", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:35,551", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:35,551", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:36,037", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:47:36,038", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:36,038", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:36,038", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:36,038", "name": "__main__", "levelname": "INFO", "message": "OORYRRY"}
+{"asctime": "2025-03-30 19:47:36,038", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:36,038", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:36,039", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:36,445", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:36,445", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:36,446", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:36,446", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:36,446", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:47:36,446", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:36,446", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:36,447", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:36,841", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:47:36,841", "name": "__main__", "levelname": "INFO", "message": "OORRYRY"}
+{"asctime": "2025-03-30 19:47:36,841", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:36,842", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:36,842", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:47:36,842", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:36,842", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:36,842", "name": "connect_4.Connect4", "levelname": "INFO", "message": "Vertical win [0,6] to [4,6]"}
+{"asctime": "2025-03-30 19:47:39,414", "name": "__main__", "levelname": "INFO", "message": "Y wins!"}
+{"asctime": "2025-03-30 19:47:39,415", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:47:39,415", "name": "__main__", "levelname": "INFO", "message": "OORRYRY"}
+{"asctime": "2025-03-30 19:47:39,415", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:39,416", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:39,416", "name": "__main__", "levelname": "INFO", "message": "ORRYRRY"}
+{"asctime": "2025-03-30 19:47:39,416", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:39,416", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:39,416", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
+{"asctime": "2025-03-30 19:47:42,539", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:47:42,544", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:47:42,544", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:47:42,545", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:43,034", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:43,034", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:43,034", "name": "__main__", "levelname": "INFO", "message": "OOYRYYO"}
+{"asctime": "2025-03-30 19:47:43,035", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:43,035", "name": "__main__", "levelname": "INFO", "message": "OORYRRY"}
+{"asctime": "2025-03-30 19:47:43,035", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:43,035", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:43,036", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:43,487", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:43,488", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:43,488", "name": "__main__", "levelname": "INFO", "message": "OOYRYYO"}
+{"asctime": "2025-03-30 19:47:43,489", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:43,489", "name": "__main__", "levelname": "INFO", "message": "YORYRRY"}
+{"asctime": "2025-03-30 19:47:43,489", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:43,489", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:43,490", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:43,935", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:43,935", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:43,935", "name": "__main__", "levelname": "INFO", "message": "OOYRYYO"}
+{"asctime": "2025-03-30 19:47:43,935", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:43,936", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:47:43,936", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:43,936", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:43,936", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:44,358", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:44,358", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:44,358", "name": "__main__", "levelname": "INFO", "message": "OOYRYYO"}
+{"asctime": "2025-03-30 19:47:44,359", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:47:44,359", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:47:44,359", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:44,359", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:44,359", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:44,761", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:44,762", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:44,762", "name": "__main__", "levelname": "INFO", "message": "OOYRYYO"}
+{"asctime": "2025-03-30 19:47:44,762", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:47:44,762", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:47:44,762", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:44,762", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:44,763", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:45,265", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:45,265", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:45,266", "name": "__main__", "levelname": "INFO", "message": "OYYRYYO"}
+{"asctime": "2025-03-30 19:47:45,266", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:47:45,266", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:47:45,266", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:45,267", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:45,267", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:45,731", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:47:45,731", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:45,732", "name": "__main__", "levelname": "INFO", "message": "OYYRYYR"}
+{"asctime": "2025-03-30 19:47:45,732", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:47:45,732", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:47:45,732", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:45,733", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:45,733", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:46,216", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:46,216", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:46,216", "name": "__main__", "levelname": "INFO", "message": "YYYRYYR"}
+{"asctime": "2025-03-30 19:47:46,217", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:47:46,217", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:47:46,217", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:46,217", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:46,217", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:46,688", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:46,689", "name": "__main__", "levelname": "INFO", "message": "RORRYRO"}
+{"asctime": "2025-03-30 19:47:46,689", "name": "__main__", "levelname": "INFO", "message": "YYYRYYR"}
+{"asctime": "2025-03-30 19:47:46,689", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:47:46,689", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:47:46,690", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:46,690", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:46,690", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:47,164", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:47:47,165", "name": "__main__", "levelname": "INFO", "message": "RORRYRY"}
+{"asctime": "2025-03-30 19:47:47,165", "name": "__main__", "levelname": "INFO", "message": "YYYRYYR"}
+{"asctime": "2025-03-30 19:47:47,165", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:47:47,165", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:47:47,166", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:47,166", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:47,166", "name": "connect_4.Connect4", "levelname": "INFO", "message": "Positively Sloped Diagonal win [3,3] to [0,6]"}
+{"asctime": "2025-03-30 19:47:52,065", "name": "__main__", "levelname": "INFO", "message": "Y wins!"}
+{"asctime": "2025-03-30 19:47:52,066", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:47:52,066", "name": "__main__", "levelname": "INFO", "message": "RORRYRY"}
+{"asctime": "2025-03-30 19:47:52,066", "name": "__main__", "levelname": "INFO", "message": "YYYRYYR"}
+{"asctime": "2025-03-30 19:47:52,066", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:47:52,067", "name": "__main__", "levelname": "INFO", "message": "YRRYRRY"}
+{"asctime": "2025-03-30 19:47:52,067", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:52,067", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:52,067", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
+{"asctime": "2025-03-30 19:47:55,790", "name": "__main__", "levelname": "DEBUG", "message": "Init Start"}
+{"asctime": "2025-03-30 19:47:55,794", "name": "__main__", "levelname": "DEBUG", "message": "Init End"}
+{"asctime": "2025-03-30 19:47:55,794", "name": "__main__", "levelname": "DEBUG", "message": "Starting Game"}
+{"asctime": "2025-03-30 19:47:55,795", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:56,602", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:56,603", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:56,603", "name": "__main__", "levelname": "INFO", "message": "OOYRYYO"}
+{"asctime": "2025-03-30 19:47:56,603", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:56,603", "name": "__main__", "levelname": "INFO", "message": "OORYRRY"}
+{"asctime": "2025-03-30 19:47:56,603", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:56,604", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:56,604", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:57,079", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:47:57,079", "name": "__main__", "levelname": "INFO", "message": "OORRYRO"}
+{"asctime": "2025-03-30 19:47:57,080", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:57,080", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:57,080", "name": "__main__", "levelname": "INFO", "message": "OORYRRY"}
+{"asctime": "2025-03-30 19:47:57,080", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:57,080", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:57,081", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:57,533", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 6"}
+{"asctime": "2025-03-30 19:47:57,533", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:47:57,533", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:57,534", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:57,534", "name": "__main__", "levelname": "INFO", "message": "OORYRRY"}
+{"asctime": "2025-03-30 19:47:57,534", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:57,534", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:57,534", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:57,976", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:57,976", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:47:57,976", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:57,977", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:57,977", "name": "__main__", "levelname": "INFO", "message": "OYRYRRY"}
+{"asctime": "2025-03-30 19:47:57,977", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:57,977", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:57,977", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:58,400", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:47:58,401", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:47:58,401", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:58,401", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:58,402", "name": "__main__", "levelname": "INFO", "message": "RYRYRRY"}
+{"asctime": "2025-03-30 19:47:58,402", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:58,402", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:58,402", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:58,838", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:58,838", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:47:58,838", "name": "__main__", "levelname": "INFO", "message": "OOYRYYY"}
+{"asctime": "2025-03-30 19:47:58,838", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:47:58,839", "name": "__main__", "levelname": "INFO", "message": "RYRYRRY"}
+{"asctime": "2025-03-30 19:47:58,839", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:58,839", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:58,839", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:47:59,301", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:59,302", "name": "__main__", "levelname": "INFO", "message": "OORRYRR"}
+{"asctime": "2025-03-30 19:47:59,302", "name": "__main__", "levelname": "INFO", "message": "ORYRYYY"}
+{"asctime": "2025-03-30 19:47:59,302", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:47:59,302", "name": "__main__", "levelname": "INFO", "message": "RYRYRRY"}
+{"asctime": "2025-03-30 19:47:59,303", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:59,303", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:59,303", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:47:59,715", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 1"}
+{"asctime": "2025-03-30 19:47:59,715", "name": "__main__", "levelname": "INFO", "message": "OYRRYRR"}
+{"asctime": "2025-03-30 19:47:59,716", "name": "__main__", "levelname": "INFO", "message": "ORYRYYY"}
+{"asctime": "2025-03-30 19:47:59,716", "name": "__main__", "levelname": "INFO", "message": "OYYRYYY"}
+{"asctime": "2025-03-30 19:47:59,716", "name": "__main__", "levelname": "INFO", "message": "RYRYRRY"}
+{"asctime": "2025-03-30 19:47:59,716", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:47:59,716", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:47:59,717", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:48:00,150", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:48:00,150", "name": "__main__", "levelname": "INFO", "message": "OYRRYRR"}
+{"asctime": "2025-03-30 19:48:00,150", "name": "__main__", "levelname": "INFO", "message": "ORYRYYY"}
+{"asctime": "2025-03-30 19:48:00,151", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:48:00,151", "name": "__main__", "levelname": "INFO", "message": "RYRYRRY"}
+{"asctime": "2025-03-30 19:48:00,151", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:48:00,151", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:48:00,151", "name": "__main__", "levelname": "INFO", "message": "Current player Y"}
+{"asctime": "2025-03-30 19:48:00,861", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:48:00,861", "name": "__main__", "levelname": "INFO", "message": "OYRRYRR"}
+{"asctime": "2025-03-30 19:48:00,861", "name": "__main__", "levelname": "INFO", "message": "YRYRYYY"}
+{"asctime": "2025-03-30 19:48:00,862", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:48:00,862", "name": "__main__", "levelname": "INFO", "message": "RYRYRRY"}
+{"asctime": "2025-03-30 19:48:00,862", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:48:00,862", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:48:00,862", "name": "__main__", "levelname": "INFO", "message": "Current player R"}
+{"asctime": "2025-03-30 19:48:01,449", "name": "algorithms.uniform_random", "levelname": "INFO", "message": "FINAL Move selected: 0"}
+{"asctime": "2025-03-30 19:48:01,449", "name": "__main__", "levelname": "INFO", "message": "RYRRYRR"}
+{"asctime": "2025-03-30 19:48:01,450", "name": "__main__", "levelname": "INFO", "message": "YRYRYYY"}
+{"asctime": "2025-03-30 19:48:01,450", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:48:01,450", "name": "__main__", "levelname": "INFO", "message": "RYRYRRY"}
+{"asctime": "2025-03-30 19:48:01,450", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:48:01,450", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:48:11,569", "name": "__main__", "levelname": "INFO", "message": "Draw!"}
+{"asctime": "2025-03-30 19:48:11,570", "name": "__main__", "levelname": "INFO", "message": "Final Board:"}
+{"asctime": "2025-03-30 19:48:11,570", "name": "__main__", "levelname": "INFO", "message": "RYRRYRR"}
+{"asctime": "2025-03-30 19:48:11,570", "name": "__main__", "levelname": "INFO", "message": "YRYRYYY"}
+{"asctime": "2025-03-30 19:48:11,570", "name": "__main__", "levelname": "INFO", "message": "RYYRYYY"}
+{"asctime": "2025-03-30 19:48:11,570", "name": "__main__", "levelname": "INFO", "message": "RYRYRRY"}
+{"asctime": "2025-03-30 19:48:11,571", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
+{"asctime": "2025-03-30 19:48:11,571", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
+{"asctime": "2025-03-30 19:48:11,571", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
