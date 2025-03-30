@@ -1,6 +1,5 @@
 import random, logging
 from algorithms import Base
-from common.utils import Utils
 from common.game_interface import GameInterface
 from common.globals import Globals
 
@@ -27,5 +26,4 @@ class UniformRandom(Base):
         if not legal_moves:
             return None
         move = random.choice(legal_moves)
-        Utils.log_message(logger, f"FINAL Move selected: {move}", verbosity, Globals.VerbosityLevels.BRIEF)
         return move

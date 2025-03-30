@@ -38,9 +38,10 @@ def play_game(algorithm_name, initial_player, initial_board, verbosity, simulati
         while True:
             Utils.log_message(logger, f"Current player {current_player}", verbosity, Globals.VerbosityLevels.VERBOSE)
             move = algorithm.choose_move(game, current_player, verbosity, simulations)
+            Utils.log_message(logger, f"FINAL Move selected: {move}", verbosity, Globals.VerbosityLevels.BRIEF)
             if move is not None:
                 current_board = Connect4(current_board).get_next_board(move, current_player)
-                game.board = Connect4(current_board).board  # Update the game board
+                game.set_board(current_board)  # Update the game board
                 for row in game.get_board():
                     Utils.log_message(logger, row, verbosity, Globals.VerbosityLevels.VERBOSE)
                 

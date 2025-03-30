@@ -74,7 +74,11 @@ class Connect4(GameInterface):
             return 0
         else:
             return None
-        
+    
+    def set_board(self, new_board):
+        """Sets the board state of the Connect4 object."""
+        self.board = [list(row) for row in new_board]
+
     def get_board(self):
         """Returns the current game board state."""
         return ["".join(row) for row in self.board]
@@ -88,3 +92,27 @@ class Connect4(GameInterface):
     def get_opponent(self, player):
         """Returns the opponent player ('R' or 'Y')."""
         return Globals.Players.R if player == Globals.Players.Y else Globals.Players.Y
+    
+    def copy_game(self):
+        """Clones game."""
+        return Connect4(self.get_board())
+    
+    def do_move(self, col, player):
+        """Executes a move on the board."""
+        if not self.is_valid_move(col):
+            raise ValueError(f"Invalid move: Column {col + 1} is full.")
+        for row in range(5, -1, -1):
+            if self.board[row][col] == Globals.Players.O:
+                self.board[row][col] = player
+                self.last_move = (row, col)  #   Track the move
+                return
+        raise Exception("Should not reach here")
+    
+    def undo_move(self):
+        """Undoes the last move on the board."""
+        if self.last_move:
+            row, col = self.last_move
+            self.board[row][col] = Globals.Players.O
+            self.last_move = None
+        else:
+            raise ValueError("Cannot undo: No move has been made.")
