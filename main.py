@@ -60,9 +60,9 @@ def play_game(algorithm_name, initial_player, initial_board, verbosity, simulati
 
             current_player = game.get_opponent(current_player)
             
-        Utils.log_message(logger, "Final Board:", verbosity, Globals.VerbosityLevels.NONE)
+        Utils.log_message(logger, "Final Board:", verbosity, Globals.VerbosityLevels.VERBOSE)
         for row in game.get_board():
-            Utils.log_message(logger, row, verbosity, Globals.VerbosityLevels.NONE)
+            Utils.log_message(logger, row, verbosity, Globals.VerbosityLevels.VERBOSE)
     except:
         Utils.log_message(logger, f"Uncaught exception: {traceback.format_exc()}", Globals.VerbosityLevels.NONE, Globals.VerbosityLevels.NONE, Globals.LogLevels.CRITICAL)
         sys.exit(1)
