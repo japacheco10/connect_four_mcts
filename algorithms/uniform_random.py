@@ -1,23 +1,20 @@
-import random, logging
+import random
 from algorithms import Base
-from common.game_interface import GameInterface
-from common.globals import Globals
-
-logger = logging.getLogger(__name__)
+from common import GameInterface, Globals
 
 class UniformRandom(Base):
     """Implements the Uniform Random algorithm, which chooses moves randomly."""
     
-    def choose_move(self, game: GameInterface, player, verbosity=Globals.VerbosityLevels.NONE, simulations=0):
+    def __init__(self, simulations:int=0):
+        super().__init__(simulations, __name__ + "." + self.__class__.__name__)
+    def choose_move(self, game: GameInterface, player):
         """
         Chooses a random legal move.
 
         Args:
             game (GameInterface): An object representing the game.
             player (str): The current player ('R' or 'Y').
-            verbosity (str, optional): The verbosity level ("None", "Brief", or "Verbose"). Defaults to "None".
-            simulations (int, optional): The number of simulations to run. Defaults to 0.
-
+            
         Returns:
             int: The chosen move (column index), or None if no move is possible.
         """

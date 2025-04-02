@@ -1,14 +1,11 @@
-import logging
-from common.globals import Globals
-from common.utils import Utils
-from common.game_interface import GameInterface
+from common import Globals, Utils, GameInterface
 
 class Connect4(GameInterface):
     """Implements the Connect Four game logic."""
 
     def __init__(self, board):
         """Initializes the Connect Four game with the given board."""
-        self.logger = logging.getLogger(__name__ + "." + self.__class__.__name__)
+        self.logger_source = __name__ + "." + self.__class__.__name__
         self.board = [list(row) for row in board] 
     
     def is_valid_move(self, col):
@@ -24,7 +21,7 @@ class Connect4(GameInterface):
                 break
         return ["".join(row) for row in new_board]
 
-    def check_win(self, player, verbosity):
+    def check_win(self, player):
         """Checks if the given player has won the game."""
         # Logic based on KeithGalli connect4 logic available at https://github.com/KeithGalli/Connect4-Python/blob/master/connect4.py
         for row_index, row in enumerate(self.board):
@@ -32,28 +29,28 @@ class Connect4(GameInterface):
                 #Iterates in windows of 4 columns
                 #Check horizontal locations for win
                 if "".join(row[col:col + 4]) == player * 4:
-                    Utils.log_message(self.logger, f"Horizontal win [{row_index},{col}] to [{row_index},{col + 4}]", verbosity, Globals.VerbosityLevels.VERBOSE)
+                    Utils.log_message(f"Horizontal win [{row_index},{col}] to [{row_index},{col + 4}]", Globals.VerbosityLevels.VERBOSE, Globals.LogLevels.INFO, self.logger_source)
                     return True
         for col in range(7):
             for row in range(3):
                 #Iterates in windows of 3 rows
                 #Check vertical locations for win
                 if "".join([self.board[row + i][col] for i in range(4)]) == player * 4:
-                    Utils.log_message(self.logger, f"Vertical win [{row},{col}] to [{row + 4},{col}]", verbosity, Globals.VerbosityLevels.VERBOSE)
+                    Utils.log_message(f"Vertical win [{row},{col}] to [{row + 4},{col}]", Globals.VerbosityLevels.VERBOSE, Globals.LogLevels.INFO, self.logger_source)
                     return True
         for row in range(3):
             for col in range(4):
                 #Iterates in windows of 4 rows x 4 columns
                 #Check positively sloped diagonals
                 if "".join([self.board[row + i][col + i] for i in range(4)]) == player * 4:
-                    Utils.log_message(self.logger, f"Positively Sloped Diagonal win [{row},{col}] to [{row + 3},{col + 3}]", verbosity, Globals.VerbosityLevels.VERBOSE)
+                    Utils.log_message(f"Positively Sloped Diagonal win [{row},{col}] to [{row + 3},{col + 3}]", Globals.VerbosityLevels.VERBOSE, Globals.LogLevels.INFO, self.logger_source)
                     return True
         for row in range(3, 6):
             for col in range(4):
                 #Iterates in windows of 4 rows x 4 columns
                 #Check negatively sloped diagonals
                 if "".join([self.board[row - i][col + i] for i in range(4)]) == player * 4:
-                    Utils.log_message(self.logger, f"Positively Sloped Diagonal win [{row},{col}] to [{row - 3},{col + 3}]", verbosity, Globals.VerbosityLevels.VERBOSE)
+                    Utils.log_message(f"Positively Sloped Diagonal win [{row},{col}] to [{row - 3},{col + 3}]", Globals.VerbosityLevels.VERBOSE, Globals.LogLevels.INFO, self.logger_source)
                     return True
         return False
 
@@ -64,11 +61,11 @@ class Connect4(GameInterface):
                 return False
         return True
 
-    def evaluate_board(self, verbosity):
+    def evaluate_board(self):
         """Evaluates the current board state (win, loss, draw, or None)."""
-        if self.check_win(Globals.Players.Y, verbosity):
+        if self.check_win(Globals.Players.Y):
             return 1
-        elif self.check_win(Globals.Players.R, verbosity):
+        elif self.check_win(Globals.Players.R):
             return -1
         elif self.check_draw():
             return 0
@@ -116,3 +113,8 @@ class Connect4(GameInterface):
             self.last_move = None
         else:
             raise ValueError("Cannot undo: No move has been made.")
+        
+    def print_board(self):
+        """Prints current board"""
+        for row in self.get_board():
+            Utils.log_message(row, Globals.VerbosityLevels.VERBOSE, Globals.LogLevels.INFO, self.logger_source)

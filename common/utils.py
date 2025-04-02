@@ -2,9 +2,19 @@ import argparse
 import os
 import logging
 import logging.config
-from common.globals import Globals
+from common import Globals
 
 class Utils():
+    __verbosity = Globals.VerbosityLevels.NONE
+    @staticmethod
+    def set_verbosity_level(verbosity):
+        """
+        Sets verbosity level
+        Args:
+            verbosity (str): The current verbosity level ("None", "Brief", or "Verbose").
+        """
+        Utils.__verbosity = verbosity
+
     @staticmethod
     def get_base_dir():
         """
@@ -86,31 +96,32 @@ class Utils():
         return args.input_file, args.verbosity, args.iterations
     
     @staticmethod
-    def log_message(logger: logging.Logger, message: str, current_verbosity: str, message_verbosity: str, message_log_level: str = Globals.LogLevels.INFO):
+    def log_message(message: str, message_verbosity: str, message_log_level: str = Globals.LogLevels.INFO, source: str = None):
         """
         Logs a message based on the current and message verbosity levels.
 
         Args:
-            logger (Logger): logging instance from the file/class calling the log_message method
             message (str): The message to log.
-            current_verbosity (str): The current verbosity level ("None", "Brief", or "Verbose").
             message_verbosity (str): The verbosity level required to log the message.
             message_log_level (str): The log level required to log the message (Debug, Info, Warn, Error, Critical). Default Info
+            source (str): logging instance from the file/class calling the log_message method
         """
         verbosity_levels = {"None": 0, "Brief": 1, "Verbose": 2}
-        if current_verbosity != Globals.VerbosityLevels.NONE and (verbosity_levels.get(current_verbosity, 0) >=
+        if message_verbosity != Globals.VerbosityLevels.NONE and (verbosity_levels.get(Utils.__verbosity, 0) >=
             verbosity_levels.get(message_verbosity, 0)):
             print(message)
-
-        log_levels = {
-            "Debug": logger.debug,
-            "Info": logger.info,
-            "Warning": logger.warning,
-            "Error": logger.error,
-            "Critical": logger.critical
-        }
-        log_func = log_levels.get(message_log_level, logger.info)  
-        log_func(message)
+        
+        if source is not None:
+            logger = logging.getLogger(source)
+            log_levels = {
+                "Debug": logger.debug,
+                "Info": logger.info,
+                "Warning": logger.warning,
+                "Error": logger.error,
+                "Critical": logger.critical
+            }
+            log_func = log_levels.get(message_log_level, logger.info)  
+            log_func(message)
 
     @staticmethod
     def load_game_settings(path):
