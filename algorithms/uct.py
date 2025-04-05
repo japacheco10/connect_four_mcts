@@ -1,30 +1,28 @@
-from algorithms import MCTS
-from common import GameInterface, Globals
+from algorithms import MCTS, Node
+from common import GameInterface, Globals, Utils
+import random
 
 class UCT(MCTS):
     def __init__(self, simulations:int=0):
         super().__init__(simulations, __name__ + "." + self.__class__.__name__)
 
-    def __init__(self, simulations:int=0):
-        super().__init__(simulations, __name__ + "." + self.__class__.__name__)
-
     def choose_move(self, game: GameInterface, player):
-        super().choose_move(game, player)
+        return super().choose_move(game, player)
     
-    def selection(self, node, total_visits, is_max, current_game, path):
-        super().selection(node, total_visits, is_max, current_game, path)
+    def search(self):
+        super().search()
 
-    def expansion(self, node, legal_moves, current_player, current_game, path):
-        super().expansion(self, node, legal_moves, current_player, current_game, path)
+    def backpropagation(self, node: Node, outcome: int) -> None:
+        super().backpropagation(node, outcome)
 
-    def best_move(self, root, game):
-        super().best_move(root, game)
+    def expansion(self, parent: Node, state: GameInterface) -> bool:
+        return super().expansion(parent, state)
 
-    def backpropagation(self, path, result):
-        super().backpropagation( path, result)
+    def best_move(self, root=None):
+        return super().best_move(root)
     
-    def select_child(self, node, total_visits, is_max):
+    def select_child(self, current_player:str) -> tuple:
         pass
 
-    def rollout(self, game: GameInterface, player):
+    def rollout(self, state: GameInterface, current_player:str) -> int:
         pass

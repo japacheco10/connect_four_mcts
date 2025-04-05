@@ -3,10 +3,15 @@ from common import Globals, Utils, GameInterface
 class Connect4(GameInterface):
     """Implements the Connect Four game logic."""
 
-    def __init__(self, board):
+    def __init__(self, board=None):
         """Initializes the Connect Four game with the given board."""
         self.logger_source = __name__ + "." + self.__class__.__name__
-        self.board = [list(row) for row in board] 
+        if board is None:
+            # Create an empty 6x7 board (6 rows, 7 columns)
+            self.board = [[Globals.Players.O for _ in range(7)] for _ in range(6)]
+        else:
+            self.board = [list(row) for row in board]
+        self.print_result = True
     
     def is_valid_move(self, col):
         """Checks if a move is valid (column not full)."""
@@ -29,28 +34,32 @@ class Connect4(GameInterface):
                 #Iterates in windows of 4 columns
                 #Check horizontal locations for win
                 if "".join(row[col:col + 4]) == player * 4:
-                    Utils.log_message(f"Horizontal win [{row_index},{col}] to [{row_index},{col + 4}]", Globals.VerbosityLevels.VERBOSE, Globals.LogLevels.INFO, self.logger_source)
+                    if self.print_result:
+                        Utils.log_message(f"Horizontal win [{row_index},{col}] to [{row_index},{col + 4}]", Globals.VerbosityLevels.VERBOSE, self.logger_source)
                     return True
         for col in range(7):
             for row in range(3):
                 #Iterates in windows of 3 rows
                 #Check vertical locations for win
                 if "".join([self.board[row + i][col] for i in range(4)]) == player * 4:
-                    Utils.log_message(f"Vertical win [{row},{col}] to [{row + 4},{col}]", Globals.VerbosityLevels.VERBOSE, Globals.LogLevels.INFO, self.logger_source)
+                    if self.print_result:
+                        Utils.log_message(f"Vertical win [{row},{col}] to [{row + 4},{col}]", Globals.VerbosityLevels.VERBOSE, self.logger_source)
                     return True
         for row in range(3):
             for col in range(4):
                 #Iterates in windows of 4 rows x 4 columns
                 #Check positively sloped diagonals
                 if "".join([self.board[row + i][col + i] for i in range(4)]) == player * 4:
-                    Utils.log_message(f"Positively Sloped Diagonal win [{row},{col}] to [{row + 3},{col + 3}]", Globals.VerbosityLevels.VERBOSE, Globals.LogLevels.INFO, self.logger_source)
+                    if self.print_result:
+                        Utils.log_message(f"Positively Sloped Diagonal win [{row},{col}] to [{row + 3},{col + 3}]", Globals.VerbosityLevels.VERBOSE, self.logger_source)
                     return True
         for row in range(3, 6):
             for col in range(4):
                 #Iterates in windows of 4 rows x 4 columns
                 #Check negatively sloped diagonals
                 if "".join([self.board[row - i][col + i] for i in range(4)]) == player * 4:
-                    Utils.log_message(f"Positively Sloped Diagonal win [{row},{col}] to [{row - 3},{col + 3}]", Globals.VerbosityLevels.VERBOSE, Globals.LogLevels.INFO, self.logger_source)
+                    if self.print_result:
+                        Utils.log_message(f"Positively Sloped Diagonal win [{row},{col}] to [{row - 3},{col + 3}]", Globals.VerbosityLevels.VERBOSE, self.logger_source)
                     return True
         return False
 
@@ -61,7 +70,8 @@ class Connect4(GameInterface):
                 return False
         return True
 
-    def evaluate_board(self):
+    def evaluate_board(self, print_result:bool=True):
+        self.print_result = print_result
         """Evaluates the current board state (win, loss, draw, or None)."""
         if self.check_win(Globals.Players.Y):
             return 1
@@ -117,4 +127,4 @@ class Connect4(GameInterface):
     def print_board(self):
         """Prints current board"""
         for row in self.get_board():
-            Utils.log_message(row, Globals.VerbosityLevels.VERBOSE, Globals.LogLevels.INFO, self.logger_source)
+            Utils.log_message(row, Globals.VerbosityLevels.BRIEF, self.logger_source)

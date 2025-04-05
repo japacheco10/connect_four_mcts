@@ -128,4 +128,4 @@ This project implements a Connect 4 game with various decision making algorithms
 
 ## References
 * Connect4 winning logic is based on (but simplified) KeithGalli's connect4 logic available at https://github.com/KeithGalli/Connect4-Python/blob/master/connect4.py
-* Monte Carlo Tree Search logic is based on Gualor's connect4 implementation available at https://github.com/Gualor/connect4-montecarlo
+* Monte Carlo Tree Search logic is based on Gualor's connect4 implementation available at https://github.com/Gualor/connect4-montecarlo and Harry's blog available at https://www.harrycodes.com/blog/monte-carlo-tree-search

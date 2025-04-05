@@ -11,6 +11,7 @@ class Base(ABC):
         """
         self.simulations = simulations
         self.logger_source = logger_source
+        self.run_time = 0
 
     """Abstract base class for all game-playing algorithms."""
     @abstractmethod

@@ -12,14 +12,8 @@ class Globals():
         UCT = "UCT"  # Upper Confidence bound for Trees
 
     class VerbosityLevels():
-        VERBOSE = "Verbose"
-        BRIEF = "Brief"
-        NONE = "None"
-    
-    class LogLevels():
-        DEBUG = "Debug"
-        INFO = "Info"
-        WARNING = "Warning"
-        ERROR = "Error"
-        CRITICAL = "Critical"
+        VERBOSE = "VERBOSE"
+        BRIEF = "BRIEF"
+        NONE = "NONE"
+        ERROR = "ERROR"
         
