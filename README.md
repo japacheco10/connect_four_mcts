@@ -11,6 +11,7 @@ This project implements a Connect 4 game with various decision making algorithms
 * **`_resources/`:**
     * Stores application configuration files.
     * `config/log.ini`: Configures the Python logging module, defining logging behavior (e.g., format, handlers).
+    * `config/tournament_config.txt`: This file is used to configure the Connect Four tournament. It specifies the number of games to be played between each pair of decision making algorithms and the algorithm configurations to be included.
 
 * **`_test/`:**
     * Holds test case files for the game.
@@ -18,11 +19,14 @@ This project implements a Connect 4 game with various decision making algorithms
 
 * **`algorithms/`:**
     * Contains the implementations of the decision-making algorithms.
-    * `__init__.py`: Makes the `algorithms` directory a Python package and includes `AlgorithmFactory` class.
+    * `__init__.py`: Makes the `algorithms` directory a Python package
     * `base.py`: Defines the abstract base class (`Base`) for the algorithms, ensuring a consistent interface.
-    * `uniform_random.py`: Implements the Uniform Random algorithm, which makes moves randomly.
+    * `common.py`: Includes the class (`Node`) used by PMCGS and UCT algorithms.
+    * `factory.py`: Includes the class (`AlgorithmFactory`) used generate an instance of the required algorithm.
+    * `mcts.py`: Includes the class (`MCTS`) Abstract base class for Monte Carlo Tree Search algorithms.
     * `pmcgs.py`: Implements the Pure Monte Carlo Game Search (PMCGS) algorithm, a Monte Carlo method.
     * `uct.py`: Implements the Upper Confidence Bound for Trees (UCT) algorithm, a tree search algorithm.
+    * `uniform_random.py`: Implements the Uniform Random algorithm, which makes moves randomly.
 
 * **`common/`:**
     * Contains modules with global settings and utility functions.
@@ -35,7 +39,7 @@ This project implements a Connect 4 game with various decision making algorithms
     * Implements the core Connect 4 game logic within the `Connect4` class. This includes board representation, move execution, win condition checking, and game state management.
 
 * **`main.py`:**
-    * The main entry point of the application. It orchestrates the game flow by:
+    * The main entry point of the application. It orchestrates the game flow to test a single algorithm passing an initial state of the game by:
         * Initializing logging.
         * Parsing command-line arguments.
         * Loading game settings.
@@ -45,6 +49,9 @@ This project implements a Connect 4 game with various decision making algorithms
 
 * **`README.md`:**
     * This file, providing an overview and documentation for the project.
+
+* **`tournament.py`:**
+    * Automate the process of playing Connect Four games between different decision making algorithms and to collect and present the results of these games. This allows for a systematic comparison of the algorithms' performance.
 
 ## Requirements
 
@@ -64,7 +71,7 @@ This project implements a Connect 4 game with various decision making algorithms
     * This project relies on the Python standard library, so no additional installation steps (like `pip install`) are typically required.
 
 
-##   Running the Game
+##   Testing an algorithm
 
 1.  **Create a game settings file (e.g., `test.txt`).** The file must adhere to the following format:
 
@@ -106,6 +113,41 @@ This project implements a Connect 4 game with various decision making algorithms
     ```bash
     python main.py test.txt Brief 1000
     ```
+
+##   Algorithm Tournament
+
+1.  **Create a tournament settings file (`/resources/config/tournament_config.txt`).** The file must adhere to the following format:
+
+    ```
+    <Verbosity Level>       # "Verbose", "Brief", "None"
+    <Total Number of Games> # A single integer representing the total number of games to 
+                    # be played between each combination of algorithms.
+    <Algorithms>            # Each subsequent line defines a single algorithm configuration.
+                       # The configuration consists of two comma-separated values:
+                       # <algorithm_name>: "UR", "PMCGS", "UCT"
+                       # <simulations>: An integer specifying the number of simulations to be used by the algorithm. This value is algorithm-specific. For algorithms that don't use simulations (like a Uniform Random agent), this value should be 0.
+    ```
+
+    Example `tournament_config.txt` file:
+
+    ```
+    NONE
+    100
+    UR,0
+    PMCGS,500
+    PMCGS,10000
+    UCT,500
+    UCT,10000
+    ```
+
+2.  **Run the `tournament.py` script from the command line:**
+
+    Example command:
+    
+    ```bash
+    python tournament.py
+    ```
+
 ##   Algorithms
 
 * **Uniform Random (UR):**
