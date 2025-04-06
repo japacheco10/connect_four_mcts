@@ -20,6 +20,13 @@
             "request": "launch",
             "program": "${workspaceFolder}/tournament.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Tournament Parallel",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/tournament_parallel.py",
+            "console": "integratedTerminal"
         }
     ]
 }
