@@ -10,6 +10,7 @@ class Globals():
         UR = "UR"  # Uniform Random
         PMCGS = "PMCGS"  # Pure Monte Carlo Game Search
         UCT = "UCT"  # Upper Confidence bound for Trees
+        UCTIMP = "UCTIMP" #UCT Improvement
         
     class VerbosityLevels():
         VERBOSE = "VERBOSE"

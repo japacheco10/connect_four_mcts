@@ -1531,3 +1531,1358 @@
 {"asctime": "2025-03-30 19:48:11,571", "name": "__main__", "levelname": "INFO", "message": "RYRYRYR"}
 {"asctime": "2025-03-30 19:48:11,571", "name": "__main__", "levelname": "INFO", "message": "YRRYRRR"}
 {"asctime": "2025-03-30 19:48:11,571", "name": "__main__", "levelname": "DEBUG", "message": "Ending Game"}
+2025-03-30 21:12:22,417 __main__ DEBUG Init Start
+2025-03-30 21:12:22,527 __main__ CRITICAL Uncaught exception: Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2495, in _get_value
+    result = type_func(arg_string)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\common\utils.py", line 42, in file_exists
+    raise argparse.ArgumentTypeError(f"'{path}' does not exist.")
+argparse.ArgumentTypeError: 'test1.txt' does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1866, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2082, in _parse_known_args
+    stop_index = consume_positionals(start_index)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2038, in consume_positionals
+    take_action(action, args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1927, in take_action
+    argument_values = self._get_values(action, argument_strings)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2462, in _get_values
+    value = self._get_value(action, arg_string)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2501, in _get_value
+    raise ArgumentError(action, msg)
+argparse.ArgumentError: argument input_file: 'test1.txt' does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\main.py", line 12, in main
+    input_file, verbosity, simulations = Utils.validate_arguments()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\common\utils.py", line 84, in validate_arguments
+    args = parser.parse_args()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1833, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1869, in parse_known_args
+    self.error(str(err))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2594, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2581, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+2025-03-30 21:14:54,742 __main__ DEBUG Init Start
+2025-03-30 21:14:54,753 __main__ CRITICAL Uncaught exception: Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2495, in _get_value
+    result = type_func(arg_string)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\common\utils.py", line 42, in file_exists
+    raise argparse.ArgumentTypeError(f"'{path}' does not exist.")
+argparse.ArgumentTypeError: 'test1.txt' does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1866, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2082, in _parse_known_args
+    stop_index = consume_positionals(start_index)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2038, in consume_positionals
+    take_action(action, args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1927, in take_action
+    argument_values = self._get_values(action, argument_strings)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2462, in _get_values
+    value = self._get_value(action, arg_string)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2501, in _get_value
+    raise ArgumentError(action, msg)
+argparse.ArgumentError: argument input_file: 'test1.txt' does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\main.py", line 12, in main
+    input_file, verbosity, simulations = Utils.validate_arguments()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\common\utils.py", line 84, in validate_arguments
+    args = parser.parse_args()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1833, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1869, in parse_known_args
+    self.error(str(err))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2594, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2581, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+2025-03-30 21:17:04,305 __main__ DEBUG Init Start
+2025-03-30 21:17:04,305 __main__ CRITICAL Uncaught exception: Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2495, in _get_value
+    result = type_func(arg_string)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\common\utils.py", line 42, in file_exists
+    raise argparse.ArgumentTypeError(f"'{path}' does not exist.")
+argparse.ArgumentTypeError: 'test1.txt' does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1866, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2082, in _parse_known_args
+    stop_index = consume_positionals(start_index)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2038, in consume_positionals
+    take_action(action, args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1927, in take_action
+    argument_values = self._get_values(action, argument_strings)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2462, in _get_values
+    value = self._get_value(action, arg_string)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2501, in _get_value
+    raise ArgumentError(action, msg)
+argparse.ArgumentError: argument input_file: 'test1.txt' does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\main.py", line 12, in main
+    input_file, verbosity, simulations = Utils.validate_arguments()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\common\utils.py", line 84, in validate_arguments
+    args = parser.parse_args()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1833, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1869, in parse_known_args
+    self.error(str(err))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2594, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2581, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+2025-03-30 21:21:12,817 __main__ DEBUG Init Start
+2025-03-30 21:21:12,817 __main__ CRITICAL Uncaught exception: Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1866, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2082, in _parse_known_args
+    stop_index = consume_positionals(start_index)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2038, in consume_positionals
+    take_action(action, args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1927, in take_action
+    argument_values = self._get_values(action, argument_strings)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2463, in _get_values
+    self._check_value(action, value)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2519, in _check_value
+    raise ArgumentError(action, msg % args)
+argparse.ArgumentError: argument verbosity: invalid choice: 'none' (choose from 'Verbose', 'Brief', 'None')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\main.py", line 12, in main
+    input_file, verbosity, simulations = Utils.validate_arguments()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\common\utils.py", line 84, in validate_arguments
+    args = parser.parse_args()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1833, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 1869, in parse_known_args
+    self.error(str(err))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2594, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\argparse.py", line 2581, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+2025-03-30 21:21:23,423 __main__ DEBUG Init Start
+2025-03-30 21:21:23,438 __main__ DEBUG Init End
+2025-03-30 21:21:23,438 __main__ DEBUG Starting Game
+2025-03-30 21:21:23,438 __main__ INFO Current player R
+2025-03-30 21:21:23,438 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:23,438 __main__ INFO OOOOOOO
+2025-03-30 21:21:23,438 __main__ INFO OOOOOOO
+2025-03-30 21:21:23,438 __main__ INFO OOYOOOY
+2025-03-30 21:21:23,438 __main__ INFO ORROOOY
+2025-03-30 21:21:23,438 __main__ INFO OYRYOYR
+2025-03-30 21:21:23,438 __main__ INFO YRRYORR
+2025-03-30 21:21:23,438 __main__ INFO Current player Y
+2025-03-30 21:21:23,438 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:21:23,454 __main__ INFO OOOOOOO
+2025-03-30 21:21:23,454 __main__ INFO OOOOOOY
+2025-03-30 21:21:23,455 __main__ INFO OOYOOOY
+2025-03-30 21:21:23,455 __main__ INFO ORROOOY
+2025-03-30 21:21:23,457 __main__ INFO OYRYOYR
+2025-03-30 21:21:23,457 __main__ INFO YRRYORR
+2025-03-30 21:21:23,457 __main__ INFO Current player R
+2025-03-30 21:21:23,457 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:21:23,457 __main__ INFO OOOOOOO
+2025-03-30 21:21:23,457 __main__ INFO OOROOOY
+2025-03-30 21:21:23,457 __main__ INFO OOYOOOY
+2025-03-30 21:21:23,457 __main__ INFO ORROOOY
+2025-03-30 21:21:23,457 __main__ INFO OYRYOYR
+2025-03-30 21:21:23,457 __main__ INFO YRRYORR
+2025-03-30 21:21:23,457 __main__ INFO Current player Y
+2025-03-30 21:21:23,457 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:21:23,457 __main__ INFO OOYOOOO
+2025-03-30 21:21:23,457 __main__ INFO OOROOOY
+2025-03-30 21:21:23,457 __main__ INFO OOYOOOY
+2025-03-30 21:21:23,457 __main__ INFO ORROOOY
+2025-03-30 21:21:23,457 __main__ INFO OYRYOYR
+2025-03-30 21:21:23,457 __main__ INFO YRRYORR
+2025-03-30 21:21:23,457 __main__ INFO Current player R
+2025-03-30 21:21:23,457 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:21:23,457 __main__ INFO OOYOOOO
+2025-03-30 21:21:23,457 __main__ INFO OOROOOY
+2025-03-30 21:21:23,470 __main__ INFO OOYOOOY
+2025-03-30 21:21:23,470 __main__ INFO ORROORY
+2025-03-30 21:21:23,470 __main__ INFO OYRYOYR
+2025-03-30 21:21:23,470 __main__ INFO YRRYORR
+2025-03-30 21:21:23,470 __main__ INFO Current player Y
+2025-03-30 21:21:23,470 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:23,470 __main__ INFO OOYOOOO
+2025-03-30 21:21:23,470 __main__ INFO OOROOOY
+2025-03-30 21:21:23,470 __main__ INFO OOYOOOY
+2025-03-30 21:21:23,470 __main__ INFO ORRYORY
+2025-03-30 21:21:23,470 __main__ INFO OYRYOYR
+2025-03-30 21:21:23,470 __main__ INFO YRRYORR
+2025-03-30 21:21:23,470 __main__ INFO Current player R
+2025-03-30 21:21:23,470 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:21:23,470 __main__ INFO OOYOOOO
+2025-03-30 21:21:23,470 __main__ INFO OOROOOY
+2025-03-30 21:21:23,470 __main__ INFO OOYOORY
+2025-03-30 21:21:23,470 __main__ INFO ORRYORY
+2025-03-30 21:21:23,470 __main__ INFO OYRYOYR
+2025-03-30 21:21:23,470 __main__ INFO YRRYORR
+2025-03-30 21:21:23,470 __main__ INFO Current player Y
+2025-03-30 21:21:23,470 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:23,470 __main__ INFO OOYOOOO
+2025-03-30 21:21:23,470 __main__ INFO OOROOOY
+2025-03-30 21:21:23,470 __main__ INFO OOYOORY
+2025-03-30 21:21:23,486 __main__ INFO ORRYORY
+2025-03-30 21:21:23,486 __main__ INFO OYRYOYR
+2025-03-30 21:21:23,486 __main__ INFO YRRYYRR
+2025-03-30 21:21:23,486 __main__ INFO Current player R
+2025-03-30 21:21:23,486 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:23,486 __main__ INFO OOYOOOO
+2025-03-30 21:21:23,486 __main__ INFO OOROOOY
+2025-03-30 21:21:23,486 __main__ INFO OOYOORY
+2025-03-30 21:21:23,486 __main__ INFO ORRYORY
+2025-03-30 21:21:23,486 __main__ INFO OYRYRYR
+2025-03-30 21:21:23,486 __main__ INFO YRRYYRR
+2025-03-30 21:21:23,486 __main__ INFO Current player Y
+2025-03-30 21:21:23,486 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:23,486 __main__ INFO OOYOOOO
+2025-03-30 21:21:23,486 __main__ INFO OOROOOY
+2025-03-30 21:21:23,486 __main__ INFO OYYOORY
+2025-03-30 21:21:23,486 __main__ INFO ORRYORY
+2025-03-30 21:21:23,486 __main__ INFO OYRYRYR
+2025-03-30 21:21:23,486 __main__ INFO YRRYYRR
+2025-03-30 21:21:23,486 __main__ INFO Current player R
+2025-03-30 21:21:23,486 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:21:23,486 __main__ INFO OOYOOOR
+2025-03-30 21:21:23,486 __main__ INFO OOROOOY
+2025-03-30 21:21:23,486 __main__ INFO OYYOORY
+2025-03-30 21:21:23,486 __main__ INFO ORRYORY
+2025-03-30 21:21:23,486 __main__ INFO OYRYRYR
+2025-03-30 21:21:23,486 __main__ INFO YRRYYRR
+2025-03-30 21:21:23,486 __main__ INFO Current player Y
+2025-03-30 21:21:23,486 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:23,486 __main__ INFO OOYOOOR
+2025-03-30 21:21:23,486 __main__ INFO OOROOOY
+2025-03-30 21:21:23,486 __main__ INFO OYYYORY
+2025-03-30 21:21:23,486 __main__ INFO ORRYORY
+2025-03-30 21:21:23,486 __main__ INFO OYRYRYR
+2025-03-30 21:21:23,486 __main__ INFO YRRYYRR
+2025-03-30 21:21:23,486 connect_4.Connect4 INFO Vertical win [2,3] to [6,3]
+2025-03-30 21:21:23,486 __main__ INFO Y wins!
+2025-03-30 21:21:23,501 __main__ INFO Final Board:
+2025-03-30 21:21:23,502 __main__ INFO OOYOOOR
+2025-03-30 21:21:23,502 __main__ INFO OOROOOY
+2025-03-30 21:21:23,502 __main__ INFO OYYYORY
+2025-03-30 21:21:23,502 __main__ INFO ORRYORY
+2025-03-30 21:21:23,502 __main__ INFO OYRYRYR
+2025-03-30 21:21:23,502 __main__ INFO YRRYYRR
+2025-03-30 21:21:23,502 __main__ DEBUG Ending Game
+2025-03-30 21:21:33,804 __main__ DEBUG Init Start
+2025-03-30 21:21:33,804 __main__ DEBUG Init End
+2025-03-30 21:21:33,804 __main__ DEBUG Starting Game
+2025-03-30 21:21:33,804 __main__ INFO Current player R
+2025-03-30 21:21:33,804 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:33,804 __main__ INFO OOOOOOO
+2025-03-30 21:21:33,804 __main__ INFO OOOOOOO
+2025-03-30 21:21:33,804 __main__ INFO OOYOOOY
+2025-03-30 21:21:33,804 __main__ INFO OOROOOY
+2025-03-30 21:21:33,804 __main__ INFO RYRYOYR
+2025-03-30 21:21:33,820 __main__ INFO YRRYORR
+2025-03-30 21:21:33,820 __main__ INFO Current player Y
+2025-03-30 21:21:33,821 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:21:33,822 __main__ INFO OOOOOOO
+2025-03-30 21:21:33,823 __main__ INFO OOYOOOO
+2025-03-30 21:21:33,823 __main__ INFO OOYOOOY
+2025-03-30 21:21:33,824 __main__ INFO OOROOOY
+2025-03-30 21:21:33,824 __main__ INFO RYRYOYR
+2025-03-30 21:21:33,824 __main__ INFO YRRYORR
+2025-03-30 21:21:33,824 __main__ INFO Current player R
+2025-03-30 21:21:33,824 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:21:33,824 __main__ INFO OOOOOOO
+2025-03-30 21:21:33,824 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,824 __main__ INFO OOYOOOY
+2025-03-30 21:21:33,824 __main__ INFO OOROOOY
+2025-03-30 21:21:33,824 __main__ INFO RYRYOYR
+2025-03-30 21:21:33,824 __main__ INFO YRRYORR
+2025-03-30 21:21:33,824 __main__ INFO Current player Y
+2025-03-30 21:21:33,824 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:33,824 __main__ INFO OOOOOOO
+2025-03-30 21:21:33,824 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,824 __main__ INFO OOYOOOY
+2025-03-30 21:21:33,824 __main__ INFO OYROOOY
+2025-03-30 21:21:33,824 __main__ INFO RYRYOYR
+2025-03-30 21:21:33,824 __main__ INFO YRRYORR
+2025-03-30 21:21:33,824 __main__ INFO Current player R
+2025-03-30 21:21:33,824 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:33,824 __main__ INFO OOOOOOO
+2025-03-30 21:21:33,840 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,841 __main__ INFO OOYOOOY
+2025-03-30 21:21:33,841 __main__ INFO OYROOOY
+2025-03-30 21:21:33,842 __main__ INFO RYRYOYR
+2025-03-30 21:21:33,842 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,843 __main__ INFO Current player Y
+2025-03-30 21:21:33,844 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:21:33,844 __main__ INFO OOYOOOO
+2025-03-30 21:21:33,844 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,844 __main__ INFO OOYOOOY
+2025-03-30 21:21:33,844 __main__ INFO OYROOOY
+2025-03-30 21:21:33,844 __main__ INFO RYRYOYR
+2025-03-30 21:21:33,844 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,844 __main__ INFO Current player R
+2025-03-30 21:21:33,844 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:21:33,844 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,844 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,844 __main__ INFO OOYOOOY
+2025-03-30 21:21:33,844 __main__ INFO OYROOOY
+2025-03-30 21:21:33,844 __main__ INFO RYRYOYR
+2025-03-30 21:21:33,844 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,844 __main__ INFO Current player Y
+2025-03-30 21:21:33,844 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:33,857 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,857 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,858 __main__ INFO OOYOOOY
+2025-03-30 21:21:33,859 __main__ INFO OYRYOOY
+2025-03-30 21:21:33,859 __main__ INFO RYRYOYR
+2025-03-30 21:21:33,860 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,861 __main__ INFO Current player R
+2025-03-30 21:21:33,861 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:33,861 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,861 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,861 __main__ INFO OOYOOOY
+2025-03-30 21:21:33,861 __main__ INFO OYRYOOY
+2025-03-30 21:21:33,861 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,861 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,861 __main__ INFO Current player Y
+2025-03-30 21:21:33,861 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:33,861 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,861 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,861 __main__ INFO OOYOOOY
+2025-03-30 21:21:33,861 __main__ INFO OYRYYOY
+2025-03-30 21:21:33,861 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,861 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,861 __main__ INFO Current player R
+2025-03-30 21:21:33,861 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:33,861 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,874 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,874 __main__ INFO ORYOOOY
+2025-03-30 21:21:33,875 __main__ INFO OYRYYOY
+2025-03-30 21:21:33,875 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,875 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,876 __main__ INFO Current player Y
+2025-03-30 21:21:33,876 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:33,876 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,876 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,876 __main__ INFO ORYOOOY
+2025-03-30 21:21:33,876 __main__ INFO YYRYYOY
+2025-03-30 21:21:33,876 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,876 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,876 __main__ INFO Current player R
+2025-03-30 21:21:33,876 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:33,876 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,876 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,876 __main__ INFO ORYROOY
+2025-03-30 21:21:33,876 __main__ INFO YYRYYOY
+2025-03-30 21:21:33,876 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,885 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,885 __main__ INFO Current player Y
+2025-03-30 21:21:33,886 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:33,886 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,886 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,886 __main__ INFO YRYROOY
+2025-03-30 21:21:33,887 __main__ INFO YYRYYOY
+2025-03-30 21:21:33,887 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,887 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,888 __main__ INFO Current player R
+2025-03-30 21:21:33,888 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:33,890 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,890 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,890 __main__ INFO YRYRROY
+2025-03-30 21:21:33,890 __main__ INFO YYRYYOY
+2025-03-30 21:21:33,891 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,891 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,891 __main__ INFO Current player Y
+2025-03-30 21:21:33,892 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:33,892 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,893 __main__ INFO OOYOYOR
+2025-03-30 21:21:33,893 __main__ INFO YRYRROY
+2025-03-30 21:21:33,893 __main__ INFO YYRYYOY
+2025-03-30 21:21:33,894 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,894 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,895 __main__ INFO Current player R
+2025-03-30 21:21:33,895 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:33,896 __main__ INFO OOYOOOR
+2025-03-30 21:21:33,896 __main__ INFO ROYOYOR
+2025-03-30 21:21:33,897 __main__ INFO YRYRROY
+2025-03-30 21:21:33,897 __main__ INFO YYRYYOY
+2025-03-30 21:21:33,897 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,897 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,898 __main__ INFO Current player Y
+2025-03-30 21:21:33,898 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:33,898 __main__ INFO YOYOOOR
+2025-03-30 21:21:33,898 __main__ INFO ROYOYOR
+2025-03-30 21:21:33,898 __main__ INFO YRYRROY
+2025-03-30 21:21:33,898 __main__ INFO YYRYYOY
+2025-03-30 21:21:33,898 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,898 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,898 __main__ INFO Current player R
+2025-03-30 21:21:33,898 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:21:33,898 __main__ INFO YOYOOOR
+2025-03-30 21:21:33,898 __main__ INFO ROYOYOR
+2025-03-30 21:21:33,898 __main__ INFO YRYRROY
+2025-03-30 21:21:33,907 __main__ INFO YYRYYRY
+2025-03-30 21:21:33,907 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,907 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,908 __main__ INFO Current player Y
+2025-03-30 21:21:33,908 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:21:33,908 __main__ INFO YOYOOOR
+2025-03-30 21:21:33,909 __main__ INFO ROYOYOR
+2025-03-30 21:21:33,909 __main__ INFO YRYRRYY
+2025-03-30 21:21:33,909 __main__ INFO YYRYYRY
+2025-03-30 21:21:33,909 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,909 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,909 __main__ INFO Current player R
+2025-03-30 21:21:33,909 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:33,909 __main__ INFO YOYOROR
+2025-03-30 21:21:33,909 __main__ INFO ROYOYOR
+2025-03-30 21:21:33,909 __main__ INFO YRYRRYY
+2025-03-30 21:21:33,909 __main__ INFO YYRYYRY
+2025-03-30 21:21:33,909 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,909 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,909 __main__ INFO Current player Y
+2025-03-30 21:21:33,909 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:33,909 __main__ INFO YOYOROR
+2025-03-30 21:21:33,909 __main__ INFO RYYOYOR
+2025-03-30 21:21:33,909 __main__ INFO YRYRRYY
+2025-03-30 21:21:33,909 __main__ INFO YYRYYRY
+2025-03-30 21:21:33,909 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,909 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,909 connect_4.Connect4 INFO Positively Sloped Diagonal win [0,0] to [3,3]
+2025-03-30 21:21:33,909 __main__ INFO Y wins!
+2025-03-30 21:21:33,909 __main__ INFO Final Board:
+2025-03-30 21:21:33,909 __main__ INFO YOYOROR
+2025-03-30 21:21:33,909 __main__ INFO RYYOYOR
+2025-03-30 21:21:33,923 __main__ INFO YRYRRYY
+2025-03-30 21:21:33,924 __main__ INFO YYRYYRY
+2025-03-30 21:21:33,924 __main__ INFO RYRYRYR
+2025-03-30 21:21:33,925 __main__ INFO YRRYRRR
+2025-03-30 21:21:33,925 __main__ DEBUG Ending Game
+2025-03-30 21:21:50,854 __main__ DEBUG Init Start
+2025-03-30 21:21:50,870 __main__ DEBUG Init End
+2025-03-30 21:21:50,870 __main__ DEBUG Starting Game
+2025-03-30 21:21:50,870 __main__ INFO Current player R
+2025-03-30 21:21:50,870 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:50,870 __main__ INFO OOOOOOO
+2025-03-30 21:21:50,870 __main__ INFO OOOOOOO
+2025-03-30 21:21:50,870 __main__ INFO OOYOOOY
+2025-03-30 21:21:50,870 __main__ INFO OOROOOY
+2025-03-30 21:21:50,870 __main__ INFO OYRYOYR
+2025-03-30 21:21:50,870 __main__ INFO YRRYRRR
+2025-03-30 21:21:50,870 __main__ INFO Current player Y
+2025-03-30 21:21:50,870 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:21:50,870 __main__ INFO OOOOOOO
+2025-03-30 21:21:50,870 __main__ INFO OOOOOOO
+2025-03-30 21:21:50,870 __main__ INFO OOYOOOY
+2025-03-30 21:21:50,885 __main__ INFO OOROOYY
+2025-03-30 21:21:50,885 __main__ INFO OYRYOYR
+2025-03-30 21:21:50,885 __main__ INFO YRRYRRR
+2025-03-30 21:21:50,885 __main__ INFO Current player R
+2025-03-30 21:21:50,885 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:21:50,885 __main__ INFO OOOOOOO
+2025-03-30 21:21:50,885 __main__ INFO OOOOOOR
+2025-03-30 21:21:50,885 __main__ INFO OOYOOOY
+2025-03-30 21:21:50,885 __main__ INFO OOROOYY
+2025-03-30 21:21:50,892 __main__ INFO OYRYOYR
+2025-03-30 21:21:50,892 __main__ INFO YRRYRRR
+2025-03-30 21:21:50,892 __main__ INFO Current player Y
+2025-03-30 21:21:50,892 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:50,892 __main__ INFO OOOOOOO
+2025-03-30 21:21:50,892 __main__ INFO OOOOOOR
+2025-03-30 21:21:50,892 __main__ INFO OOYOOOY
+2025-03-30 21:21:50,892 __main__ INFO OOROOYY
+2025-03-30 21:21:50,892 __main__ INFO OYRYYYR
+2025-03-30 21:21:50,892 __main__ INFO YRRYRRR
+2025-03-30 21:21:50,892 connect_4.Connect4 INFO Positively Sloped Diagonal win [5,3] to [2,6]
+2025-03-30 21:21:50,892 __main__ INFO Y wins!
+2025-03-30 21:21:50,892 __main__ INFO Final Board:
+2025-03-30 21:21:50,901 __main__ INFO OOOOOOO
+2025-03-30 21:21:50,901 __main__ INFO OOOOOOR
+2025-03-30 21:21:50,901 __main__ INFO OOYOOOY
+2025-03-30 21:21:50,901 __main__ INFO OOROOYY
+2025-03-30 21:21:50,901 __main__ INFO OYRYYYR
+2025-03-30 21:21:50,901 __main__ INFO YRRYRRR
+2025-03-30 21:21:50,901 __main__ DEBUG Ending Game
+2025-03-30 21:21:56,189 __main__ DEBUG Init Start
+2025-03-30 21:21:56,204 __main__ DEBUG Init End
+2025-03-30 21:21:56,204 __main__ DEBUG Starting Game
+2025-03-30 21:21:56,204 __main__ INFO Current player R
+2025-03-30 21:21:56,204 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:56,204 __main__ INFO OOOOOOO
+2025-03-30 21:21:56,204 __main__ INFO OOOOOOO
+2025-03-30 21:21:56,204 __main__ INFO OOYOOOY
+2025-03-30 21:21:56,204 __main__ INFO ORROOOY
+2025-03-30 21:21:56,204 __main__ INFO OYRYOYR
+2025-03-30 21:21:56,204 __main__ INFO YRRYORR
+2025-03-30 21:21:56,204 __main__ INFO Current player Y
+2025-03-30 21:21:56,204 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:56,204 __main__ INFO OOOOOOO
+2025-03-30 21:21:56,204 __main__ INFO OOOOOOO
+2025-03-30 21:21:56,204 __main__ INFO OOYOOOY
+2025-03-30 21:21:56,204 __main__ INFO ORROOOY
+2025-03-30 21:21:56,204 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,204 __main__ INFO YRRYORR
+2025-03-30 21:21:56,220 __main__ INFO Current player R
+2025-03-30 21:21:56,220 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:56,220 __main__ INFO OOOOOOO
+2025-03-30 21:21:56,220 __main__ INFO OOOOOOO
+2025-03-30 21:21:56,220 __main__ INFO OOYOOOY
+2025-03-30 21:21:56,220 __main__ INFO ORROOOY
+2025-03-30 21:21:56,220 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,220 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,220 __main__ INFO Current player Y
+2025-03-30 21:21:56,220 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:21:56,220 __main__ INFO OOOOOOO
+2025-03-30 21:21:56,220 __main__ INFO OOOOOOY
+2025-03-30 21:21:56,220 __main__ INFO OOYOOOY
+2025-03-30 21:21:56,220 __main__ INFO ORROOOY
+2025-03-30 21:21:56,220 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,220 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,220 __main__ INFO Current player R
+2025-03-30 21:21:56,220 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:56,220 __main__ INFO OOOOOOO
+2025-03-30 21:21:56,220 __main__ INFO OOOOOOY
+2025-03-30 21:21:56,220 __main__ INFO OOYOOOY
+2025-03-30 21:21:56,220 __main__ INFO RRROOOY
+2025-03-30 21:21:56,220 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,220 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,220 __main__ INFO Current player Y
+2025-03-30 21:21:56,220 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:56,220 __main__ INFO OOOOOOO
+2025-03-30 21:21:56,236 __main__ INFO OOOOOOY
+2025-03-30 21:21:56,236 __main__ INFO OOYOOOY
+2025-03-30 21:21:56,236 __main__ INFO RRRYOOY
+2025-03-30 21:21:56,236 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,236 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,236 __main__ INFO Current player R
+2025-03-30 21:21:56,236 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:56,236 __main__ INFO OOOOOOO
+2025-03-30 21:21:56,236 __main__ INFO OOOOOOY
+2025-03-30 21:21:56,236 __main__ INFO OOYROOY
+2025-03-30 21:21:56,236 __main__ INFO RRRYOOY
+2025-03-30 21:21:56,236 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,236 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,236 __main__ INFO Current player Y
+2025-03-30 21:21:56,236 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:56,236 __main__ INFO OOOOOOO
+2025-03-30 21:21:56,236 __main__ INFO OOOYOOY
+2025-03-30 21:21:56,236 __main__ INFO OOYROOY
+2025-03-30 21:21:56,236 __main__ INFO RRRYOOY
+2025-03-30 21:21:56,236 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,236 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,236 __main__ INFO Current player R
+2025-03-30 21:21:56,236 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:56,236 __main__ INFO OOOROOO
+2025-03-30 21:21:56,236 __main__ INFO OOOYOOY
+2025-03-30 21:21:56,236 __main__ INFO OOYROOY
+2025-03-30 21:21:56,236 __main__ INFO RRRYOOY
+2025-03-30 21:21:56,236 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,236 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,249 __main__ INFO Current player Y
+2025-03-30 21:21:56,249 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:56,249 __main__ INFO OOOROOO
+2025-03-30 21:21:56,249 __main__ INFO OOOYOOY
+2025-03-30 21:21:56,249 __main__ INFO YOYROOY
+2025-03-30 21:21:56,249 __main__ INFO RRRYOOY
+2025-03-30 21:21:56,251 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,251 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,251 __main__ INFO Current player R
+2025-03-30 21:21:56,251 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:21:56,253 __main__ INFO OOOROOR
+2025-03-30 21:21:56,253 __main__ INFO OOOYOOY
+2025-03-30 21:21:56,254 __main__ INFO YOYROOY
+2025-03-30 21:21:56,254 __main__ INFO RRRYOOY
+2025-03-30 21:21:56,254 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,254 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,254 __main__ INFO Current player Y
+2025-03-30 21:21:56,255 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:21:56,255 __main__ INFO OOOROOR
+2025-03-30 21:21:56,256 __main__ INFO OOYYOOY
+2025-03-30 21:21:56,257 __main__ INFO YOYROOY
+2025-03-30 21:21:56,257 __main__ INFO RRRYOOY
+2025-03-30 21:21:56,258 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,258 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,258 __main__ INFO Current player R
+2025-03-30 21:21:56,259 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:21:56,259 __main__ INFO OORROOR
+2025-03-30 21:21:56,259 __main__ INFO OOYYOOY
+2025-03-30 21:21:56,259 __main__ INFO YOYROOY
+2025-03-30 21:21:56,259 __main__ INFO RRRYOOY
+2025-03-30 21:21:56,259 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,259 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,259 __main__ INFO Current player Y
+2025-03-30 21:21:56,259 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:21:56,259 __main__ INFO OORROOR
+2025-03-30 21:21:56,259 __main__ INFO OOYYOOY
+2025-03-30 21:21:56,259 __main__ INFO YOYROOY
+2025-03-30 21:21:56,259 __main__ INFO RRRYOYY
+2025-03-30 21:21:56,259 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,259 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,259 __main__ INFO Current player R
+2025-03-30 21:21:56,259 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:56,259 __main__ INFO OORROOR
+2025-03-30 21:21:56,259 __main__ INFO ROYYOOY
+2025-03-30 21:21:56,259 __main__ INFO YOYROOY
+2025-03-30 21:21:56,259 __main__ INFO RRRYOYY
+2025-03-30 21:21:56,259 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,259 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,259 __main__ INFO Current player Y
+2025-03-30 21:21:56,259 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:21:56,259 __main__ INFO OORROOR
+2025-03-30 21:21:56,259 __main__ INFO ROYYOOY
+2025-03-30 21:21:56,275 __main__ INFO YOYROYY
+2025-03-30 21:21:56,275 __main__ INFO RRRYOYY
+2025-03-30 21:21:56,276 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,276 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,277 __main__ INFO Current player R
+2025-03-30 21:21:56,277 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:56,278 __main__ INFO OORROOR
+2025-03-30 21:21:56,278 __main__ INFO ROYYOOY
+2025-03-30 21:21:56,278 __main__ INFO YRYROYY
+2025-03-30 21:21:56,278 __main__ INFO RRRYOYY
+2025-03-30 21:21:56,279 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,279 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,280 __main__ INFO Current player Y
+2025-03-30 21:21:56,280 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:56,280 __main__ INFO YORROOR
+2025-03-30 21:21:56,280 __main__ INFO ROYYOOY
+2025-03-30 21:21:56,280 __main__ INFO YRYROYY
+2025-03-30 21:21:56,280 __main__ INFO RRRYOYY
+2025-03-30 21:21:56,280 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,280 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,280 __main__ INFO Current player R
+2025-03-30 21:21:56,280 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:56,280 __main__ INFO YORROOR
+2025-03-30 21:21:56,280 __main__ INFO RRYYOOY
+2025-03-30 21:21:56,280 __main__ INFO YRYROYY
+2025-03-30 21:21:56,280 __main__ INFO RRRYOYY
+2025-03-30 21:21:56,280 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,280 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,280 __main__ INFO Current player Y
+2025-03-30 21:21:56,280 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:21:56,291 __main__ INFO YORROOR
+2025-03-30 21:21:56,291 __main__ INFO RRYYOYY
+2025-03-30 21:21:56,291 __main__ INFO YRYROYY
+2025-03-30 21:21:56,291 __main__ INFO RRRYOYY
+2025-03-30 21:21:56,292 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,292 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,292 connect_4.Connect4 INFO Vertical win [1,5] to [5,5]
+2025-03-30 21:21:56,293 __main__ INFO Y wins!
+2025-03-30 21:21:56,293 __main__ INFO Final Board:
+2025-03-30 21:21:56,294 __main__ INFO YORROOR
+2025-03-30 21:21:56,295 __main__ INFO RRYYOYY
+2025-03-30 21:21:56,295 __main__ INFO YRYROYY
+2025-03-30 21:21:56,296 __main__ INFO RRRYOYY
+2025-03-30 21:21:56,296 __main__ INFO YYRYOYR
+2025-03-30 21:21:56,297 __main__ INFO YRRYRRR
+2025-03-30 21:21:56,297 __main__ DEBUG Ending Game
+2025-03-30 21:21:58,587 __main__ DEBUG Init Start
+2025-03-30 21:21:58,587 __main__ DEBUG Init End
+2025-03-30 21:21:58,587 __main__ DEBUG Starting Game
+2025-03-30 21:21:58,587 __main__ INFO Current player R
+2025-03-30 21:21:58,587 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:21:58,587 __main__ INFO OOOOOOO
+2025-03-30 21:21:58,587 __main__ INFO OOOOOOR
+2025-03-30 21:21:58,587 __main__ INFO OOYOOOY
+2025-03-30 21:21:58,602 __main__ INFO OOROOOY
+2025-03-30 21:21:58,602 __main__ INFO OYRYOYR
+2025-03-30 21:21:58,602 __main__ INFO YRRYORR
+2025-03-30 21:21:58,602 __main__ INFO Current player Y
+2025-03-30 21:21:58,602 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:21:58,602 __main__ INFO OOOOOOY
+2025-03-30 21:21:58,608 __main__ INFO OOOOOOR
+2025-03-30 21:21:58,609 __main__ INFO OOYOOOY
+2025-03-30 21:21:58,609 __main__ INFO OOROOOY
+2025-03-30 21:21:58,611 __main__ INFO OYRYOYR
+2025-03-30 21:21:58,611 __main__ INFO YRRYORR
+2025-03-30 21:21:58,612 __main__ INFO Current player R
+2025-03-30 21:21:58,613 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:58,613 __main__ INFO OOOOOOY
+2025-03-30 21:21:58,613 __main__ INFO OOOOOOR
+2025-03-30 21:21:58,613 __main__ INFO OOYOOOY
+2025-03-30 21:21:58,613 __main__ INFO ORROOOY
+2025-03-30 21:21:58,613 __main__ INFO OYRYOYR
+2025-03-30 21:21:58,613 __main__ INFO YRRYORR
+2025-03-30 21:21:58,613 __main__ INFO Current player Y
+2025-03-30 21:21:58,613 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:21:58,613 __main__ INFO OOOOOOY
+2025-03-30 21:21:58,613 __main__ INFO OOYOOOR
+2025-03-30 21:21:58,613 __main__ INFO OOYOOOY
+2025-03-30 21:21:58,613 __main__ INFO ORROOOY
+2025-03-30 21:21:58,613 __main__ INFO OYRYOYR
+2025-03-30 21:21:58,613 __main__ INFO YRRYORR
+2025-03-30 21:21:58,624 __main__ INFO Current player R
+2025-03-30 21:21:58,624 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:21:58,625 __main__ INFO OOROOOY
+2025-03-30 21:21:58,625 __main__ INFO OOYOOOR
+2025-03-30 21:21:58,625 __main__ INFO OOYOOOY
+2025-03-30 21:21:58,625 __main__ INFO ORROOOY
+2025-03-30 21:21:58,627 __main__ INFO OYRYOYR
+2025-03-30 21:21:58,627 __main__ INFO YRRYORR
+2025-03-30 21:21:58,627 __main__ INFO Current player Y
+2025-03-30 21:21:58,628 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:58,628 __main__ INFO OOROOOY
+2025-03-30 21:21:58,629 __main__ INFO OOYOOOR
+2025-03-30 21:21:58,629 __main__ INFO OOYOOOY
+2025-03-30 21:21:58,630 __main__ INFO ORRYOOY
+2025-03-30 21:21:58,630 __main__ INFO OYRYOYR
+2025-03-30 21:21:58,630 __main__ INFO YRRYORR
+2025-03-30 21:21:58,630 __main__ INFO Current player R
+2025-03-30 21:21:58,630 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:21:58,630 __main__ INFO OOROOOY
+2025-03-30 21:21:58,630 __main__ INFO OOYOOOR
+2025-03-30 21:21:58,630 __main__ INFO OOYOOOY
+2025-03-30 21:21:58,630 __main__ INFO ORRYORY
+2025-03-30 21:21:58,630 __main__ INFO OYRYOYR
+2025-03-30 21:21:58,630 __main__ INFO YRRYORR
+2025-03-30 21:21:58,630 __main__ INFO Current player Y
+2025-03-30 21:21:58,630 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:58,630 __main__ INFO OOROOOY
+2025-03-30 21:21:58,630 __main__ INFO OOYOOOR
+2025-03-30 21:21:58,641 __main__ INFO OOYOOOY
+2025-03-30 21:21:58,641 __main__ INFO ORRYORY
+2025-03-30 21:21:58,642 __main__ INFO OYRYOYR
+2025-03-30 21:21:58,642 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,643 __main__ INFO Current player R
+2025-03-30 21:21:58,644 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:58,644 __main__ INFO OOROOOY
+2025-03-30 21:21:58,644 __main__ INFO OOYOOOR
+2025-03-30 21:21:58,645 __main__ INFO OOYOOOY
+2025-03-30 21:21:58,645 __main__ INFO ORRYORY
+2025-03-30 21:21:58,646 __main__ INFO OYRYRYR
+2025-03-30 21:21:58,646 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,647 __main__ INFO Current player Y
+2025-03-30 21:21:58,648 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:21:58,648 __main__ INFO OOROOOY
+2025-03-30 21:21:58,648 __main__ INFO OOYOOOR
+2025-03-30 21:21:58,648 __main__ INFO OOYOOYY
+2025-03-30 21:21:58,648 __main__ INFO ORRYORY
+2025-03-30 21:21:58,648 __main__ INFO OYRYRYR
+2025-03-30 21:21:58,648 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,648 __main__ INFO Current player R
+2025-03-30 21:21:58,648 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:58,648 __main__ INFO OOROOOY
+2025-03-30 21:21:58,648 __main__ INFO OOYOOOR
+2025-03-30 21:21:58,648 __main__ INFO OOYOOYY
+2025-03-30 21:21:58,654 __main__ INFO ORRYORY
+2025-03-30 21:21:58,654 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,654 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,654 __main__ INFO Current player Y
+2025-03-30 21:21:58,654 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:58,654 __main__ INFO OOROOOY
+2025-03-30 21:21:58,654 __main__ INFO OOYOOOR
+2025-03-30 21:21:58,658 __main__ INFO OYYOOYY
+2025-03-30 21:21:58,658 __main__ INFO ORRYORY
+2025-03-30 21:21:58,658 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,658 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,659 __main__ INFO Current player R
+2025-03-30 21:21:58,660 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:58,660 __main__ INFO OOROOOY
+2025-03-30 21:21:58,660 __main__ INFO OOYOOOR
+2025-03-30 21:21:58,661 __main__ INFO OYYROYY
+2025-03-30 21:21:58,661 __main__ INFO ORRYORY
+2025-03-30 21:21:58,662 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,662 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,663 __main__ INFO Current player Y
+2025-03-30 21:21:58,664 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:58,664 __main__ INFO OOROOOY
+2025-03-30 21:21:58,664 __main__ INFO OOYYOOR
+2025-03-30 21:21:58,664 __main__ INFO OYYROYY
+2025-03-30 21:21:58,664 __main__ INFO ORRYORY
+2025-03-30 21:21:58,664 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,664 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,664 __main__ INFO Current player R
+2025-03-30 21:21:58,664 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:58,664 __main__ INFO OOROOOY
+2025-03-30 21:21:58,664 __main__ INFO OOYYOOR
+2025-03-30 21:21:58,664 __main__ INFO OYYROYY
+2025-03-30 21:21:58,664 __main__ INFO ORRYRRY
+2025-03-30 21:21:58,664 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,664 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,664 __main__ INFO Current player Y
+2025-03-30 21:21:58,675 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:58,675 __main__ INFO OOROOOY
+2025-03-30 21:21:58,676 __main__ INFO OOYYOOR
+2025-03-30 21:21:58,676 __main__ INFO OYYROYY
+2025-03-30 21:21:58,676 __main__ INFO YRRYRRY
+2025-03-30 21:21:58,676 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,677 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,677 __main__ INFO Current player R
+2025-03-30 21:21:58,677 __main__ INFO FINAL Move selected: 3
+2025-03-30 21:21:58,678 __main__ INFO OORROOY
+2025-03-30 21:21:58,678 __main__ INFO OOYYOOR
+2025-03-30 21:21:58,678 __main__ INFO OYYROYY
+2025-03-30 21:21:58,679 __main__ INFO YRRYRRY
+2025-03-30 21:21:58,679 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,679 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,693 __main__ INFO Current player Y
+2025-03-30 21:21:58,693 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:21:58,699 __main__ INFO OORROOY
+2025-03-30 21:21:58,699 __main__ INFO OOYYOOR
+2025-03-30 21:21:58,708 __main__ INFO YYYROYY
+2025-03-30 21:21:58,708 __main__ INFO YRRYRRY
+2025-03-30 21:21:58,708 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,709 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,709 __main__ INFO Current player R
+2025-03-30 21:21:58,710 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:58,710 __main__ INFO OORROOY
+2025-03-30 21:21:58,710 __main__ INFO ORYYOOR
+2025-03-30 21:21:58,711 __main__ INFO YYYROYY
+2025-03-30 21:21:58,711 __main__ INFO YRRYRRY
+2025-03-30 21:21:58,713 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,715 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,716 __main__ INFO Current player Y
+2025-03-30 21:21:58,717 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:21:58,718 __main__ INFO OORROOY
+2025-03-30 21:21:58,718 __main__ INFO ORYYOOR
+2025-03-30 21:21:58,718 __main__ INFO YYYRYYY
+2025-03-30 21:21:58,720 __main__ INFO YRRYRRY
+2025-03-30 21:21:58,720 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,720 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,720 __main__ INFO Current player R
+2025-03-30 21:21:58,720 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:21:58,720 __main__ INFO ORRROOY
+2025-03-30 21:21:58,720 __main__ INFO ORYYOOR
+2025-03-30 21:21:58,720 __main__ INFO YYYRYYY
+2025-03-30 21:21:58,720 __main__ INFO YRRYRRY
+2025-03-30 21:21:58,720 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,720 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,720 __main__ INFO Current player Y
+2025-03-30 21:21:58,720 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:21:58,720 __main__ INFO ORRROOY
+2025-03-30 21:21:58,720 __main__ INFO ORYYOYR
+2025-03-30 21:21:58,726 __main__ INFO YYYRYYY
+2025-03-30 21:21:58,726 __main__ INFO YRRYRRY
+2025-03-30 21:21:58,726 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,727 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,727 connect_4.Connect4 INFO Positively Sloped Diagonal win [3,3] to [0,6]
+2025-03-30 21:21:58,728 __main__ INFO Y wins!
+2025-03-30 21:21:58,729 __main__ INFO Final Board:
+2025-03-30 21:21:58,729 __main__ INFO ORRROOY
+2025-03-30 21:21:58,729 __main__ INFO ORYYOYR
+2025-03-30 21:21:58,730 __main__ INFO YYYRYYY
+2025-03-30 21:21:58,730 __main__ INFO YRRYRRY
+2025-03-30 21:21:58,730 __main__ INFO RYRYRYR
+2025-03-30 21:21:58,730 __main__ INFO YRRYYRR
+2025-03-30 21:21:58,730 __main__ DEBUG Ending Game
+2025-03-30 21:22:00,473 __main__ DEBUG Init Start
+2025-03-30 21:22:00,473 __main__ DEBUG Init End
+2025-03-30 21:22:00,473 __main__ DEBUG Starting Game
+2025-03-30 21:22:00,489 __main__ INFO Current player R
+2025-03-30 21:22:00,489 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:22:00,489 __main__ INFO OOOOOOO
+2025-03-30 21:22:00,489 __main__ INFO OOOOOOO
+2025-03-30 21:22:00,489 __main__ INFO OOYOOOY
+2025-03-30 21:22:00,489 __main__ INFO ORROOOY
+2025-03-30 21:22:00,489 __main__ INFO OYRYOYR
+2025-03-30 21:22:00,489 __main__ INFO YRRYORR
+2025-03-30 21:22:00,489 __main__ INFO Current player Y
+2025-03-30 21:22:00,489 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:22:00,489 __main__ INFO OOOOOOO
+2025-03-30 21:22:00,489 __main__ INFO OOOOOOY
+2025-03-30 21:22:00,489 __main__ INFO OOYOOOY
+2025-03-30 21:22:00,489 __main__ INFO ORROOOY
+2025-03-30 21:22:00,489 __main__ INFO OYRYOYR
+2025-03-30 21:22:00,489 __main__ INFO YRRYORR
+2025-03-30 21:22:00,489 __main__ INFO Current player R
+2025-03-30 21:22:00,489 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:22:00,489 __main__ INFO OOOOOOO
+2025-03-30 21:22:00,489 __main__ INFO OOOOOOY
+2025-03-30 21:22:00,503 __main__ INFO ORYOOOY
+2025-03-30 21:22:00,503 __main__ INFO ORROOOY
+2025-03-30 21:22:00,504 __main__ INFO OYRYOYR
+2025-03-30 21:22:00,504 __main__ INFO YRRYORR
+2025-03-30 21:22:00,504 __main__ INFO Current player Y
+2025-03-30 21:22:00,505 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:22:00,505 __main__ INFO OOOOOOO
+2025-03-30 21:22:00,507 __main__ INFO OOOOOOY
+2025-03-30 21:22:00,508 __main__ INFO ORYOOOY
+2025-03-30 21:22:00,508 __main__ INFO ORROOOY
+2025-03-30 21:22:00,509 __main__ INFO OYRYOYR
+2025-03-30 21:22:00,509 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,510 __main__ INFO Current player R
+2025-03-30 21:22:00,510 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:22:00,510 __main__ INFO OOOOOOR
+2025-03-30 21:22:00,510 __main__ INFO OOOOOOY
+2025-03-30 21:22:00,510 __main__ INFO ORYOOOY
+2025-03-30 21:22:00,510 __main__ INFO ORROOOY
+2025-03-30 21:22:00,510 __main__ INFO OYRYOYR
+2025-03-30 21:22:00,510 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,510 __main__ INFO Current player Y
+2025-03-30 21:22:00,510 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:22:00,510 __main__ INFO OOOOOOR
+2025-03-30 21:22:00,510 __main__ INFO OOYOOOY
+2025-03-30 21:22:00,510 __main__ INFO ORYOOOY
+2025-03-30 21:22:00,510 __main__ INFO ORROOOY
+2025-03-30 21:22:00,510 __main__ INFO OYRYOYR
+2025-03-30 21:22:00,510 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,510 __main__ INFO Current player R
+2025-03-30 21:22:00,510 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:22:00,510 __main__ INFO OOOOOOR
+2025-03-30 21:22:00,510 __main__ INFO ORYOOOY
+2025-03-30 21:22:00,510 __main__ INFO ORYOOOY
+2025-03-30 21:22:00,510 __main__ INFO ORROOOY
+2025-03-30 21:22:00,510 __main__ INFO OYRYOYR
+2025-03-30 21:22:00,525 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,525 __main__ INFO Current player Y
+2025-03-30 21:22:00,525 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:22:00,526 __main__ INFO OOOOOOR
+2025-03-30 21:22:00,526 __main__ INFO ORYOOOY
+2025-03-30 21:22:00,526 __main__ INFO ORYOOOY
+2025-03-30 21:22:00,527 __main__ INFO ORROOOY
+2025-03-30 21:22:00,527 __main__ INFO OYRYYYR
+2025-03-30 21:22:00,528 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,528 __main__ INFO Current player R
+2025-03-30 21:22:00,529 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:22:00,530 __main__ INFO OOOOOOR
+2025-03-30 21:22:00,530 __main__ INFO ORYOOOY
+2025-03-30 21:22:00,530 __main__ INFO ORYOOOY
+2025-03-30 21:22:00,530 __main__ INFO ORROORY
+2025-03-30 21:22:00,530 __main__ INFO OYRYYYR
+2025-03-30 21:22:00,530 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,530 __main__ INFO Current player Y
+2025-03-30 21:22:00,530 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:22:00,530 __main__ INFO OOOOOOR
+2025-03-30 21:22:00,530 __main__ INFO ORYOOOY
+2025-03-30 21:22:00,530 __main__ INFO ORYOOYY
+2025-03-30 21:22:00,530 __main__ INFO ORROORY
+2025-03-30 21:22:00,530 __main__ INFO OYRYYYR
+2025-03-30 21:22:00,530 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,530 __main__ INFO Current player R
+2025-03-30 21:22:00,530 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:22:00,530 __main__ INFO OOOOOOR
+2025-03-30 21:22:00,530 __main__ INFO ORYOORY
+2025-03-30 21:22:00,530 __main__ INFO ORYOOYY
+2025-03-30 21:22:00,530 __main__ INFO ORROORY
+2025-03-30 21:22:00,530 __main__ INFO OYRYYYR
+2025-03-30 21:22:00,530 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,530 __main__ INFO Current player Y
+2025-03-30 21:22:00,530 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:22:00,530 __main__ INFO OOOOOOR
+2025-03-30 21:22:00,530 __main__ INFO ORYOORY
+2025-03-30 21:22:00,530 __main__ INFO ORYOOYY
+2025-03-30 21:22:00,544 __main__ INFO ORROORY
+2025-03-30 21:22:00,544 __main__ INFO YYRYYYR
+2025-03-30 21:22:00,544 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,546 __main__ INFO Current player R
+2025-03-30 21:22:00,546 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:22:00,547 __main__ INFO OOOOORR
+2025-03-30 21:22:00,547 __main__ INFO ORYOORY
+2025-03-30 21:22:00,547 __main__ INFO ORYOOYY
+2025-03-30 21:22:00,547 __main__ INFO ORROORY
+2025-03-30 21:22:00,547 __main__ INFO YYRYYYR
+2025-03-30 21:22:00,547 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,547 __main__ INFO Current player Y
+2025-03-30 21:22:00,547 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:22:00,547 __main__ INFO OOOOORR
+2025-03-30 21:22:00,547 __main__ INFO ORYOORY
+2025-03-30 21:22:00,547 __main__ INFO ORYOOYY
+2025-03-30 21:22:00,547 __main__ INFO ORROYRY
+2025-03-30 21:22:00,547 __main__ INFO YYRYYYR
+2025-03-30 21:22:00,547 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,547 connect_4.Connect4 INFO Positively Sloped Diagonal win [4,3] to [1,6]
+2025-03-30 21:22:00,547 __main__ INFO Y wins!
+2025-03-30 21:22:00,547 __main__ INFO Final Board:
+2025-03-30 21:22:00,547 __main__ INFO OOOOORR
+2025-03-30 21:22:00,547 __main__ INFO ORYOORY
+2025-03-30 21:22:00,547 __main__ INFO ORYOOYY
+2025-03-30 21:22:00,559 __main__ INFO ORROYRY
+2025-03-30 21:22:00,559 __main__ INFO YYRYYYR
+2025-03-30 21:22:00,560 __main__ INFO YRRYYRR
+2025-03-30 21:22:00,560 __main__ DEBUG Ending Game
+2025-03-30 21:22:02,139 __main__ DEBUG Init Start
+2025-03-30 21:22:02,139 __main__ DEBUG Init End
+2025-03-30 21:22:02,139 __main__ DEBUG Starting Game
+2025-03-30 21:22:02,139 __main__ INFO Current player R
+2025-03-30 21:22:02,139 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:22:02,139 __main__ INFO OOOOOOO
+2025-03-30 21:22:02,139 __main__ INFO OOOOOOR
+2025-03-30 21:22:02,154 __main__ INFO OOYOOOY
+2025-03-30 21:22:02,154 __main__ INFO OOROOOY
+2025-03-30 21:22:02,154 __main__ INFO OYRYOYR
+2025-03-30 21:22:02,154 __main__ INFO YRRYORR
+2025-03-30 21:22:02,154 __main__ INFO Current player Y
+2025-03-30 21:22:02,154 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:22:02,154 __main__ INFO OOOOOOO
+2025-03-30 21:22:02,154 __main__ INFO OOOOOOR
+2025-03-30 21:22:02,159 __main__ INFO OOYOOOY
+2025-03-30 21:22:02,159 __main__ INFO OYROOOY
+2025-03-30 21:22:02,160 __main__ INFO OYRYOYR
+2025-03-30 21:22:02,160 __main__ INFO YRRYORR
+2025-03-30 21:22:02,161 __main__ INFO Current player R
+2025-03-30 21:22:02,161 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:22:02,161 __main__ INFO OOOOOOO
+2025-03-30 21:22:02,161 __main__ INFO OOOOOOR
+2025-03-30 21:22:02,163 __main__ INFO OOYOOOY
+2025-03-30 21:22:02,163 __main__ INFO OYROORY
+2025-03-30 21:22:02,164 __main__ INFO OYRYOYR
+2025-03-30 21:22:02,165 __main__ INFO YRRYORR
+2025-03-30 21:22:02,165 __main__ INFO Current player Y
+2025-03-30 21:22:02,165 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:22:02,165 __main__ INFO OOOOOOO
+2025-03-30 21:22:02,165 __main__ INFO OOYOOOR
+2025-03-30 21:22:02,165 __main__ INFO OOYOOOY
+2025-03-30 21:22:02,165 __main__ INFO OYROORY
+2025-03-30 21:22:02,165 __main__ INFO OYRYOYR
+2025-03-30 21:22:02,165 __main__ INFO YRRYORR
+2025-03-30 21:22:02,165 __main__ INFO Current player R
+2025-03-30 21:22:02,165 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:22:02,165 __main__ INFO OOOOOOO
+2025-03-30 21:22:02,165 __main__ INFO OOYOOOR
+2025-03-30 21:22:02,165 __main__ INFO OOYOOOY
+2025-03-30 21:22:02,165 __main__ INFO OYROORY
+2025-03-30 21:22:02,165 __main__ INFO RYRYOYR
+2025-03-30 21:22:02,165 __main__ INFO YRRYORR
+2025-03-30 21:22:02,175 __main__ INFO Current player Y
+2025-03-30 21:22:02,176 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:22:02,176 __main__ INFO OOOOOOO
+2025-03-30 21:22:02,176 __main__ INFO OOYOOOR
+2025-03-30 21:22:02,177 __main__ INFO OOYOOOY
+2025-03-30 21:22:02,177 __main__ INFO YYROORY
+2025-03-30 21:22:02,177 __main__ INFO RYRYOYR
+2025-03-30 21:22:02,178 __main__ INFO YRRYORR
+2025-03-30 21:22:02,178 __main__ INFO Current player R
+2025-03-30 21:22:02,179 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:22:02,179 __main__ INFO OOOOOOO
+2025-03-30 21:22:02,179 __main__ INFO OOYOOOR
+2025-03-30 21:22:02,180 __main__ INFO ORYOOOY
+2025-03-30 21:22:02,180 __main__ INFO YYROORY
+2025-03-30 21:22:02,180 __main__ INFO RYRYOYR
+2025-03-30 21:22:02,180 __main__ INFO YRRYORR
+2025-03-30 21:22:02,180 __main__ INFO Current player Y
+2025-03-30 21:22:02,180 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:22:02,180 __main__ INFO OOOOOOY
+2025-03-30 21:22:02,180 __main__ INFO OOYOOOR
+2025-03-30 21:22:02,180 __main__ INFO ORYOOOY
+2025-03-30 21:22:02,180 __main__ INFO YYROORY
+2025-03-30 21:22:02,180 __main__ INFO RYRYOYR
+2025-03-30 21:22:02,180 __main__ INFO YRRYORR
+2025-03-30 21:22:02,180 __main__ INFO Current player R
+2025-03-30 21:22:02,180 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:22:02,180 __main__ INFO OOOOOOY
+2025-03-30 21:22:02,180 __main__ INFO OOYOOOR
+2025-03-30 21:22:02,191 __main__ INFO ORYOORY
+2025-03-30 21:22:02,191 __main__ INFO YYROORY
+2025-03-30 21:22:02,191 __main__ INFO RYRYOYR
+2025-03-30 21:22:02,192 __main__ INFO YRRYORR
+2025-03-30 21:22:02,192 __main__ INFO Current player Y
+2025-03-30 21:22:02,192 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:22:02,193 __main__ INFO OOYOOOY
+2025-03-30 21:22:02,193 __main__ INFO OOYOOOR
+2025-03-30 21:22:02,193 __main__ INFO ORYOORY
+2025-03-30 21:22:02,193 __main__ INFO YYROORY
+2025-03-30 21:22:02,194 __main__ INFO RYRYOYR
+2025-03-30 21:22:02,194 __main__ INFO YRRYORR
+2025-03-30 21:22:02,195 __main__ INFO Current player R
+2025-03-30 21:22:02,195 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:22:02,195 __main__ INFO OOYOOOY
+2025-03-30 21:22:02,196 __main__ INFO OOYOORR
+2025-03-30 21:22:02,196 __main__ INFO ORYOORY
+2025-03-30 21:22:02,197 __main__ INFO YYROORY
+2025-03-30 21:22:02,197 __main__ INFO RYRYOYR
+2025-03-30 21:22:02,197 __main__ INFO YRRYORR
+2025-03-30 21:22:02,197 __main__ INFO Current player Y
+2025-03-30 21:22:02,197 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:22:02,197 __main__ INFO OOYOOOY
+2025-03-30 21:22:02,197 __main__ INFO OOYOORR
+2025-03-30 21:22:02,197 __main__ INFO YRYOORY
+2025-03-30 21:22:02,197 __main__ INFO YYROORY
+2025-03-30 21:22:02,197 __main__ INFO RYRYOYR
+2025-03-30 21:22:02,197 __main__ INFO YRRYORR
+2025-03-30 21:22:02,197 __main__ INFO Current player R
+2025-03-30 21:22:02,197 __main__ INFO FINAL Move selected: 5
+2025-03-30 21:22:02,197 __main__ INFO OOYOORY
+2025-03-30 21:22:02,197 __main__ INFO OOYOORR
+2025-03-30 21:22:02,197 __main__ INFO YRYOORY
+2025-03-30 21:22:02,197 __main__ INFO YYROORY
+2025-03-30 21:22:02,197 __main__ INFO RYRYOYR
+2025-03-30 21:22:02,197 __main__ INFO YRRYORR
+2025-03-30 21:22:02,197 connect_4.Connect4 INFO Vertical win [0,5] to [4,5]
+2025-03-30 21:22:02,197 __main__ INFO R wins!
+2025-03-30 21:22:02,197 __main__ INFO Final Board:
+2025-03-30 21:22:02,197 __main__ INFO OOYOORY
+2025-03-30 21:22:02,197 __main__ INFO OOYOORR
+2025-03-30 21:22:02,197 __main__ INFO YRYOORY
+2025-03-30 21:22:02,197 __main__ INFO YYROORY
+2025-03-30 21:22:02,197 __main__ INFO RYRYOYR
+2025-03-30 21:22:02,197 __main__ INFO YRRYORR
+2025-03-30 21:22:02,197 __main__ DEBUG Ending Game
+2025-03-30 21:22:14,970 __main__ DEBUG Init Start
+2025-03-30 21:22:14,976 __main__ DEBUG Init End
+2025-03-30 21:22:14,976 __main__ DEBUG Starting Game
+2025-03-30 21:22:14,976 __main__ INFO Current player R
+2025-03-30 21:22:14,976 __main__ INFO FINAL Move selected: 0
+2025-03-30 21:22:14,976 __main__ INFO OOOOOOO
+2025-03-30 21:22:14,976 __main__ INFO OOOOOOO
+2025-03-30 21:22:14,976 __main__ INFO OOYOOOY
+2025-03-30 21:22:14,976 __main__ INFO OOROOOY
+2025-03-30 21:22:14,976 __main__ INFO RYRYOYR
+2025-03-30 21:22:14,976 __main__ INFO YRRYORR
+2025-03-30 21:22:14,976 __main__ INFO Current player Y
+2025-03-30 21:22:14,976 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:22:14,991 __main__ INFO OOOOOOO
+2025-03-30 21:22:14,992 __main__ INFO OOOOOOO
+2025-03-30 21:22:14,992 __main__ INFO OOYOOOY
+2025-03-30 21:22:14,993 __main__ INFO OOROOOY
+2025-03-30 21:22:14,994 __main__ INFO RYRYOYR
+2025-03-30 21:22:14,994 __main__ INFO YRRYYRR
+2025-03-30 21:22:14,995 __main__ INFO Current player R
+2025-03-30 21:22:14,996 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:22:14,997 __main__ INFO OOOOOOO
+2025-03-30 21:22:14,997 __main__ INFO OOROOOO
+2025-03-30 21:22:15,015 __main__ INFO OOYOOOY
+2025-03-30 21:22:15,024 __main__ INFO OOROOOY
+2025-03-30 21:22:15,024 __main__ INFO RYRYOYR
+2025-03-30 21:22:15,025 __main__ INFO YRRYYRR
+2025-03-30 21:22:15,025 __main__ INFO Current player Y
+2025-03-30 21:22:15,026 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:22:15,027 __main__ INFO OOOOOOO
+2025-03-30 21:22:15,027 __main__ INFO OOROOOO
+2025-03-30 21:22:15,028 __main__ INFO OOYOOOY
+2025-03-30 21:22:15,029 __main__ INFO OYROOOY
+2025-03-30 21:22:15,029 __main__ INFO RYRYOYR
+2025-03-30 21:22:15,030 __main__ INFO YRRYYRR
+2025-03-30 21:22:15,033 __main__ INFO Current player R
+2025-03-30 21:22:15,033 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:22:15,033 __main__ INFO OOOOOOO
+2025-03-30 21:22:15,033 __main__ INFO OOROOOO
+2025-03-30 21:22:15,033 __main__ INFO ORYOOOY
+2025-03-30 21:22:15,033 __main__ INFO OYROOOY
+2025-03-30 21:22:15,033 __main__ INFO RYRYOYR
+2025-03-30 21:22:15,042 __main__ INFO YRRYYRR
+2025-03-30 21:22:15,042 __main__ INFO Current player Y
+2025-03-30 21:22:15,043 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:22:15,044 __main__ INFO OOOOOOO
+2025-03-30 21:22:15,045 __main__ INFO OOROOOY
+2025-03-30 21:22:15,045 __main__ INFO ORYOOOY
+2025-03-30 21:22:15,046 __main__ INFO OYROOOY
+2025-03-30 21:22:15,046 __main__ INFO RYRYOYR
+2025-03-30 21:22:15,047 __main__ INFO YRRYYRR
+2025-03-30 21:22:15,048 __main__ INFO Current player R
+2025-03-30 21:22:15,049 __main__ INFO FINAL Move selected: 6
+2025-03-30 21:22:15,049 __main__ INFO OOOOOOR
+2025-03-30 21:22:15,049 __main__ INFO OOROOOY
+2025-03-30 21:22:15,049 __main__ INFO ORYOOOY
+2025-03-30 21:22:15,049 __main__ INFO OYROOOY
+2025-03-30 21:22:15,049 __main__ INFO RYRYOYR
+2025-03-30 21:22:15,049 __main__ INFO YRRYYRR
+2025-03-30 21:22:15,049 __main__ INFO Current player Y
+2025-03-30 21:22:15,049 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:22:15,049 __main__ INFO OOOOOOR
+2025-03-30 21:22:15,049 __main__ INFO OOROOOY
+2025-03-30 21:22:15,049 __main__ INFO ORYOOOY
+2025-03-30 21:22:15,049 __main__ INFO OYROOOY
+2025-03-30 21:22:15,059 __main__ INFO RYRYYYR
+2025-03-30 21:22:15,059 __main__ INFO YRRYYRR
+2025-03-30 21:22:15,060 __main__ INFO Current player R
+2025-03-30 21:22:15,060 __main__ INFO FINAL Move selected: 1
+2025-03-30 21:22:15,061 __main__ INFO OOOOOOR
+2025-03-30 21:22:15,061 __main__ INFO ORROOOY
+2025-03-30 21:22:15,062 __main__ INFO ORYOOOY
+2025-03-30 21:22:15,063 __main__ INFO OYROOOY
+2025-03-30 21:22:15,063 __main__ INFO RYRYYYR
+2025-03-30 21:22:15,064 __main__ INFO YRRYYRR
+2025-03-30 21:22:15,064 __main__ INFO Current player Y
+2025-03-30 21:22:15,064 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:22:15,064 __main__ INFO OOOOOOR
+2025-03-30 21:22:15,064 __main__ INFO ORROOOY
+2025-03-30 21:22:15,064 __main__ INFO ORYOOOY
+2025-03-30 21:22:15,064 __main__ INFO OYROYOY
+2025-03-30 21:22:15,064 __main__ INFO RYRYYYR
+2025-03-30 21:22:15,064 __main__ INFO YRRYYRR
+2025-03-30 21:22:15,064 __main__ INFO Current player R
+2025-03-30 21:22:15,064 __main__ INFO FINAL Move selected: 2
+2025-03-30 21:22:15,064 __main__ INFO OOROOOR
+2025-03-30 21:22:15,064 __main__ INFO ORROOOY
+2025-03-30 21:22:15,064 __main__ INFO ORYOOOY
+2025-03-30 21:22:15,064 __main__ INFO OYROYOY
+2025-03-30 21:22:15,064 __main__ INFO RYRYYYR
+2025-03-30 21:22:15,064 __main__ INFO YRRYYRR
+2025-03-30 21:22:15,064 __main__ INFO Current player Y
+2025-03-30 21:22:15,064 __main__ INFO FINAL Move selected: 4
+2025-03-30 21:22:15,064 __main__ INFO OOROOOR
+2025-03-30 21:22:15,075 __main__ INFO ORROOOY
+2025-03-30 21:22:15,075 __main__ INFO ORYOYOY
+2025-03-30 21:22:15,075 __main__ INFO OYROYOY
+2025-03-30 21:22:15,075 __main__ INFO RYRYYYR
+2025-03-30 21:22:15,077 __main__ INFO YRRYYRR
+2025-03-30 21:22:15,077 connect_4.Connect4 INFO Vertical win [2,4] to [6,4]
+2025-03-30 21:22:15,078 __main__ INFO Y wins!
+2025-03-30 21:22:15,078 __main__ INFO Final Board:
+2025-03-30 21:22:15,078 __main__ INFO OOROOOR
+2025-03-30 21:22:15,079 __main__ INFO ORROOOY
+2025-03-30 21:22:15,079 __main__ INFO ORYOYOY
+2025-03-30 21:22:15,079 __main__ INFO OYROYOY
+2025-03-30 21:22:15,080 __main__ INFO RYRYYYR
+2025-03-30 21:22:15,080 __main__ INFO YRRYYRR
+2025-03-30 21:22:15,080 __main__ DEBUG Ending Game
+2025-04-05 21:24:43,431 __main__ ERROR Uncaught exception: Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 33, in play_game
+    algorithm = AlgorithmFactory.create_algorithm(algorithm_name, simulations)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\factory.py", line 33, in create_algorithm
+    return UCT(simulations)
+TypeError: Can't instantiate abstract class UCT with abstract method rollout
+
+2025-04-05 21:24:43,431 __main__ ERROR Uncaught exception: Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 33, in play_game
+    algorithm = AlgorithmFactory.create_algorithm(algorithm_name, simulations)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\factory.py", line 33, in create_algorithm
+    return UCT(simulations)
+TypeError: Can't instantiate abstract class UCT with abstract method rollout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 15, in main
+    play_game(algorithm_name, player, board, simulations)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 64, in play_game
+    sys.exit(1)
+SystemExit: 1
+
+2025-04-05 21:27:51,415 __main__ ERROR Uncaught exception: Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 38, in play_game
+    move = algorithm.choose_move(game, current_player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 11, in choose_move
+    return super().choose_move(game, player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 31, in choose_move
+    self.search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 14, in search
+    super().search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 41, in search
+    node, state = self.select_child(self.current_player, path)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 36, in select_child
+    for child in children:
+UnboundLocalError: local variable 'children' referenced before assignment
+
+2025-04-05 21:27:51,415 __main__ ERROR Uncaught exception: Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 38, in play_game
+    move = algorithm.choose_move(game, current_player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 11, in choose_move
+    return super().choose_move(game, player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 31, in choose_move
+    self.search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 14, in search
+    super().search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 41, in search
+    node, state = self.select_child(self.current_player, path)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 36, in select_child
+    for child in children:
+UnboundLocalError: local variable 'children' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 15, in main
+    play_game(algorithm_name, player, board, simulations)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 64, in play_game
+    sys.exit(1)
+SystemExit: 1
+
+2025-04-05 21:27:58,873 __main__ ERROR Uncaught exception: Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 38, in play_game
+    move = algorithm.choose_move(game, current_player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 11, in choose_move
+    return super().choose_move(game, player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 31, in choose_move
+    self.search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 14, in search
+    super().search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 41, in search
+    node, state = self.select_child(self.current_player, path)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 36, in select_child
+    for child in children:
+UnboundLocalError: local variable 'children' referenced before assignment
+
+2025-04-05 21:27:58,874 __main__ ERROR Uncaught exception: Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 38, in play_game
+    move = algorithm.choose_move(game, current_player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 11, in choose_move
+    return super().choose_move(game, player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 31, in choose_move
+    self.search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 14, in search
+    super().search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 41, in search
+    node, state = self.select_child(self.current_player, path)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 36, in select_child
+    for child in children:
+UnboundLocalError: local variable 'children' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 15, in main
+    play_game(algorithm_name, player, board, simulations)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 64, in play_game
+    sys.exit(1)
+SystemExit: 1
+
+2025-04-05 21:29:20,813 __main__ ERROR Uncaught exception: Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 38, in play_game
+    move = algorithm.choose_move(game, current_player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 11, in choose_move
+    return super().choose_move(game, player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 31, in choose_move
+    self.search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 14, in search
+    super().search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 41, in search
+    node, state = self.select_child(self.current_player, path)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 36, in select_child
+    for child in children:
+UnboundLocalError: local variable 'children' referenced before assignment
+
+2025-04-05 21:29:20,813 __main__ ERROR Uncaught exception: Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 38, in play_game
+    move = algorithm.choose_move(game, current_player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 11, in choose_move
+    return super().choose_move(game, player)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 31, in choose_move
+    self.search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 14, in search
+    super().search()
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\mcts.py", line 41, in search
+    node, state = self.select_child(self.current_player, path)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts\algorithms\uct.py", line 36, in select_child
+    for child in children:
+UnboundLocalError: local variable 'children' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 15, in main
+    play_game(algorithm_name, player, board, simulations)
+  File "C:\Users\Nesto\OneDrive\Documents\connect_four_mcts/main.py", line 64, in play_game
+    sys.exit(1)
+SystemExit: 1
+

@@ -6,4 +6,6 @@ from .pmcgs import PMCGS
 from .pmcgs_parallel import PMCGSParallel
 from .uct import UCT
 from .uct_parallel import UCTParallel
-from .factory import AlgorithmFactory
+from .factory import AlgorithmFactory 
+from .uct_improvement import UCTImprovement
+from .uct_imp_parallel import UCTImpParallel
