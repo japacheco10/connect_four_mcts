@@ -17,6 +17,7 @@ def main():
         total_moves = [0 for _ in range(num_algorithms)]
         # Initialize results dictionary
         results = defaultdict(dict)
+        raw_wins = defaultdict(dict) 
         Utils.log_message("Init End", Globals.VerbosityLevels.NONE, __name__)
         
         Utils.log_message("Starting Tournament", Globals.VerbosityLevels.NONE, __name__)
@@ -32,10 +33,8 @@ def main():
                     print(f"Game [{game+1}]")
                     print(f"[{algorithm_names[i]}] vs [{algorithm_names[j]}]")
                     print("-------------------------------------------------------------------------")
-                    if game % 2 == 0: #ensure fairness by alternating which algorithm goes first
-                        first, second = i, j
-                    else:
-                        first, second = j, i
+                    # Alternate who starts
+                    first, second = (i, j) if game % 2 == 0 else (j, i)
 
                     #   Create algorithm instances for each game
                     alg1 = AlgorithmFactory.create_algorithm(algorithms[first][0], simulations=algorithms[first][1])
@@ -51,14 +50,13 @@ def main():
                     total_move_time[first] += move_times[f"{first}_time"]
                     total_move_time[second] += move_times[f"{second}_time"]
 
-                    if winner == 1:
-                        # Player 1 (alg1) wins
+                    # Track win counts
+                    if winner == 1:  # Player 1 won
                         if first == i:
                             wins_i += 1
                         else:
                             wins_j += 1
-                    elif winner == -1:
-                        # Player 2 (alg2) wins
+                    elif winner == -1:  # Player 2 won
                         if second == i:
                             wins_i += 1
                         else:
@@ -66,24 +64,39 @@ def main():
                     else:
                         draws += 1
 
-                total = wins_i + wins_j + draws
-                win_rate = (wins_i / total * 100) if total > 0 else 0.0
-                results[algorithm_names[i]][algorithm_names[j]] = f"{win_rate:.2f}%"
+                total_played = wins_i + wins_j + draws
+                win_rate_i = (wins_i / total_played * 100) if total_played else 0.0
+                raw_wins[algorithm_names[i]][algorithm_names[j]] = wins_i
+                results[algorithm_names[i]][algorithm_names[j]] = f"{win_rate_i:.2f}%"
 
-        # Print header
+        print("\nWin Rate Matrix (%):")
         print("-" * (12 + 12 * num_algorithms))
         print(f"{'':<12}|" + "".join(f"{name:<12}|" for name in algorithm_names))
         print("-" * (12 + 12 * num_algorithms))
 
-        # Print rows
         for row_name in algorithm_names:
             row = f"{row_name:<12}|"
             for col_name in algorithm_names:
-                result = results[row_name].get(col_name, "N/A")
-                row += f"{result:<12}|"
+                cell = results[row_name].get(col_name, "N/A")
+                row += f"{cell:<12}|"
             print(row)
 
         print("-" * (12 + 12 * num_algorithms))
+
+        print("\nGames Won Matrix (#):")
+        print("-" * (12 + 12 * num_algorithms))
+        print(f"{'':<12}|" + "".join(f"{name:<12}|" for name in algorithm_names))
+        print("-" * (12 + 12 * num_algorithms))
+        
+        for row_name in algorithm_names:
+            row = f"{row_name:<12}|"
+            for col_name in algorithm_names:
+                cell = raw_wins[row_name].get(col_name, "0")
+                row += f"{cell:<12}|"
+            print(row)
+        
+        print("-" * (12 + 12 * num_algorithms))
+
         print("-------------------------------------------------------------------------")
         print("\nAverage Timing Stats per Algorithm:")
         print("-" * 60)
