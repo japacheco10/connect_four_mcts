@@ -5,15 +5,11 @@ from algorithms import AlgorithmFactory
 
 def main():
     try:
-        Utils.log_message("Init Start", Globals.VerbosityLevels.NONE, __name__)
         input_file, verbosity, simulations = Utils.validate_arguments()
         Utils.set_verbosity_level(verbosity)
         algorithm_name, player, board = Utils.load_game_settings(input_file)
-        Utils.log_message("Init End", Globals.VerbosityLevels.NONE, __name__)
         
-        Utils.log_message("Starting Game", Globals.VerbosityLevels.NONE, __name__)
         play_game(algorithm_name, player, board, simulations)
-        Utils.log_message("Ending Game", Globals.VerbosityLevels.NONE, __name__)
     except:
         Utils.log_message(f"Uncaught exception: {traceback.format_exc()}", Globals.VerbosityLevels.ERROR, __name__)
         sys.exit(1)

@@ -6,7 +6,6 @@ from collections import defaultdict
 
 def main():
     try:
-        Utils.log_message("Init Start", Globals.VerbosityLevels.NONE, __name__)
         verbosity, num_games, algorithms = Utils.load_single_match_config()
         Utils.set_verbosity_level(verbosity)
         algorithm_names = [f"{name}({param})" if param else name for name, param in algorithms]
@@ -21,9 +20,6 @@ def main():
         # Initialize results dictionaries
         win_counts = defaultdict(lambda: defaultdict(int))  # wins[row_alg][col_alg]
         draw_counts = defaultdict(lambda: defaultdict(int))  # draws[alg1][alg2]
-
-        Utils.log_message("Init End", Globals.VerbosityLevels.NONE, __name__)
-        Utils.log_message("Starting Single Match", Globals.VerbosityLevels.NONE, __name__)
 
         # Tournament loop
         for i in range(num_algorithms):
@@ -126,7 +122,6 @@ def main():
             avg_move_time = total_move_time[idx] / total_moves[idx] if total_moves[idx] else 0
             avg_game_time = 0.0 if games_played[idx] == 0 else total_game_time[idx] / games_played[idx]
             print(f"{name:<20} {games_played[idx]:<15} {avg_move_time:<20.4f} {avg_game_time:<20.2f}")
-        Utils.log_message("Ending Single Match", Globals.VerbosityLevels.NONE, __name__)
     except ValueError as e:
         Utils.log_message(f"Error: {e}", Globals.VerbosityLevels.ERROR, __name__)
         sys.exit(1)

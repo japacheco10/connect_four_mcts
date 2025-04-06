@@ -35,13 +35,10 @@ class MCTS(Base):
     def search(self):
         """Performs the MCTS search for the given number of iterations."""
         start_time = time.process_time()
-        Utils.log_message("search: Starting search",Globals.VerbosityLevels.NONE, self.logger_source)
         for _ in range(self.simulations):
             path = []  # Track moves made
             node, state = self.select_child(self.current_player, path)
-            Utils.log_message(f"search: select_child returned node ID {id(node)}",Globals.VerbosityLevels.NONE, self.logger_source)
             outcome = self.rollout(state, self.current_player, path)
-            Utils.log_message(f"search: rollout returned outcome {outcome}",Globals.VerbosityLevels.NONE, self.logger_source)
             self.backpropagation(node, outcome)
 
             # Undo all moves made in this iteration
@@ -52,11 +49,9 @@ class MCTS(Base):
             Utils.log_message("-----------------------------------------",Globals.VerbosityLevels.VERBOSE, self.logger_source)
 
         self.run_time = time.process_time() - start_time
-        Utils.log_message(f"search: Search finished, num_rollouts: {self.simulations}, elapsed time: {self.run_time}",Globals.VerbosityLevels.NONE, self.logger_source)
 
     def backpropagation(self, node: Node, outcome: int) -> None:
         """Backpropagates the result of the rollout."""
-        Utils.log_message(f"back_propagate: Starting backpropagation from node ID {id(node)}",Globals.VerbosityLevels.NONE, self.logger_source)
 
         reward = 0
         if outcome == 1:
@@ -65,7 +60,6 @@ class MCTS(Base):
             reward = -1
 
         while node is not None:
-            Utils.log_message(f"back_propagate: Updating node ID {id(node)}, visits before: {node.visits}, wins before: {node.wins}",Globals.VerbosityLevels.NONE, self.logger_source)
             node.visits += 1
 
             # Apply reward based on the perspective of the player who made the move to reach this node
@@ -79,18 +73,13 @@ class MCTS(Base):
             Utils.log_message("Updated values:", Globals.VerbosityLevels.VERBOSE, self.logger_source)
             Utils.log_message(f"wi: {node.wins}", Globals.VerbosityLevels.VERBOSE, self.logger_source)
             Utils.log_message(f"ni: {node.visits}", Globals.VerbosityLevels.VERBOSE, self.logger_source)
-            Utils.log_message(f"back_propagate: Updated node ID {id(node)}, visits after: {node.visits}, wins after: {node.wins}",Globals.VerbosityLevels.NONE, self.logger_source)
 
             node = node.parent
 
-        Utils.log_message(f"back_propagate: Backpropagation finished",Globals.VerbosityLevels.NONE, self.logger_source)
-
     def expansion(self, parent: Node, state: GameInterface) -> bool:
         """Expands the tree from the given node."""
-        Utils.log_message(f"expansion: Expanding node ID {id(parent)}",Globals.VerbosityLevels.NONE, self.logger_source)
         
         if state.evaluate_board(False) is not None:
-            Utils.log_message("expansion: Game over, not expanding",Globals.VerbosityLevels.NONE, self.logger_source)
             return False
         Utils.log_message("NODE ADDED", Globals.VerbosityLevels.VERBOSE, self.logger_source)
         
@@ -99,10 +88,6 @@ class MCTS(Base):
         parent.children = {child.move: child for child in children}
         self.node_count += len(children)  # Increment node_count
 
-        for child in children:
-            Utils.log_message(f"expansion: Created child node ID {id(child)}, move: {child.move}, parent: {id(parent)}",Globals.VerbosityLevels.NONE, self.logger_source)
-            
-        Utils.log_message(f"expansion: Returning True from node ID {id(parent)}",Globals.VerbosityLevels.NONE, self.logger_source)
         return True
     
     def best_move(self, root=None):
@@ -111,14 +96,11 @@ class MCTS(Base):
             root = self.root
 
         if not root.children:
-            Utils.log_message("best_move: No children at root — search likely failed.", Globals.VerbosityLevels.BRIEF, self.logger_source)
             legal_moves = [i for i in range(self.game.get_num_cols()) if self.game.is_valid_move(i)]
             if legal_moves:
                 fallback = random.choice(legal_moves)
-                Utils.log_message(f"best_move: Returning fallback legal move {fallback}", Globals.VerbosityLevels.BRIEF, self.logger_source)
                 return fallback
             else:
-                Utils.log_message("best_move: No legal moves available. Returning None.", Globals.VerbosityLevels.BRIEF, self.logger_source)
                 return None
 
         best_move = -1
@@ -151,10 +133,8 @@ class MCTS(Base):
             legal_moves = [i for i in range(self.game.get_num_cols()) if self.game.is_valid_move(i)]
             if legal_moves:
                 fallback = random.choice(legal_moves)
-                Utils.log_message(f"best_move: No visited children. Fallback move = {fallback}", Globals.VerbosityLevels.BRIEF, self.logger_source)
                 return fallback
             else:
-                Utils.log_message("best_move: No valid fallback moves. Returning None.", Globals.VerbosityLevels.BRIEF, self.logger_source)
                 return None
 
         return best_move
