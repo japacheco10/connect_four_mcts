@@ -53,6 +53,11 @@ This project implements a Connect 4 game with various decision making algorithms
 * **`tournament.py`:**
     * Automate the process of playing Connect Four games between different decision making algorithms and to collect and present the results of these games. This allows for a systematic comparison of the algorithms' performance.
 
+* **`tournament_parallel.py`:**
+    * This script runs a full round-robin tournament between multiple Connect Four decision making algorithms, where each pair of algorithms plays multiple games against each other.
+    
+    It leverages Python’s concurrent.futures.ProcessPoolExecutor to run games in parallel, significantly speeding up experiments when testing resource-intensive algorithms like PMCGS or UCT with thousands of simulations.
+
 ## Requirements
 
 * Python 3.x
@@ -68,8 +73,13 @@ This project implements a Connect 4 game with various decision making algorithms
 
 2.  **Dependencies:**
 
-    * This project relies on the Python standard library, so no additional installation steps (like `pip install`) are typically required.
-
+    * This project relies primarily on the Python standard library.
+    * However, for an enhanced user experience during long tournament runs, we use:
+        * `tqdm` – for displaying progress bars. It is optional but highly recommended to visualize tournament progress in real time.
+            * Install with:
+            ```bash
+            pip install tqdm
+            ```
 
 ##   Testing an algorithm
 

@@ -99,35 +99,30 @@ class MCTS(Base):
         return True
     
     def best_move(self, root=None):
-        """Selects the best move after the search."""
-        if root is None:
-            root = self.root
-
-        if self.game.evaluate_board(False) is not None:
-            return None
-
-        max_value = max(root.children.values(), key=lambda n: n.visits).visits
-        max_nodes = [n for n in root.children.values() if n.visits == max_value]
-        best_child:Node = random.choice(max_nodes)
-
-        #return best_child.move
-    
         """Selects the best move after all simulations are completed."""
         if root is None:
             root = self.root
 
-        if self.game.evaluate_board(False)  is not None:
-            return None
+        if not root.children:
+            Utils.log_message("best_move: No children at root — search likely failed.", Globals.VerbosityLevels.BRIEF, self.logger_source)
+            legal_moves = [i for i in range(self.game.get_num_cols()) if self.game.is_valid_move(i)]
+            if legal_moves:
+                fallback = random.choice(legal_moves)
+                Utils.log_message(f"best_move: Returning fallback legal move {fallback}", Globals.VerbosityLevels.BRIEF, self.logger_source)
+                return fallback
+            else:
+                Utils.log_message("best_move: No legal moves available. Returning None.", Globals.VerbosityLevels.BRIEF, self.logger_source)
+                return None
 
         best_move = -1
         best_value = float('-inf')
-        move_values = [None] * self.game.get_num_cols()  # Initialize with None
+        move_values = [None] * self.game.get_num_cols()
 
         for move, child in root.children.items():
             if child.visits > 0:
-                move_values[move] = child.wins / child.visits  # Calculate average reward
+                move_values[move] = child.wins / child.visits
             else:
-                move_values[move] = None  # Mark as None (or a very low value)
+                move_values[move] = None
 
         for move, value in enumerate(move_values):
             if value is not None and value > best_value:
@@ -137,9 +132,23 @@ class MCTS(Base):
         if Utils.get_verbosity_level() == Globals.VerbosityLevels.VERBOSE:
             for i in range(self.game.get_num_cols()):
                 if self.game.is_valid_move(i):
-                    Utils.log_message(f"Column {i + 1}: {move_values[i]:.2f}", Globals.VerbosityLevels.VERBOSE, self.logger_source)
+                    if move_values[i] is not None:
+                        Utils.log_message(f"Column {i + 1}: {move_values[i]:.2f}", Globals.VerbosityLevels.VERBOSE, self.logger_source)
+                    else:
+                        Utils.log_message(f"Column {i + 1}: None", Globals.VerbosityLevels.VERBOSE, self.logger_source)
                 else:
                     Utils.log_message(f"Column {i + 1}: Null", Globals.VerbosityLevels.VERBOSE, self.logger_source)
+
+        # Final fallback if no best move found from visits
+        if best_move == -1:
+            legal_moves = [i for i in range(self.game.get_num_cols()) if self.game.is_valid_move(i)]
+            if legal_moves:
+                fallback = random.choice(legal_moves)
+                Utils.log_message(f"best_move: No visited children. Fallback move = {fallback}", Globals.VerbosityLevels.BRIEF, self.logger_source)
+                return fallback
+            else:
+                Utils.log_message("best_move: No valid fallback moves. Returning None.", Globals.VerbosityLevels.BRIEF, self.logger_source)
+                return None
 
         return best_move
     

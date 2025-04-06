@@ -12,25 +12,46 @@ except ImportError:
     tqdm = None
 
 
-def play_game(player1_alg, player2_alg, initial_player):
+import time
+
+def play_game(player1_alg, player2_alg, initial_player, alg1_index, alg2_index):
+    from common import Globals
+
     game = Connect4()
     current_player = initial_player
+    winner = None
+
+    move_times = {alg1_index: 0.0, alg2_index: 0.0}
+    move_counts = {alg1_index: 0, alg2_index: 0}
+
+    start_time = time.time()
 
     while True:
+        move_start = time.time()
+
         if current_player == Globals.Players.R:
             move = player1_alg.choose_move(game, current_player)
+            move_times[alg1_index] += time.time() - move_start
+            move_counts[alg1_index] += 1
         else:
             move = player2_alg.choose_move(game, current_player)
+            move_times[alg2_index] += time.time() - move_start
+            move_counts[alg2_index] += 1
 
         if move is not None:
             game.set_board(game.get_next_board(move, current_player))
+
         game_state = game.evaluate_board(False)
 
         if game_state is not None or move is None:
-            return game_state
+            winner = game_state
+            break
 
         current_player = game.get_opponent(current_player)
 
+    total_time = time.time() - start_time
+
+    return winner, total_time, move_times, move_counts
 
 def run_single_match(args):
     i, j, game_index, algorithms = args
@@ -40,7 +61,7 @@ def run_single_match(args):
     alg1 = AlgorithmFactory.create_algorithm(algorithms[first][0], simulations=algorithms[first][1])
     alg2 = AlgorithmFactory.create_algorithm(algorithms[second][0], simulations=algorithms[second][1])
 
-    winner = play_game(alg1, alg2, Globals.Players.R)
+    winner, game_duration, move_times, move_counts = play_game(alg1, alg2, Globals.Players.R, first, second)
 
     return {
         "row": i,
@@ -48,8 +69,11 @@ def run_single_match(args):
         "winner": winner,
         "first": first,
         "second": second,
-        "game_index": game_index
+        "game_time": game_duration,
+        "move_times": move_times,
+        "move_counts": move_counts
     }
+
 
 
 def main():
@@ -58,6 +82,10 @@ def main():
         Utils.set_verbosity_level(verbosity)
         algorithm_names = [f"{name}({param})" if param else name for name, param in algorithms]
         num_algorithms = len(algorithms)
+        total_game_time = [0.0] * num_algorithms
+        total_move_time = [0.0] * num_algorithms
+        total_moves = [0] * num_algorithms
+        games_played = [0] * num_algorithms
 
         results = defaultdict(dict)
         raw_wins = defaultdict(lambda: defaultdict(int))
@@ -82,6 +110,13 @@ def main():
             for future in progress_iter:
                 result = future.result()
                 game_results.append(result)
+
+                for idx in [result["first"], result["second"]]:
+                    total_game_time[idx] += result["game_time"]
+                    games_played[idx] += 1
+                    total_move_time[idx] += result["move_times"].get(idx, 0)
+                    total_moves[idx] += result["move_counts"].get(idx, 0)
+
 
         # Aggregate results
         for result in game_results:
@@ -110,29 +145,39 @@ def main():
 
         # Print Win Rate Matrix
         print("\nWin Rate Matrix (%):")
-        print("-" * (12 + 12 * num_algorithms))
-        print(f"{'':<12}|" + "".join(f"{name:<12}|" for name in algorithm_names))
-        print("-" * (12 + 12 * num_algorithms))
+        print("-" * (14 + 14 * num_algorithms))
+        print(f"{'':<14}|" + "".join(f"{name:<14}|" for name in algorithm_names))
+        print("-" * (14 + 14 * num_algorithms))
         for row_name in algorithm_names:
-            row = f"{row_name:<12}|"
+            row = f"{row_name:<14}|"
             for col_name in algorithm_names:
                 result = results[row_name].get(col_name, "N/A")
-                row += f"{result:<12}|"
+                row += f"{result:<14}|"
             print(row)
-        print("-" * (12 + 12 * num_algorithms))
+        print("-" * (14 + 14 * num_algorithms))
 
         # Print Raw Win Count Matrix
         print("\nGames Won Matrix (#):")
-        print("-" * (12 + 12 * num_algorithms))
-        print(f"{'':<12}|" + "".join(f"{name:<12}|" for name in algorithm_names))
-        print("-" * (12 + 12 * num_algorithms))
+        print("-" * (14 + 14 * num_algorithms))
+        print(f"{'':<14}|" + "".join(f"{name:<14}|" for name in algorithm_names))
+        print("-" * (14 + 14 * num_algorithms))
         for row_name in algorithm_names:
-            row = f"{row_name:<12}|"
+            row = f"{row_name:<14}|"
             for col_name in algorithm_names:
                 result = raw_wins[row_name].get(col_name, "0")
-                row += f"{str(result):<12}|"
+                row += f"{str(result):<14}|"
             print(row)
-        print("-" * (12 + 12 * num_algorithms))
+        print("-" * (14+ 14 * num_algorithms))
+
+        print("\nAverage Timing Stats per Algorithm:")
+        print("-" * 80)
+        print(f"{'Algorithm':<20} {'Games Played':<15} {'Avg Move Time (s)':<20} {'Avg Game Time (s)':<20}")
+        print("-" * 80)
+        for idx, name in enumerate(algorithm_names):
+            avg_move = total_move_time[idx] / total_moves[idx] if total_moves[idx] else 0
+            avg_game = total_game_time[idx] / games_played[idx] if games_played[idx] else 0
+            print(f"{name:<20} {games_played[idx]:<15} {avg_move:<20.4f} {avg_game:<20.2f}")
+
 
     except Exception:
         Utils.log_message(f"Uncaught exception: {traceback.format_exc()}", Globals.VerbosityLevels.ERROR, __name__)

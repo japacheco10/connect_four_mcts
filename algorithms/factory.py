@@ -28,9 +28,15 @@ class AlgorithmFactory():
             elif name == Globals.Algorithms.PMCGS:
                 from algorithms import PMCGS
                 return PMCGS(simulations)
+            elif name == Globals.Algorithms.PMCGS_P:
+                from algorithms import PMCGSParallel
+                return PMCGSParallel(simulations)
             elif name == Globals.Algorithms.UCT:
                 from algorithms import UCT
                 return UCT(simulations)
+            elif name == Globals.Algorithms.UCT_P:
+                from algorithms import UCTParallel
+                return UCTParallel(simulations)
             else:
                 raise ValueError(f"Invalid algorithm name: {name}")
         except ImportError as e:
