@@ -70,7 +70,7 @@ class UCTParallel(MCTS):
                 if child.visits == 0:
                     uct_value = float('inf')
                 else:
-                    c = 1  # exploration constant
+                    c = math.sqrt(2)  # exploration constant
                     uct_value = (child.wins / child.visits) + c * math.sqrt(math.log(node.visits) / child.visits)
 
                 if uct_value > best_value:

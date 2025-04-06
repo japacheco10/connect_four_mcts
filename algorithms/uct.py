@@ -32,18 +32,23 @@ class UCT(MCTS):
             children = list(node.children.values())
             best_value = float('-inf')
             best_child = None
+            child_counter = 1
             
             for child in children:
                 if child.visits == 0:
                     uct_value = float('inf')
                 else:
-                    c = 1   
+                    c = math.sqrt(2)   
                     uct_value = (child.wins / child.visits) + c * (math.sqrt(math.log(node.visits) / child.visits))
                 
+                Utils.log_message(f"V{child_counter}: {uct_value:.2f} (wins={child.wins}, visits={child.visits})", Globals.VerbosityLevels.VERBOSE, self.logger_source)
+                child_counter += 1  # Increment the counter
+
                 if uct_value > best_value:
                     best_value = uct_value
                     best_child = child
             
+            Utils.log_message(f"Best V#: {best_value:.2f}", Globals.VerbosityLevels.VERBOSE, self.logger_source)
             node = best_child
             Utils.log_message(f"select_child: Selected child node ID {id(node)}, move: {node.move}, visits: {node.visits}, wins: {node.wins}", Globals.VerbosityLevels.NONE, self.logger_source)
             Utils.log_message(f"wi: {node.wins}", Globals.VerbosityLevels.VERBOSE, self.logger_source)

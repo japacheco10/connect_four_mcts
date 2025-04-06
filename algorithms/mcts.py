@@ -57,14 +57,25 @@ class MCTS(Base):
     def backpropagation(self, node: Node, outcome: int) -> None:
         """Backpropagates the result of the rollout."""
         Utils.log_message(f"back_propagate: Starting backpropagation from node ID {id(node)}",Globals.VerbosityLevels.NONE, self.logger_source)
-        
-        # For the current player, not the next player
-        reward = 1 if outcome == 1 else -1 if outcome == -1 else 0
+
+        reward = 0
+        if outcome == 1:
+            reward = 1
+        elif outcome == -1:
+            reward = -1
 
         while node is not None:
             Utils.log_message(f"back_propagate: Updating node ID {id(node)}, visits before: {node.visits}, wins before: {node.wins}",Globals.VerbosityLevels.NONE, self.logger_source)
             node.visits += 1
-            node.wins += reward
+
+            # Apply reward based on the perspective of the player who made the move to reach this node
+            if node.parent is not None: # For non-root nodes, the outcome is from the opponent's perspective in the parent
+                node.parent.wins += -reward
+            elif reward == 1: # For the root node, a win is a positive outcome
+                node.wins += 1
+            elif reward == -1: # For the root node, a loss is a negative outcome
+                node.wins += -1
+
             Utils.log_message("Updated values:", Globals.VerbosityLevels.VERBOSE, self.logger_source)
             Utils.log_message(f"wi: {node.wins}", Globals.VerbosityLevels.VERBOSE, self.logger_source)
             Utils.log_message(f"ni: {node.visits}", Globals.VerbosityLevels.VERBOSE, self.logger_source)
@@ -72,10 +83,6 @@ class MCTS(Base):
 
             node = node.parent
 
-            if outcome == 0:
-                reward = 0
-            else:
-                reward = -reward
         Utils.log_message(f"back_propagate: Backpropagation finished",Globals.VerbosityLevels.NONE, self.logger_source)
 
     def expansion(self, parent: Node, state: GameInterface) -> bool:

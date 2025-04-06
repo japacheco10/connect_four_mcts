@@ -153,9 +153,23 @@ class Utils():
         config = []
         with open(Utils.file_exists("_resources/config/tournament_config.txt"), 'r') as file:
             lines = file.readlines()
-            verbosity = lines[0].strip()  # Read number of games from the first line
+            max_proc = int(lines[0].strip())  # Read number of processors to run parallel games
             num_games = int(lines[1].strip())  # Read number of games from the first line
-            for line in lines[2:]:  # Read algorithm configurations from the rest
+            parallel = int(lines[2].strip())  # Read if algorithm parallel processing should be enabled
+            for line in lines[3:]:  # Read algorithm configurations from the rest
+                algorithm, simulations = line.strip().split(',')
+                config.append((algorithm, int(simulations)))
+        return max_proc, num_games, parallel, config
+    
+    @staticmethod
+    def load_single_match_config():
+        """Loads the single match configuration from a file."""
+        config = []
+        with open(Utils.file_exists("_resources/config/single_match_config.txt"), 'r') as file:
+            lines = file.readlines()
+            verbosity = lines[0].strip()  # Read verbosity level
+            num_games = int(lines[1].strip())  # Read number of games from the first line
+            for line in lines[2:4]:  # Read algorithm configurations from the rest
                 algorithm, simulations = line.strip().split(',')
                 config.append((algorithm, int(simulations)))
         return verbosity, num_games, config

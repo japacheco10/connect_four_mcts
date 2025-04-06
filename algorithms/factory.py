@@ -6,7 +6,7 @@ class AlgorithmFactory():
     """
 
     @staticmethod
-    def create_algorithm(name: str, simulations:int=0):
+    def create_algorithm(name: str, simulations:int=0, parallel:int=0):
         """
         Creates an algorithm instance based on the provided name.
 
@@ -26,17 +26,19 @@ class AlgorithmFactory():
                 from algorithms import UniformRandom
                 return UniformRandom()
             elif name == Globals.Algorithms.PMCGS:
-                from algorithms import PMCGS
-                return PMCGS(simulations)
-            elif name == Globals.Algorithms.PMCGS_P:
-                from algorithms import PMCGSParallel
-                return PMCGSParallel(simulations)
+                if parallel == 1:
+                    from algorithms import PMCGSParallel
+                    return PMCGSParallel(simulations)
+                else:
+                    from algorithms import PMCGS
+                    return PMCGS(simulations)
             elif name == Globals.Algorithms.UCT:
-                from algorithms import UCT
-                return UCT(simulations)
-            elif name == Globals.Algorithms.UCT_P:
-                from algorithms import UCTParallel
-                return UCTParallel(simulations)
+                if parallel == 1:
+                    from algorithms import UCTParallel
+                    return UCTParallel(simulations)
+                else:
+                    from algorithms import UCT
+                    return UCT(simulations)
             else:
                 raise ValueError(f"Invalid algorithm name: {name}")
         except ImportError as e:
