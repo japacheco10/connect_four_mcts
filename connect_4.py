@@ -12,6 +12,7 @@ class Connect4(GameInterface):
         else:
             self.board = [list(row) for row in board]
         self.print_result = True
+        self.move_history = []  # Instead of self.last_move
     
     def is_valid_move(self, col):
         """Checks if a move is valid (column not full)."""
@@ -101,8 +102,8 @@ class Connect4(GameInterface):
         return Globals.Players.R if player == Globals.Players.Y else Globals.Players.Y
     
     def copy_game(self):
-        """Clones game."""
-        return Connect4(self.get_board())
+        """Clones game with a fast shallow copy of the board."""
+        return Connect4([row[:] for row in self.board])
     
     def do_move(self, col, player):
         """Executes a move on the board."""
@@ -111,18 +112,17 @@ class Connect4(GameInterface):
         for row in range(5, -1, -1):
             if self.board[row][col] == Globals.Players.O:
                 self.board[row][col] = player
-                self.last_move = (row, col)  #   Track the move
+                self.move_history.append((row, col)) 
                 return
         raise Exception("Should not reach here")
     
     def undo_move(self):
-        """Undoes the last move on the board."""
-        if self.last_move:
-            row, col = self.last_move
+        """Undoes the most recent move on the board."""
+        if self.move_history:
+            row, col = self.move_history.pop()
             self.board[row][col] = Globals.Players.O
-            self.last_move = None
         else:
-            raise ValueError("Cannot undo: No move has been made.")
+            raise ValueError("Cannot undo: No moves to undo.")
         
     def print_board(self):
         """Prints current board"""

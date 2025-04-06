@@ -22,11 +22,10 @@ class PMCGS(MCTS):
     def best_move(self, root=None):
         return super().best_move(root)
     
-    def select_child(self, current_player:str) -> tuple:
+    def select_child(self, current_player:str, path: list) -> tuple:
         """Selects a node to expand (randomly)."""
         node:Node = self.root
-        state:GameInterface = self.game.copy_game()  # Use copy_game
-        
+        state:GameInterface = self.game
         Utils.log_message(f"select_child: Starting at node ID {id(node)}",Globals.VerbosityLevels.NONE, self.logger_source)
         
         while node.children:
@@ -38,6 +37,7 @@ class PMCGS(MCTS):
             Utils.log_message(f"Move selected: {node.move + 1}", Globals.VerbosityLevels.VERBOSE, self.logger_source)
             try:
                 state.do_move(node.move, current_player)
+                path.append((node.move, current_player))
             except ValueError:
                 Utils.log_message(f"select_child: ValueError, returning node ID {id(node)}",Globals.VerbosityLevels.NONE, self.logger_source)
                 return node, state
@@ -50,13 +50,14 @@ class PMCGS(MCTS):
             
             try:
                 state.do_move(node.move, current_player)
+                path.append((node.move, current_player))
             except ValueError:
                 Utils.log_message(f"select_child: ValueError after expansion, returning node ID {id(node)}",Globals.VerbosityLevels.NONE, self.logger_source)
                 return node, state
         Utils.log_message(f"select_child: Returning node ID {id(node)}",Globals.VerbosityLevels.NONE, self.logger_source)
         return node, state
 
-    def rollout(self, state: GameInterface, current_player:str) -> int:
+    def rollout(self, state: GameInterface, current_player:str, path: list) -> int:
         """Performs a rollout from the given state (randomly)."""
         Utils.log_message(f"rollout: Starting rollout from state",Globals.VerbosityLevels.NONE, self.logger_source)
         
@@ -72,6 +73,7 @@ class PMCGS(MCTS):
             Utils.log_message(f"rollout: Selected random move: {move}, player: {current_player}",Globals.VerbosityLevels.NONE, self.logger_source)
             try:
                 state.do_move(move, current_player)
+                path.append((move, current_player))
             except ValueError:
                 Utils.log_message("rollout: Invalid move in rollout",Globals.VerbosityLevels.NONE, self.logger_source)
                 return 0  # Invalid move

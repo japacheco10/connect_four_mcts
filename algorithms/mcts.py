@@ -23,26 +23,31 @@ class MCTS(Base):
         Returns:
             int: The chosen move (column index), or None if no move is possible.
         """
-        self.game = game.copy_game()
+        self.game = game
         self.root = Node()
         self.node_count = 0
         self.current_player = player
 
         self.search()
-        best_move = self.best_move()
 
-        return best_move
+        return self.best_move()
     
     def search(self):
         """Performs the MCTS search for the given number of iterations."""
         start_time = time.process_time()
         Utils.log_message("search: Starting search",Globals.VerbosityLevels.NONE, self.logger_source)
         for _ in range(self.simulations):
-            node, state = self.select_child(self.current_player)
+            path = []  # Track moves made
+            node, state = self.select_child(self.current_player, path)
             Utils.log_message(f"search: select_child returned node ID {id(node)}",Globals.VerbosityLevels.NONE, self.logger_source)
-            outcome = self.rollout(state, self.current_player)
+            outcome = self.rollout(state, self.current_player, path)
             Utils.log_message(f"search: rollout returned outcome {outcome}",Globals.VerbosityLevels.NONE, self.logger_source)
             self.backpropagation(node, outcome)
+
+            # Undo all moves made in this iteration
+            for move, _ in reversed(path):
+                state.undo_move()
+
             self.node_count += 1  # Increment node_count
             Utils.log_message("-----------------------------------------",Globals.VerbosityLevels.VERBOSE, self.logger_source)
 
@@ -139,11 +144,11 @@ class MCTS(Base):
         return best_move
     
     @abstractmethod
-    def select_child(self, current_player: str) -> tuple:
+    def select_child(self, current_player: str, path: list) -> tuple:
         """Selects a node to expand."""
         pass
 
     @abstractmethod
-    def rollout(self, state: GameInterface, current_player: str) -> int:
+    def rollout(self, state: GameInterface, current_player: str, path: list) -> int:
         """Performs a rollout from the given state."""
         pass
