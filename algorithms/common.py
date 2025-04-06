@@ -7,3 +7,4 @@ class Node:
         self.wins = 0
         self.visits = 0
         self.parent = parent
+        self.depth = 0 if parent is None else parent.depth + 1 #Used for depth aware algorithm

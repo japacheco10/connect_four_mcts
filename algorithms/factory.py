@@ -46,6 +46,13 @@ class AlgorithmFactory():
                 else:
                     from algorithms import UCTImprovement
                     return UCTImprovement(simulations)
+            elif name == Globals.Algorithms.UCTDEP:
+                if parallel == 1:
+                    from algorithms import UCTDepParallel
+                    return UCTDepParallel(simulations)
+                else:
+                    from algorithms import UCTDepth
+                    return UCTDepth(simulations)
             else:
                 raise ValueError(f"Invalid algorithm name: {name}")
         except ImportError as e:

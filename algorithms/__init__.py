@@ -9,3 +9,5 @@ from .uct_parallel import UCTParallel
 from .factory import AlgorithmFactory 
 from .uct_improvement import UCTImprovement
 from .uct_imp_parallel import UCTImpParallel
+from .uct_dep_parallel import UCTDepParallel
+from .uct_depth import UCTDepth

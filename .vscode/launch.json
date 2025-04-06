@@ -13,7 +13,9 @@
             //"args" : ["_test/test1.txt", "Verbose","10"]
             //"args" : ["_test/test2.txt", "Verbose","500"]
             //"args" : ["_test/test3.txt", "Verbose","500"]
-            "args" : ["_test/test4.txt", "Brief","500"]
+           // "args" : ["_test/test4.txt", "Brief","500"]
+            "args" : ["_test/test5.txt", "Brief","500"]
+
         },
         {
             "name": "Single Match",
