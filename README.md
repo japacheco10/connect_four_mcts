@@ -154,12 +154,12 @@ This project implements a Connect 4 game with various decision making algorithms
     UCT,10000
     ```
 
-2.  **Run the `tournament.py` script from the command line:**
+2.  **Run the `tournament_parallel.py` script from the command line:**
 
     Example command:
     
     ```bash
-    python tournament.py
+    python tournament_parallel.py
     ```
 
 ##   Algorithms
