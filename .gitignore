@@ -1,6 +1,8 @@
 # Ignore Python cache files
 *.pyc
 __pycache__/
+algorihms/__pycache__
+common/__pycache__
 # Ignore virtual environments
 .venv/
 _logs/

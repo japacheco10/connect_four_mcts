@@ -129,9 +129,12 @@ This project implements a Connect 4 game with various decision making algorithms
 1.  **Create a tournament settings file (`/resources/config/tournament_config.txt`).** The file must adhere to the following format:
 
     ```
-    <Verbosity Level>       # "Verbose", "Brief", "None"
-    <Total Number of Games> # A single integer representing the total number of games to 
+    <Number of Workers>     # An integer representing the total number of workers to use to run games in 
+                        # parallel. Recommended value (10)
+    <Total Number of Games> # An integer representing the total number of games to 
                     # be played between each combination of algorithms.
+    <Alg Parallel> # An integer representing if the algorithm should also be run in parallel (1 - Yes, 0 
+                    #- No). This only applies to PMCGS and UCT.
     <Algorithms>            # Each subsequent line defines a single algorithm configuration.
                        # The configuration consists of two comma-separated values:
                        # <algorithm_name>: "UR", "PMCGS", "UCT"
@@ -141,8 +144,9 @@ This project implements a Connect 4 game with various decision making algorithms
     Example `tournament_config.txt` file:
 
     ```
-    NONE
+    10
     100
+    1
     UR,0
     PMCGS,500
     PMCGS,10000
